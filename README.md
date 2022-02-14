@@ -1,7 +1,7 @@
-<img src="images/logo_blue.png" height=100/>
+<img src="images/logo_blue.png" height=100 />
 
-🌍 [2022.djangocon.eu](https://2022.djangocon.eu/)\
-📍 Hybrid from Porto, Portugal 🇵🇹\
+🌍 [2022.djangocon.eu](https://2022.djangocon.eu/) \
+📍 Hybrid from Porto, Portugal 🇵🇹 \
 📅 September 21-25
 
 [![built-with](https://img.shields.io/badge/built%20with-Cookiecutter%20Django-blue.svg)](https://github.com/pydanny/cookiecutter-django/)
