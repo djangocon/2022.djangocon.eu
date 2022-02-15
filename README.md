@@ -10,6 +10,18 @@
 
 ## Running
 
+First, make sure to have all requirements installed using:
+```bash
+> pip install -r requirements/[ local | base | production ].txt
+```
+
+And create a PostgreSQL database 'djangocon_2022'
+* On Debian-based 10+: 
+```bash
+sudo su - postgres -c "createdb djangocon_2022"
+```
+
+Then start the server through gulp:
 ```bash
 > gulp
 ...
