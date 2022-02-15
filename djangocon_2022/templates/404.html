@@ -1,9 +1,20 @@
 {% extends "base.html" %}
 
-{% block title %}Page not found{% endblock %}
+{% load staticfiles %}
+{% block body_content %}
 
-{% block content %}
-<h1>Page not found</h1>
+  {% include 'modules/header.html'%}
 
-<p>{% if exception %}{{ exception }}{% else %}This is not the page you were looking for.{% endif %}</p>
-{% endblock content %}
+  <div class="container p-4">
+    <div class="row">
+      <div class="col-lg-3 col-12 title pb-4">
+        <h2>404 :</h2>
+        <h3>{% if exception %}{{ exception }}{% else %}page not found{% endif %}</h3>
+      </div>
+      <div class="col-lg-9 col-12 content">
+        <img src="/static/images/404.gif" class="w-100"/>
+      </div>
+    </div>
+  </div>
+
+{% endblock body_content %}
