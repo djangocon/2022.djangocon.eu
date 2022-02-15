@@ -8,6 +8,23 @@
 [![code-style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)]()
 
+## Running
+
+```bash
+> gulp
+...
+[Browsersync] Proxying: http://localhost:8000
+[Browsersync] Access URLs:
+ ---------------------------------------
+       Local: http://localhost:3000
+    External: http://10.101.176.121:3000
+ ---------------------------------------
+          UI: http://localhost:3001
+ UI External: http://localhost:3001
+ ---------------------------------------
+[Browsersync] Watching files...
+```
+
 ## Code of Conduct
 
 As a contributor, you can help us keep the Django community open and inclusive.
