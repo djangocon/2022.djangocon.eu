@@ -1,3 +1,5 @@
+@use "base";
+
 .home-header {
   min-height: 100vh;
   background-image: url("/static/images/home/background.jpg");
@@ -28,7 +30,7 @@
       ul.submenu {
         li {
           a {
-            background-color: rgba($TextBlue, 0.6);
+            background-color: rgba(base.$TextBlue, 0.6);
           }
         }
       }
@@ -60,7 +62,7 @@
 }
 
 .latest-news {
-  background-color: $BgBlue;
+  background-color: base.$BgBlue;
   color: white;
 
   .card-img-top {
@@ -76,7 +78,7 @@
   padding: 40px;
 
   .title {
-    color: $TextBlue;
+    color: base.$TextBlue;
   }
 
   .col-6 {
