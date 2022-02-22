@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700&display=swap');
+
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+////////////////////////////////
+//Variables//
+////////////////////////////////
+
+$HeaderBlue: #120E3D;
+$BgBlue: #094383;
+$TextBlue: #0078ff;
+$BgGrey: #F4F4F4;
+
+// Alert colors
+
+$white: #fff;
+$mint-green: #d6e9c6;
+$black: #000;
+$pink: #f2dede;
+$dark-pink: #eed3d7;
+$red: #b94a48;
+
+////////////////////////////////
+//Alerts//
+////////////////////////////////
+
+// bootstrap alert CSS, translated to the django-standard levels of
+// debug, info, success, warning, error
+
+.alert-debug {
+  background-color: $white;
+  border-color: $mint-green;
+  color: $black;
+}
+
+.alert-error {
+  background-color: $pink;
+  border-color: $dark-pink;
+  color: $red;
+}
