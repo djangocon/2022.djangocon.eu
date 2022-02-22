@@ -82,6 +82,7 @@ THIRD_PARTY_APPS = [
 LOCAL_APPS = [
     "djangocon_2022.users",
     # Your stuff: custom apps go here
+    "djangocon_2022.site"
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
