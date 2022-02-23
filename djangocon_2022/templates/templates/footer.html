@@ -2,28 +2,28 @@
 
 <div class="container-fluid footer custom-footer">
   <div class="container">
-    <div class="row row-cols-md-1 row-cols-lg-3 justify-content-between" style="padding-top: 3.875rem; padding-bottom: 3.1875rem;">
-      <div class="col">
+    <div class="row justify-content-between" style="padding-top: 3.875rem; padding-bottom: 1.1875rem;">
+      <div class="col-12 col-lg-4">
         <a class="nav-link" href="/home"><img src="{% static 'images/logo/logo_white.png' %}" alt="Logo" height="80rem;"></a>
       </div>
-      <div class="col row row-cols-5 align-self-center justify-content-center">
-          <div class="col text-center">
+      <div class="col-12 col-lg-4 row row-cols-5 align-self-center justify-content-center">
+          <div class="col-2 text-center footer-social-media-link">
             <a class="nav-link" href="https://twitter.com/" target="_blank"><img src="{% static 'images/external_logo/logo_twitter.svg' %}" alt="Twitter" height="33rem;"></a>
           </div>
-          <div class="col text-center">
+          <div class="col-2 text-center footer-social-media-link">
             <a class="nav-link" href="https://slack.com/" target="_blank"><img src="{% static 'images/external_logo/logo_slack.svg' %}" alt="Slack" height="32rem;"></a>
           </div>
-          <div class="col text-center">
+          <div class="col-2 text-center footer-social-media-link">
             <a class="nav-link" href="https://youtube.com/" target="_blank"><img src="{% static 'images/external_logo/logo_youtube.svg' %}" alt="Youtube" height="35rem;"></a>
           </div>
-          <div class="col text-center">
+          <div class="col-2 text-center footer-social-media-link">
             <a class="nav-link" href="https://linked.in/" target="_blank"><img src="{% static 'images/external_logo/logo_linkedin.svg' %}" alt="Linkedin" height="35rem;"></a>
           </div>
-          <div class="col text-center">
+          <div class="col-2 text-center footer-social-media-link">
             <a class="nav-link" href="https://github.com/djangocon/2022.djangocon.eu/" target="_blank"><img src="{% static 'images/external_logo/logo_github.svg' %}" alt="Github" height="35rem;"></a>
           </div>
       </div>
-      <div class="col row align-self-end justify-content-end">
+      <div class="col-12 col-lg-4 row align-self-end justify-content-end">
           <div class="col-9 row">
             <h5>Subscribe to our newsletter</h5>
           </div>
@@ -33,7 +33,7 @@
       </div>
     </div>
 
-    <hr class="w-100 mt-4" style="border-top: 1px solid rgba(255, 255, 255, .5);"/>
+    <hr class="w-100 mt-4" style="margin: 0px; padding: 0px; border-top: 1px solid rgba(255, 255, 255, .5);"/>
 
     <div class="row" style="padding-top: 3.1875rem;">
       <div class="col-lg-2 col-sm-4 col-12">
@@ -43,7 +43,7 @@
         <a class="text-white" href="/talks/selection_process/">Selection process</a>
       </div>
       <div class="col-lg-2 col-sm-4 col-12">
-        <strong>Information</strong><br/>
+        <div class="footer-title"><strong>Information</strong><br/></div>
         <a class="text-white" href="/information/venue/">Venue</a><br/>
         <a class="text-white" href="/information/swagbag/">Swag bag</a><br/>
         <a class="text-white" href="/information/grants/">Grants</a><br/>
@@ -52,31 +52,52 @@
         <a class="text-white" href="/information/announcements/">Announcements</a>
       </div>
       <div class="col-lg-2 col-sm-4 col-12">
-        <strong>Sponsors</strong><br/>
+        <div class="footer-title"><strong>Sponsors</strong><br/></div>
         <a class="text-white" href="/sponsors/sponsors/">Sponsors</a><br/>
         <a class="text-white" href="/sponsors/contributors/">Contributors</a><br/>
         <a class="text-white" href="/sponsors/sponsorships/">Sponsorships</a><br/>
       </div>
       <div class="col-lg-2 col-sm-4 col-12">
-        <strong>Conduct</strong><br/>
+        <div class="footer-title"><strong>Conduct</strong><br/></div>
         <a class="text-white" href="/conduct/code_of_conduct/">Code of conduct</a><br/>
         <a class="text-white" href="/conduct/response_guide/">Response guide</a><br/>
         <a class="text-white" href="/conduct/privacy_guide/">Privacy guide</a><br/>
       </div>
       <div class="col-lg-2 col-sm-4 col-12">
-        <a class="text-white" href="/jobs/"><strong>Jobs</strong></a><br/>
+        <div class="footer-title"><a class="text-white" href="/jobs/"><strong>Jobs</strong></a><br/></div>
         {% comment %}
         <a class="text-white" href="/path/to/joba/">JobA</a><br/>
         <a class="text-white" href="/path/to/jobb/">JobB</a>
         {% endcomment %}
       </div>
       <div class="col-lg-2 col-sm-4 col-12">
-        <strong>About</strong><br/>
+        <div class="footer-title"><strong>About</strong><br/></div>
         <a class="text-white" href="/about/tickets/">Tickets</a><br/>
         <a class="text-white" href="/about/contact/">Contact</a><br/>
         <a class="text-white" href="/about/credits/">Credits</a>
       </div>
     </div>
+    <div class="row justify-content-around" style="padding-top: 2.9375rem; padding-bottom: 1.4375rem;">
+      <div class="row row-cols-1 justify-content-center align-self-center">
+        <div class="col text-center"  style="padding-bottom: 1rem;">
+          <h5 class="footer-djangocon-link">Looking for another DjangoCon?</h5>
+        </div>
+      </div>
+      <div class="row row-cols-3 justify-content-center align-self-center">
+        <div class="col-2">
+          <a class="nav-link" href="https://2022.djangocon.af/"><p class="text-center footer-djangocon-link">DjangoCon Africa</p></a>
+        </div>
+        <div class="col-2">
+          <a class="nav-link" href="https://2022.djangocon.au/"><p class="text-center footer-djangocon-link">DjangoCon Australia</p></a>
+        </div>
+        <div class="col-2">
+          <a class="nav-link" href="https://2022.djangocon.us/"><p class="text-center footer-djangocon-link">DjangoCon US</p></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-center footer-end">
+    <div class="col text-center align-self-center"><h6>© 2022 DjangoCon EU</h6></div>
   </div>
 </div>
 
