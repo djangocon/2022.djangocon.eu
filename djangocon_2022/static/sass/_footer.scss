@@ -1,12 +1,8 @@
 //footer
 
-@use "base";
 
 .custom-footer{
-  .container {
-    max-width: 1658px;
-  }
-  background-color: base.$BgBlue;
+  background-color: #003C80;
   color: white;
 }
 

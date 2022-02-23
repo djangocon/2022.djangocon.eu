@@ -8,6 +8,10 @@
   }
 }
 
+inner-content-width {
+  max-width: 103.5rem;
+}
+
 // force footer to the bottom
 html, body {
   height: 100%;
@@ -122,6 +126,7 @@ td, th {
   height: 30px;
 }
 
+//
 a {
     text-decoration: none;
 }
