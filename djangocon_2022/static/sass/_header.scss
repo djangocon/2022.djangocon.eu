@@ -4,17 +4,34 @@
   background: #003C80;
   padding-top: 3.125rem;
   padding-bottom: 2rem;
-  ul {
-    .dropdown {
-      padding-right: 1.5rem;
-      .nav-link{
-        padding: 0.25rem 0.75rem;
-        font-size: 1.25rem;
-        line-height: 1;
-        border: 1px solid transparent;
-        border-radius: 0.25rem;
-      }
-    }
+  .nav {
+    padding-right: 2rem;
+  }
+  .nav-sm {
+    padding-right: 0rem;
+    padding-left: 0rem;
+    display: block;
+  }
+  .nav-item-lg {
+    display: flex;
+    float: right;
+    padding-left: 2.5rem;
+  }
+  .btn-primary {
+    background: transparent;
+    border: none;
+  }
+  .subnav {
+    background: #0078FF;
+  }
+  .container-fluid {
+    padding: 0rem;
+  }
+  .dropdown-menu {
+    background: #0078FF;
+  }
+  .dropdown-item {
+    color: white;
   }
 }
 
