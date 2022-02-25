@@ -12,119 +12,119 @@ inner-content-width {
   max-width: 103.5rem;
 }
 
-// force footer to the bottom
-html, body {
-  height: 100%;
-}
+//// force footer to the bottom
+//html, body {
+//  height: 100%;
+//}
+//
+//body {
+//  display: flex;
+//  flex-direction: column;
+//}
+//
+//.innerBody {
+//  flex: 1 0 auto;
+//}
+//
+//.footer {
+//  flex-shrink: 0;
+//}
 
-body {
-  display: flex;
-  flex-direction: column;
-}
-
-.innerBody {
-  flex: 1 0 auto;
-}
-
-.footer {
-  flex-shrink: 0;
-}
-
-// modules layout
-.simple-container {
-  padding-top: 40px;
-  padding-bottom: 40px;
-
-  .title {
-    color: base.$TextBlue;
-  }
-}
-
-.half_image-container {
-  .image {
-    background-repeat: no-repeat;
-    background-size: cover;
-    @media (max-width: 992px) {
-      min-height: 400px;
-    }
-  }
-
-  .content {
-    padding: 90px;
-    h1 {
-      color: base.$TextBlue;
-    }
-  }
-}
+//// modules layout
+//.simple-container {
+//  padding-top: 40px;
+//  padding-bottom: 40px;
+//
+//  .title {
+//    color: base.$TextBlue;
+//  }
+//}
+//
+//.half_image-container {
+//  .image {
+//    background-repeat: no-repeat;
+//    background-size: cover;
+//    @media (max-width: 992px) {
+//      min-height: 400px;
+//    }
+//  }
+//
+//  .content {
+//    padding: 90px;
+//    h1 {
+//      color: base.$TextBlue;
+//    }
+//  }
+//}
 
 @import "header";
 
 @import "footer";
 
-// table
-table, td, th {
-  border: 1px solid black;
-}
-
-td, th {
-  padding: 10px;
-}
-
-.inner {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  h1 {
-    color: base.$TextBlue;
-  }
-}
-
-.bg-grey {
-  background: base.$BgGrey;
-}
-
-.btn {
-  color: base.$TextBlue;
-  border: 1px solid base.$TextBlue;
-}
-
-.btn:hover {
-  color: base.$TextBlue;
-  text-decoration: underline;
-}
-
-.credits-lg {
-  background-color: base.$TextBlue;
-  padding: 15px;
-  color: white;
-}
-
-.credits-sm {
-  padding: 10px 55px;
-  background-color: base.$TextBlue;
-  color: white;
-  font-size: 12px
-}
-
-.sponsor {
-  height: 50px;
-  margin: 15px 30px 15px 0;
-}
-
-.sponsor.big {
-  height: 70px;
-}
-
-.sponsor.lbig {
-  height: 60px;
-}
-
-.sponsor.small {
-  height: 40px;
-}
-
-.sponsor.smaller {
-  height: 30px;
-}
+//// table
+//table, td, th {
+//  border: 1px solid black;
+//}
+//
+//td, th {
+//  padding: 10px;
+//}
+//
+//.inner {
+//  padding-top: 50px;
+//  padding-bottom: 50px;
+//  h1 {
+//    color: base.$TextBlue;
+//  }
+//}
+//
+//.bg-grey {
+//  background: base.$BgGrey;
+//}
+//
+//.btn {
+//  color: base.$TextBlue;
+//  border: 1px solid base.$TextBlue;
+//}
+//
+//.btn:hover {
+//  color: base.$TextBlue;
+//  text-decoration: underline;
+//}
+//
+//.credits-lg {
+//  background-color: base.$TextBlue;
+//  padding: 15px;
+//  color: white;
+//}
+//
+//.credits-sm {
+//  padding: 10px 55px;
+//  background-color: base.$TextBlue;
+//  color: white;
+//  font-size: 12px
+//}
+//
+//.sponsor {
+//  height: 50px;
+//  margin: 15px 30px 15px 0;
+//}
+//
+//.sponsor.big {
+//  height: 70px;
+//}
+//
+//.sponsor.lbig {
+//  height: 60px;
+//}
+//
+//.sponsor.small {
+//  height: 40px;
+//}
+//
+//.sponsor.smaller {
+//  height: 30px;
+//}
 
 //
 a {
