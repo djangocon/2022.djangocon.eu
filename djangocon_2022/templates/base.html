@@ -40,7 +40,7 @@
     {% include "templates/header.html" %}
 
 
-    <div class="container-fluid">
+    <div>
 
       {% if messages %}
         {% for message in messages %}
@@ -51,8 +51,8 @@
         {% endfor %}
       {% endif %}
 
-      {% block body_content %}
-      {% endblock body_content %}
+      {% block content %}
+      {% endblock content %}
 
     </div> <!-- /container -->
 
