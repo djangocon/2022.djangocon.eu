@@ -12,23 +12,23 @@ inner-content-width {
   max-width: 103.5rem;
 }
 
-//// force footer to the bottom
-//html, body {
-//  height: 100%;
-//}
-//
-//body {
-//  display: flex;
-//  flex-direction: column;
-//}
-//
-//.innerBody {
-//  flex: 1 0 auto;
-//}
-//
-//.footer {
-//  flex-shrink: 0;
-//}
+// force footer to the bottom
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.innerBody {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex-shrink: 0;
+}
 
 //// modules layout
 //.simple-container {
