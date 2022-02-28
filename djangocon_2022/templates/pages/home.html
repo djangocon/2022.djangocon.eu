@@ -1,1 +1,34 @@
 {% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+  {# HOMEHEADER #}
+  <div class="container-fluid home-header">
+    <div class="container inner-content-width">
+      <div class="row justify-content-end home-title">
+        <div class="col" style="column-width: fill-available"></div>
+        <div class="col text-end">
+          <h3 class="text-center" style="width: inherit">We’re back — September 21st-25th</h3>
+          <img src="{% static 'images/logo/logo_blue.png' %}" alt="Logo">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {#  ABOUT#}
+  {% include 'templates/default.html' with content=files.0 %}
+  <hr/>
+
+  {#  LATEST-NEWS#}
+  {#  {% include 'modules/home/news.html' %}#}
+
+  {#  PORTO-INFO#}
+  {% comment %} {% include 'modules/default.html' with content=files.1 %} {% endcomment %}
+
+  {#  SPONSORS#}
+{#  {% include 'modules/default.html' with content=files.2 %}#}
+{##}
+  {#  MAILING-LIST#}
+{#  {% include 'modules/home/mailing.html' %}#}
+
+{% endblock content %}
