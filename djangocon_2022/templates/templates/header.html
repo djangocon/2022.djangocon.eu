@@ -1,121 +1,123 @@
 {% load static %}
 
 <div class="container-fluid header">
+  <div class="container inner-content-width">
+    <div class="row">
 
-  <div class="row">
-    <div class="d-block d-lg-none col"></div>
-    <div class="col align-self-center justify-content-end">
-      <a class="nav-link header-logo" href="/home">
-        <img src="{% static 'images/logo/logo_white.png' %}" alt="Logo" height="66rem">
-      </a>
-    </div>
-
-    <!-- small screens -->
-    <div class="d-block d-lg-none col align-self-center justify-content-end">
-      <div class="nav justify-content-end">
-        <button class="btn button-primary navbar-light bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNavigation" aria-expanded="false" aria-controls="collapseNavigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <div class="d-block d-lg-none col"></div>
+      <div class="col align-self-center justify-content-end">
+        <a class="nav-link header-logo" href="/home">
+          <img src="{% static 'images/logo/logo_white.png' %}" alt="Logo" height="66rem">
+        </a>
       </div>
-    </div>
-    <div class="collapse container-fluid text-center" id="collapseNavigation">
-      <ul class="nav nav-sm">
-        <li><a class="nav-link text-white btn btn-primary" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseSubNavTalks" href="#collapseSubNavTalks"> Talks </a></li>
-        <div class="subnav collapse container-fluid text-center" id="collapseSubNavTalks">
-          <ul class="nav nav-sm">
-            <li><a class="nav-link text-white"> Schedule </a></li>
-            <li><a class="nav-link text-white"> Cfp </a></li>
-            <li><a class="nav-link text-white"> Selection Process </a></li>
-          </ul>
+
+      <!-- small screens -->
+      <div class="d-block d-lg-none col align-self-center justify-content-end">
+        <div class="nav justify-content-end">
+          <button class="btn button-primary navbar-light bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNavigation" aria-expanded="false" aria-controls="collapseNavigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
         </div>
-        <li><a class="nav-link text-white btn btn-primary" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseSubNavInformation" href="#collapseSubNavInformation"> Information </a></li>
-        <div class="subnav collapse container-fluid text-center" id="collapseSubNavInformation">
-          <ul class="nav nav-sm">
-            <li><a class="nav-link text-white"> Venue </a></li>
-            <li><a class="nav-link text-white"> Swag bag </a></li>
-            <li><a class="nav-link text-white"> Grants </a></li>
-            <li><a class="nav-link text-white"> Django girls </a></li>
-            <li><a class="nav-link text-white"> Sprints </a></li>
-            <li><a class="nav-link text-white"> Announcements </a></li>
+      </div>
+      <div class="collapse container-fluid text-center" id="collapseNavigation">
+        <ul class="nav nav-sm">
+          <li><a class="nav-link text-white btn btn-primary" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseSubNavTalks" href="#collapseSubNavTalks"> Talks </a></li>
+          <div class="subnav collapse container-fluid text-center" id="collapseSubNavTalks">
+            <ul class="nav nav-sm">
+              <li><a class="nav-link text-white"> Schedule </a></li>
+              <li><a class="nav-link text-white"> Cfp </a></li>
+              <li><a class="nav-link text-white"> Selection Process </a></li>
+            </ul>
+          </div>
+          <li><a class="nav-link text-white btn btn-primary" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseSubNavInformation" href="#collapseSubNavInformation"> Information </a></li>
+          <div class="subnav collapse container-fluid text-center" id="collapseSubNavInformation">
+            <ul class="nav nav-sm">
+              <li><a class="nav-link text-white"> Venue </a></li>
+              <li><a class="nav-link text-white"> Swag bag </a></li>
+              <li><a class="nav-link text-white"> Grants </a></li>
+              <li><a class="nav-link text-white"> Django girls </a></li>
+              <li><a class="nav-link text-white"> Sprints </a></li>
+              <li><a class="nav-link text-white"> Announcements </a></li>
+            </ul>
+          </div>
+          <li><a class="nav-link text-white btn btn-primary" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseSubNavSponsors" href="#collapseSubNavSponsors"> Sponsors </a></li>
+          <div class="subnav collapse container-fluid text-center" id="collapseSubNavSponsors">
+            <ul class="nav nav-sm">
+              <li><a class="nav-link text-white"> Sponsors </a></li>
+              <li><a class="nav-link text-white"> Contributors </a></li>
+              <li><a class="nav-link text-white"> Sponsorships </a></li>
+            </ul>
+          </div>
+          <li><a class="nav-link text-white btn btn-primary" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseSubNavConduct" href="#collapseSubNavConduct"> Conduct </a></li>
+          <div class="subnav collapse container-fluid text-center" id="collapseSubNavConduct">
+            <ul class="nav nav-sm">
+              <li><a class="nav-link text-white"> Code of conduct </a></li>
+              <li><a class="nav-link text-white"> Response guide </a></li>
+              <li><a class="nav-link text-white"> Privacy guide </a></li>
+            </ul>
+          </div>
+          <li><a class="nav-link text-white btn btn-primary" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseSubNavJobs" href="#collapseSubNavJobs"> Jobs </a></li>
+          <li><a class="nav-link text-white btn btn-primary" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseSubNavAbout" href="#collapseSubNavAbout"> About </a></li>
+          <div class="subnav collapse container-fluid text-center" id="collapseSubNavAbout">
+            <ul class="nav nav-sm">
+              <li><a class="nav-link text-white"> Tickets </a></li>
+              <li><a class="nav-link text-white"> Contact </a></li>
+              <li><a class="nav-link text-white"> Credits </a></li>
+            </ul>
+          </div>
+        </ul>
+      </div>
+
+      <!-- big screens -->
+      <ul class="nav nav-pills d-none d-lg-flex col-8 align-self-center row row-cols-3 row-cols-lg-6 justify-content-end" style="padding-right: 6.8125rem;"> <!-- inverted order due to flex:left -->
+        <li class="nav-item nav-item-lg dropdown col">
+          <a class="nav-link dropdown-toggle text-white nav-link-lg" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false"> Talks </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#"> Schedule </a></li>
+            <li><a class="dropdown-item" href="#"> Cpf </a></li>
+            <li><a class="dropdown-item" href="#"> Selection process </a></li>
           </ul>
-        </div>
-        <li><a class="nav-link text-white btn btn-primary" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseSubNavSponsors" href="#collapseSubNavSponsors"> Sponsors </a></li>
-        <div class="subnav collapse container-fluid text-center" id="collapseSubNavSponsors">
-          <ul class="nav nav-sm">
-            <li><a class="nav-link text-white"> Sponsors </a></li>
-            <li><a class="nav-link text-white"> Contributors </a></li>
-            <li><a class="nav-link text-white"> Sponsorships </a></li>
+        </li>
+        <li class="nav-item nav-item-lg dropdown col">
+          <a class="nav-link dropdown-toggle text-white nav-link-lg" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false"> Information </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#"> Venue </a></li>
+            <li><a class="dropdown-item" href="#"> Swag bag </a></li>
+            <li><a class="dropdown-item" href="#"> Grants </a></li>
+            <li><a class="dropdown-item" href="#"> Django girls </a></li>
+            <li><a class="dropdown-item" href="#"> Sprints </a></li>
+            <li><a class="dropdown-item" href="#"> Announcements </a></li>
           </ul>
-        </div>
-        <li><a class="nav-link text-white btn btn-primary" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseSubNavConduct" href="#collapseSubNavConduct"> Conduct </a></li>
-        <div class="subnav collapse container-fluid text-center" id="collapseSubNavConduct">
-          <ul class="nav nav-sm">
-            <li><a class="nav-link text-white"> Code of conduct </a></li>
-            <li><a class="nav-link text-white"> Response guide </a></li>
-            <li><a class="nav-link text-white"> Privacy guide </a></li>
+        </li>
+        <li class="nav-item nav-item-lg dropdown col">
+          <a class="nav-link dropdown-toggle text-white nav-link-lg" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false"> Sponsors </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#"> Sponsors </a></li>
+            <li><a class="dropdown-item" href="#"> Contributors </a></li>
+            <li><a class="dropdown-item" href="#"> Sponsorship </a></li>
           </ul>
-        </div>
-        <li><a class="nav-link text-white btn btn-primary" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseSubNavJobs" href="#collapseSubNavJobs"> Jobs </a></li>
-        <li><a class="nav-link text-white btn btn-primary" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseSubNavAbout" href="#collapseSubNavAbout"> About </a></li>
-        <div class="subnav collapse container-fluid text-center" id="collapseSubNavAbout">
-          <ul class="nav nav-sm">
-            <li><a class="nav-link text-white"> Tickets </a></li>
-            <li><a class="nav-link text-white"> Contact </a></li>
-            <li><a class="nav-link text-white"> Credits </a></li>
+        </li>
+        <li class="nav-item nav-item-lg dropdown col">
+          <a class="nav-link dropdown-toggle text-white nav-link-lg" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false"> Conduct </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#"> Code of conduct </a></li>
+            <li><a class="dropdown-item" href="#"> Response guide </a></li>
+            <li><a class="dropdown-item" href="#"> Privacy guide </a></li>
           </ul>
-        </div>
+        </li>
+        <li class="nav-item nav-item-lg col">
+          <a class="nav-link text-white nav-link-lg" href="#"> Jobs </a>
+        </li>
+        <li class="nav-item nav-item-lg dropdown col">
+          <a class="nav-link dropdown-toggle text-white nav-link-lg" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false"> About </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#"> Tickets </a></li>
+            <li><a class="dropdown-item" href="#"> Contact </a></li>
+            <li><a class="dropdown-item" href="#"> Credits </a></li>
+          </ul>
+        </li>
       </ul>
+
     </div>
-
-    <!-- big screens -->
-    <ul class="nav nav-pills d-none d-lg-flex col-8 align-self-center row row-cols-3 row-cols-lg-6 justify-content-end" style="padding-right: 6.8125rem;"> <!-- inverted order due to flex:left -->
-      <li class="nav-item nav-item-lg dropdown col">
-        <a class="nav-link dropdown-toggle text-white nav-link-lg" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false"> Talks </a>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#"> Schedule </a></li>
-          <li><a class="dropdown-item" href="#"> Cpf </a></li>
-          <li><a class="dropdown-item" href="#"> Selection process </a></li>
-        </ul>
-      </li>
-      <li class="nav-item nav-item-lg dropdown col">
-        <a class="nav-link dropdown-toggle text-white nav-link-lg" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false"> Information </a>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#"> Venue </a></li>
-          <li><a class="dropdown-item" href="#"> Swag bag </a></li>
-          <li><a class="dropdown-item" href="#"> Grants </a></li>
-          <li><a class="dropdown-item" href="#"> Django girls </a></li>
-          <li><a class="dropdown-item" href="#"> Sprints </a></li>
-          <li><a class="dropdown-item" href="#"> Announcements </a></li>
-        </ul>
-      </li>
-      <li class="nav-item nav-item-lg dropdown col">
-        <a class="nav-link dropdown-toggle text-white nav-link-lg" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false"> Sponsors </a>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#"> Sponsors </a></li>
-          <li><a class="dropdown-item" href="#"> Contributors </a></li>
-          <li><a class="dropdown-item" href="#"> Sponsorship </a></li>
-        </ul>
-      </li>
-      <li class="nav-item nav-item-lg dropdown col">
-        <a class="nav-link dropdown-toggle text-white nav-link-lg" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false"> Conduct </a>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#"> Code of conduct </a></li>
-          <li><a class="dropdown-item" href="#"> Response guide </a></li>
-          <li><a class="dropdown-item" href="#"> Privacy guide </a></li>
-        </ul>
-      </li>
-      <li class="nav-item nav-item-lg col">
-        <a class="nav-link text-white nav-link-lg" href="#"> Jobs </a>
-      </li>
-      <li class="nav-item nav-item-lg dropdown col">
-        <a class="nav-link dropdown-toggle text-white nav-link-lg" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false"> About </a>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#"> Tickets </a></li>
-          <li><a class="dropdown-item" href="#"> Contact </a></li>
-          <li><a class="dropdown-item" href="#"> Credits </a></li>
-        </ul>
-      </li>
-    </ul>
-
   </div>
 </div>
