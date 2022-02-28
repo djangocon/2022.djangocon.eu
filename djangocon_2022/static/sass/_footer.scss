@@ -1,25 +1,26 @@
 //footer
 
+@use "base";
 
 .custom-footer{
-  background-color: #003C80;
+  background-color: base.$BgBlue; //#003C80;
   color: white;
-}
 
-.footer-title{
-  padding-bottom: 1.25rem;
-  padding-top: 1.25rem;
-}
+  .footer-title{
+    padding-bottom: 1.25rem;
+    padding-top: 1.25rem;
+  }
 
-.footer-social-media-link{
-  padding: .25rem;
-}
+  .footer-social-media-link{
+    padding: .25rem;
+  }
 
-.footer-djangocon-link {
-  color: #8EBEF3;
-}
+  .footer-djangocon-link {
+    color: base.$TxtLightBlue; //#8EBEF3;
+  }
 
-.footer-end {
-  height: 3.875rem;
-  background: #043062;
+  .footer-end {
+    height: 3.875rem;
+    background: base.$BgDarkBlue; //#043062;
+  }
 }
