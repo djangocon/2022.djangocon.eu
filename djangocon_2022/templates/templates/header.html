@@ -5,7 +5,7 @@
   <div class="row">
     <div class="d-block d-lg-none col"></div>
     <div class="col align-self-center justify-content-end">
-      <a class="nav-link" href="/home">
+      <a class="nav-link header-logo" href="/home">
         <img src="{% static 'images/logo/logo_white.png' %}" alt="Logo" height="66rem">
       </a>
     </div>
@@ -68,36 +68,17 @@
     </div>
 
     <!-- big screens -->
-    <ul class="nav nav-pills d-none d-lg-block col-8 align-self-center justify-content-end"> <!-- inverted order due to flex:left -->
-      <li class="nav-item nav-item-lg dropdown" style="padding-right: 6.8125rem;">
-        <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false"> About </a>
+    <ul class="nav nav-pills d-none d-lg-flex col-8 align-self-center row row-cols-3 row-cols-lg-6 justify-content-end" style="padding-right: 6.8125rem;"> <!-- inverted order due to flex:left -->
+      <li class="nav-item nav-item-lg dropdown col">
+        <a class="nav-link dropdown-toggle text-white nav-link-lg" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false"> Talks </a>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#"> Tickets </a></li>
-          <li><a class="dropdown-item" href="#"> Contact </a></li>
-          <li><a class="dropdown-item" href="#"> Credits </a></li>
+          <li><a class="dropdown-item" href="#"> Schedule </a></li>
+          <li><a class="dropdown-item" href="#"> Cpf </a></li>
+          <li><a class="dropdown-item" href="#"> Selection process </a></li>
         </ul>
       </li>
-      <li class="nav-item nav-item-lg ">
-        <a class="nav-link text-white" href="#"> Jobs </a>
-      </li>
-      <li class="nav-item nav-item-lg dropdown">
-        <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false"> Conduct </a>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#"> Code of conduct </a></li>
-          <li><a class="dropdown-item" href="#"> Response guide </a></li>
-          <li><a class="dropdown-item" href="#"> Privacy guide </a></li>
-        </ul>
-      </li>
-      <li class="nav-item nav-item-lg dropdown">
-        <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false"> Sponsors </a>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#"> Sponsors </a></li>
-          <li><a class="dropdown-item" href="#"> Contributors </a></li>
-          <li><a class="dropdown-item" href="#"> Sponsorship </a></li>
-        </ul>
-      </li>
-      <li class="nav-item nav-item-lg dropdown">
-        <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false"> Information </a>
+      <li class="nav-item nav-item-lg dropdown col">
+        <a class="nav-link dropdown-toggle text-white nav-link-lg" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false"> Information </a>
         <ul class="dropdown-menu">
           <li><a class="dropdown-item" href="#"> Venue </a></li>
           <li><a class="dropdown-item" href="#"> Swag bag </a></li>
@@ -107,12 +88,31 @@
           <li><a class="dropdown-item" href="#"> Announcements </a></li>
         </ul>
       </li>
-      <li class="nav-item nav-item-lg dropdown">
-        <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false"> Talks </a>
+      <li class="nav-item nav-item-lg dropdown col">
+        <a class="nav-link dropdown-toggle text-white nav-link-lg" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false"> Sponsors </a>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#"> Schedule </a></li>
-          <li><a class="dropdown-item" href="#"> Cpf </a></li>
-          <li><a class="dropdown-item" href="#"> Selection process </a></li>
+          <li><a class="dropdown-item" href="#"> Sponsors </a></li>
+          <li><a class="dropdown-item" href="#"> Contributors </a></li>
+          <li><a class="dropdown-item" href="#"> Sponsorship </a></li>
+        </ul>
+      </li>
+      <li class="nav-item nav-item-lg dropdown col">
+        <a class="nav-link dropdown-toggle text-white nav-link-lg" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false"> Conduct </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#"> Code of conduct </a></li>
+          <li><a class="dropdown-item" href="#"> Response guide </a></li>
+          <li><a class="dropdown-item" href="#"> Privacy guide </a></li>
+        </ul>
+      </li>
+      <li class="nav-item nav-item-lg col">
+        <a class="nav-link text-white nav-link-lg" href="#"> Jobs </a>
+      </li>
+      <li class="nav-item nav-item-lg dropdown col">
+        <a class="nav-link dropdown-toggle text-white nav-link-lg" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false"> About </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#"> Tickets </a></li>
+          <li><a class="dropdown-item" href="#"> Contact </a></li>
+          <li><a class="dropdown-item" href="#"> Credits </a></li>
         </ul>
       </li>
     </ul>
