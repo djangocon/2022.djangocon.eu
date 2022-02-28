@@ -32,6 +32,21 @@
   }
 }
 
+.home-subheader {
+  background: base.$BgBlue;
+  padding-top: 3rem;
+
+  .btn-tickets {
+    background: white;
+    color: base.$BgBlue;
+    border-radius: 23px;
+    max-width: 331px;
+    max-height: 45px;
+    padding: .5625rem 2.875rem;
+    margin-top: 1.125rem;
+  }
+}
+
 
 //.home-header {
 //  min-height: 100vh;
