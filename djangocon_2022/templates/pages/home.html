@@ -2,7 +2,7 @@
 {% load static %}
 {% block content %}
 
-  {# HOMEHEADER #}
+  {# HOME-HEADER #}
   <div class="container-fluid home-header">
     <div class="container inner-content-width">
       <div class="row justify-content-end home-title">
@@ -14,16 +14,117 @@
       </div>
     </div>
   </div>
+
+  {# HOME-SUBHEADER #}
   <div class="container-fluid home-subheader">
     <div class="container inner-content-width text-center">
-        <h4 class="text-white">Join us on five days of talks, sprints, and tutorials!</h4>
+        <h4 class="text-white home-text">Join us on five days of talks, sprints, and tutorials!</h4>
         <button class="btn btn-tickets" href="#"><h4>GRAB YOUR TICKET</h4></button>
+    </div>
+    <div class="container inner-content-width home-about">
+      <div class="row justify-content-between">
+        <div class="col"></div>
+        <div class="col-12 col-md-9 text-white">
+          <h4 class="d-block title home-text">DjangoCon Europe is run by the community for the community.</h4>
+          <p class="d-block home-text">This is the 14th edition of the Conference and it is organized by a team made up of Django practitioners from all levels. We welcome people from all over the world.</h4>
+          <p class="d-block home-text">Our conference seeks to educate and develop new skills, best practices and ideas for the benefit of attendees, developers, speakers and everyone in our global Django Community, not least those watching the talks online.</h3>
+        </div>
+        <div class="col"></div>
+      </div>
     </div>
   </div>
 
+  {# IMPORTANT DATES #}
+  <div class="container-fluid important-dates">
+    <div class="container inner-content-width text-center text-white">
+      <h1 class="d-block text-center title">important dates</h1>
+      <div class="row date-row">
+        <p class="col-12 col-md-2 date-col home-title text-start">februrary</p>
+        <div class="col text-start date-val">
+          <p class="row home-text">15th - Early organising of the conference</p>
+          <p class="row home-text">21st - More organising, website is booted with a Call for Participation</p>
+          <p class="row home-text text-hidden">.</p>
+        </div>
+      </div>
+      <div class="row date-row">
+        <p class="col-12 col-md-2 date-col home-title text-start">march</p>
+        <div class="col text-start date-val">
+          <p class="row home-text">15th - Ticket sale opens, including info on scholarships</p>
+          <p class="row home-text">21st - Call for Participation closes</p>
+          <p class="row home-text">28th - Opportunity Grants deadline</p>
+        </div>
+      </div>
+      <div class="row date-row">
+        <p class="col-12 col-md-2 date-col home-title text-start">april</p>
+        <div class="col text-start date-val">
+          <p class="row home-text">15th - </p>
+          <p class="row home-text">21st - </p>
+          <p class="row home-text text-hidden">28th - </p>
+        </div>
+      </div>
+      <div class="row date-row">
+        <p class="col-12 col-md-2 date-col home-title text-start">june</p>
+        <div class="col text-start date-val">
+          <p class="row home-text">15th - </p>
+          <p class="row home-text">21st - </p>
+          <p class="row home-text text-hidden">28th - </p>
+        </div>
+      </div>
+      <div class="row date-row">
+        <p class="col-12 col-md-2 date-col home-title text-start">august</p>
+        <div class="col text-start date-val">
+          <p class="row home-text">15th - </p>
+          <p class="row home-text">21st - </p>
+          <p class="row home-text text-hidden">28th - </p>
+        </div>
+      </div>
+      <div class="row date-row">
+        <p class="col-12 col-md-2 date-col home-title text-start">september</p>
+        <div class="col text-start date-val">
+          <p class="row home-text">21st - Main conference</p>
+          <p class="row home-text">21st - Main conference</p>
+          <p class="row home-text">21st - Main conference</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {# HOME-SPONSORS #}
+  <div class="container-fluid home-sponsors">
+    <div class="container inner-content-width">
+      <h1 class="d-block text-center title">our <strong>sponsors</strong></h1>
+      <div class="row sponsors-row">
+        <p class="col-12 col-md-2 sponsors-col home-title text-start">Diamond</p>
+        <div class="col text-start sponsors-val">
+        </div>
+      </div>
+      <div class="row sponsors-row">
+        <p class="col-12 col-md-2 sponsors-col home-title text-start">Platinum</p>
+        <div class="col text-start sponsors-val">
+        </div>
+      </div>
+      <div class="row sponsors-row">
+        <p class="col-12 col-md-2 sponsors-col home-title text-start">Gold</p>
+        <div class="col text-start sponsors-val">
+        </div>
+      </div>
+      <div class="row sponsors-row">
+        <p class="col-12 col-md-2 sponsors-col home-title text-start">Silver</p>
+        <div class="col text-start sponsors-val">
+        </div>
+      </div>
+      <div class="row sponsors-row">
+        <p class="col-12 col-md-2 sponsors-col home-title text-start">Bronze</p>
+        <div class="col text-start sponsors-val">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
   {#  ABOUT#}
-  {% include 'templates/default.html' with content=files.0 %}
-  <hr/>
+{#  {% include 'templates/default.html' with content=files.0 %}#}
+{#  <hr/>#}
 
   {#  LATEST-NEWS#}
   {#  {% include 'modules/home/news.html' %}#}
@@ -33,7 +134,7 @@
 
   {#  SPONSORS#}
 {#  {% include 'modules/default.html' with content=files.2 %}#}
-{##}
+
   {#  MAILING-LIST#}
 {#  {% include 'modules/home/mailing.html' %}#}
 

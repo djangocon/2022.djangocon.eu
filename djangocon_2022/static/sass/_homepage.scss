@@ -8,15 +8,20 @@
   }
 }
 
-
+.home-text {
+  font: normal normal normal 1.625rem/1.875rem Ubuntu;
+}
+.home-title {
+  font: normal normal normal 2rem/2.25rem Ubuntu;
+}
 
 .home-header {
-  max-height: 916px;
-  min-height: 90vh;
-  background: base.$BgBlue url("/static/images/background/homepage.png");
+  max-height: 1081px;
+  height: 100vh;
   background-position-x: center;
   background-position-y: -10rem;
-  background-size: auto;
+  background-size: revert;
+  background: base.$BgBlue url("/static/images/background/homepage.png") repeat-x;
 
   h3 {
     color: #FFA300;
@@ -34,7 +39,8 @@
 
 .home-subheader {
   background: base.$BgBlue;
-  padding-top: 3rem;
+  border: none;
+  padding-top: 6rem;
 
   .btn-tickets {
     background: white;
@@ -45,8 +51,62 @@
     padding: .5625rem 2.875rem;
     margin-top: 1.125rem;
   }
+
+  .home-about {
+    padding-top: 7.8125rem;
+    padding-bottom: 8.75rem;
+
+    p {
+      margin-top: 3.75rem;
+    }
+  }
 }
 
+.important-dates {
+  background-color: base.$BgLightBlue;
+  padding-top: 4.375rem;
+  padding-bottom: 5.875rem;
+
+  .title{
+    padding-bottom: 4.875rem;
+  }
+  .date-row {
+    padding-left: 12.75rem;
+  }
+  .date-col {
+    font-weight: bold;
+    padding-top: 1.125rem;
+    border-top: 0.125rem solid white;
+  }
+  .date-val {
+    margin: 1.625rem .75rem;
+  }
+}
+
+.home-sponsors {
+  background: base.$BgGrey;
+  color: base.$BgDarkBlue;
+  padding-top: 6.875rem;
+  padding-bottom: 2.875rem;
+
+  .title {
+    padding-bottom: 4.25rem;
+    color: base.$TxtBlue;
+    font: normal normal bold 2.875rem/3.25rem Ubuntu;
+
+    strong {
+      color: base.$BgDarkBlue;
+    }
+  }
+  .sponsors-row {
+    padding-left: 12.75rem;
+    min-height: 21.875rem;
+  }
+  .sponsors-col {
+    padding-top: .75rem;
+    border-top: 0.125rem solid base.$BgDarkBlue;
+  }
+}
 
 //.home-header {
 //  min-height: 100vh;

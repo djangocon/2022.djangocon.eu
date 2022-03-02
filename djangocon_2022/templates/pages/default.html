@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+{% for file in files %}
+  {% include 'templates/default.html' with content=file %}
+{% endfor %}
+
+{% endblock content %}

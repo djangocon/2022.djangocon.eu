@@ -2,8 +2,8 @@
 
 @use "homepage";
 
-.title {
-  h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
+  &.title {
     font-weight: bold;
   }
 }
@@ -28,6 +28,14 @@ body {
 
 .footer {
   flex-shrink: 0;
+}
+
+.text-blue {
+  color: base.$TxtBlue;
+}
+
+.text-hidden {
+  color: transparent;
 }
 
 //// modules layout
