@@ -186,6 +186,7 @@ TEMPLATES = [
                 "django.template.context_processors.tz",
                 "django.contrib.messages.context_processors.messages",
                 "djangocon_2022.users.context_processors.allauth_settings",
+                "djangocon_2022.site.utils.context_processors.links",
             ],
         },
     }

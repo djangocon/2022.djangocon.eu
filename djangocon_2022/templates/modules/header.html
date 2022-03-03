@@ -1,14 +1,5 @@
 {% load static %}
 
-{# TODO do better w/ context processors : https://docs.djangoproject.com/en/3.2/ref/templates/api/#writing-your-own-context-processors #}
-{% with  menu_talks='/talks/' menu_info='/information/' menu_sponsors='/sponsors/' menu_conduct='/conduct/' menu_jobs='/jobs/' menu_about='/about/' %}
-  {% cycle '#schedule' '#cpf' '#selection_process' as submenu_talks  silent %}
-  {% cycle 'venue/' 'swagbag/' 'grants/' 'djangogirls/' 'sprints/' 'announcements/' as submenu_info  silent %}
-  {% cycle 'sponsors/' 'contributors/' 'sponsorship/' as submenu_sponsors  silent %}
-  {% cycle 'codeofconduct/' 'responseguide/' 'privacyguide/' as submenu_conduct  silent %}
-  {# {% cycle '' as submenu_jobs  silent %} #}
-  {% cycle 'tickets/' 'contact/' 'credits/' as submenu_about  silent %}
-
 
 <div class="container-fluid header">
   <div class="container inner-content-width">
@@ -16,7 +7,7 @@
 
       <div class="d-block d-lg-none col"></div>
       <div class="col align-self-center justify-content-end">
-        <a class="nav-link header-logo" href="/home/">
+        <a class="nav-link header-logo" href="{{ home }}">
           <img src="{% static 'images/logo/logo_white.png' %}" alt="Logo" height="66rem">
         </a>
       </div>
@@ -31,139 +22,45 @@
       </div>
       <div class="collapse container-fluid text-center" id="collapseNavigation">
         <ul class="nav nav-sm">
-          <li><a class="nav-link text-white btn btn-primary" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseSubNavTalks" href="#collapseSubNavTalks"> Talks </a></li>
-          <div class="subnav collapse container-fluid text-center" id="collapseSubNavTalks">
-            <ul class="nav nav-sm">
-              <li><a href="{{ menu_talks }}{{ submenu_talks }}" class="nav-link text-white"> Schedule </a></li>
-              {% cycle submenu_talks %}
-              <li><a href="{{ menu_talks }}{{ submenu_talks }}" class="nav-link text-white"> Cfp </a></li>
-              {% cycle submenu_talks %}
-              <li><a href="{{ menu_talks }}{{ submenu_talks }}" class="nav-link text-white"> Selection Process </a></li>
-              {% cycle submenu_talks %}
-            </ul>
-          </div>
-          <li><a class="nav-link text-white btn btn-primary" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseSubNavInformation" href="#collapseSubNavInformation"> Information </a></li>
-          <div class="subnav collapse container-fluid text-center" id="collapseSubNavInformation">
-            <ul class="nav nav-sm">
-              <li><a href="{{ menu_info }}{{ submenu_info }}" class="nav-link text-white"> Venue </a></li>
-              {% cycle submenu_info %}
-              <li><a href="{{ menu_info }}{{ submenu_info }}" class="nav-link text-white"> Swag bag </a></li>
-              {% cycle submenu_info %}
-              <li><a href="{{ menu_info }}{{ submenu_info }}" class="nav-link text-white"> Grants </a></li>
-              {% cycle submenu_info %}
-              <li><a href="{{ menu_info }}{{ submenu_info }}" class="nav-link text-white"> Django girls </a></li>
-              {% cycle submenu_info %}
-              <li><a href="{{ menu_info }}{{ submenu_info }}" class="nav-link text-white"> Sprints </a></li>
-              {% cycle submenu_info %}
-              <li><a href="{{ menu_info }}{{ submenu_info }}" class="nav-link text-white"> Announcements </a></li>
-              {% cycle submenu_info %}
-            </ul>
-          </div>
-          <li><a class="nav-link text-white btn btn-primary" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseSubNavSponsors" href="#collapseSubNavSponsors"> Sponsors </a></li>
-          <div class="subnav collapse container-fluid text-center" id="collapseSubNavSponsors">
-            <ul class="nav nav-sm">
-              <li><a href="{{ menu_sponsors }}{{ submenu_sponsors }}" class="nav-link text-white"> Sponsors </a></li>
-              {% cycle submenu_sponsors %}
-              <li><a href="{{ menu_sponsors }}{{ submenu_sponsors }}" class="nav-link text-white"> Contributors </a></li>
-              {% cycle submenu_sponsors %}
-              <li><a href="{{ menu_sponsors }}{{ submenu_sponsors }}" class="nav-link text-white"> Sponsorships </a></li>
-              {% cycle submenu_sponsors %}
-            </ul>
-          </div>
-          <li><a class="nav-link text-white btn btn-primary" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseSubNavConduct" href="#collapseSubNavConduct"> Conduct </a></li>
-          <div class="subnav collapse container-fluid text-center" id="collapseSubNavConduct">
-            <ul class="nav nav-sm">
-              <li><a href="{{ menu_conduct }}{{ submenu_conduct }}" class="nav-link text-white"> Code of conduct </a></li>
-              {% cycle submenu_conduct %}
-              <li><a href="{{ menu_conduct }}{{ submenu_conduct }}" class="nav-link text-white"> Response guide </a></li>
-              {% cycle submenu_conduct %}
-              <li><a href="{{ menu_conduct }}{{ submenu_conduct }}" class="nav-link text-white"> Privacy guide </a></li>
-              {% cycle submenu_conduct %}
-            </ul>
-          </div>
-          <li><a href="{{ menu_jobs }}" class="nav-link text-white btn btn-primary"> Jobs </a></li>
-          <li><a class="nav-link text-white btn btn-primary" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseSubNavAbout" href="#collapseSubNavAbout"> About </a></li>
-          <div class="subnav collapse container-fluid text-center" id="collapseSubNavAbout">
-            <ul class="nav nav-sm">
-              <li><a href="{{ menu_about }}{{ submenu_about }}" class="nav-link text-white"> Tickets </a></li>
-              {% cycle submenu_about %}
-              <li><a href="{{ menu_about }}{{ submenu_about }}" class="nav-link text-white"> Contacts </a></li>
-              {% cycle submenu_about %}
-              <li><a href="{{ menu_about }}{{ submenu_about }}" class="nav-link text-white"> Credits </a></li
-              {% cycle submenu_about %}
-            </ul>
-          </div>
+          {% for menu, menu_dict in site_menu.items %}
+            {% if menu_dict.dropdown == 'false' %}
+              <li><a href="{{ menu_dict.href }}" class="nav-link text-white btn btn-primary"> {{ menu }} </a></li>
+            {% endif %}
+            {% if menu_dict.dropdown == 'true' %}
+              <li><a class="nav-link text-white btn btn-primary" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseSubNav{{ menu }}" href="#collapseSubNav{{ menu }}"> {{ menu }} </a></li>
+              <div class="subnav collapse container-fluid text-center" id="collapseSubNav{{ menu }}">
+                <ul class="nav nav-sm">
+                  {% for submenu, submenu_href in menu_dict.submenu.items %}
+                    <li><a href="{{ submenu_href }}" class="nav-link text-white"> {{ submenu }} </a></li>
+                  {% endfor %}
+                </ul>
+              </div>
+            {% endif %}
+          {% endfor %}
         </ul>
       </div>
 
       <!-- big screens -->
       <ul class="nav nav-pills d-none d-lg-flex col-8 align-self-center row row-cols-3 row-cols-lg-6 justify-content-end" style="padding-right: 6.8125rem;"> <!-- inverted order due to flex:left -->
-        <li class="nav-item nav-item-lg dropdown col">
-          <a class="nav-link dropdown-toggle text-white nav-link-lg" data-bs-toggle="dropdown" role="button" aria-expanded="false"> Talks </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="{{ menu_talks }}{{ submenu_talks }}"> Schedule </a></li>
-            {% cycle submenu_talks %}
-            <li><a class="dropdown-item" href="{{ menu_talks }}{{ submenu_talks }}"> Cpf </a></li>
-            {% cycle submenu_talks %}
-            <li><a class="dropdown-item" href="{{ menu_talks }}{{ submenu_talks }}"> Selection process </a></li>
-            {% cycle submenu_talks %}
-          </ul>
-        </li>
-        <li class="nav-item nav-item-lg dropdown col">
-          <a class="nav-link dropdown-toggle text-white nav-link-lg" data-bs-toggle="dropdown" role="button" aria-expanded="false"> Information </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="{{ menu_info }}{{ submenu_info }}"> Venue </a></li>
-            {% cycle submenu_info %}
-            <li><a class="dropdown-item" href="{{ menu_info }}{{ submenu_info }}"> Swag bag </a></li>
-            {% cycle submenu_info %}
-            <li><a class="dropdown-item" href="{{ menu_info }}{{ submenu_info }}"> Grants </a></li>
-            {% cycle submenu_info %}
-            <li><a class="dropdown-item" href="{{ menu_info }}{{ submenu_info }}"> Django girls </a></li>
-            {% cycle submenu_info %}
-            <li><a class="dropdown-item" href="{{ menu_info }}{{ submenu_info }}"> Sprints </a></li>
-            {% cycle submenu_info %}
-            <li><a class="dropdown-item" href="{{ menu_info }}{{ submenu_info }}"> Announcements </a></li>
-            {% cycle submenu_info %}
-          </ul>
-        </li>
-        <li class="nav-item nav-item-lg dropdown col">
-          <a class="nav-link dropdown-toggle text-white nav-link-lg" data-bs-toggle="dropdown" role="button" aria-expanded="false"> Sponsors </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="{{ menu_sponsors }}{{ submenu_sponsors }}"> Sponsors </a></li>
-            {% cycle submenu_sponsors %}
-            <li><a class="dropdown-item" href="{{ menu_sponsors }}{{ submenu_sponsors }}"> Contributors </a></li>
-            {% cycle submenu_sponsors %}
-            <li><a class="dropdown-item" href="{{ menu_sponsors }}{{ submenu_sponsors }}"> Sponsorship </a></li>
-            {% cycle submenu_sponsors %}
-          </ul>
-        </li>
-        <li class="nav-item nav-item-lg dropdown col">
-          <a class="nav-link dropdown-toggle text-white nav-link-lg" data-bs-toggle="dropdown" role="button" aria-expanded="false"> Conduct </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="{{ menu_conduct }}{{ submenu_conduct }}"> Code of conduct </a></li>
-            {% cycle submenu_conduct %}
-            <li><a class="dropdown-item" href="{{ menu_conduct }}{{ submenu_conduct }}"> Response guide </a></li>
-            {% cycle submenu_conduct %}
-            <li><a class="dropdown-item" href="{{ menu_conduct }}{{ submenu_conduct }}"> Privacy guide </a></li>
-            {% cycle submenu_conduct %}
-          </ul>
-        </li>
-        <li class="nav-item nav-item-lg col">
-          <a class="nav-link text-white nav-link-lg" href="{{ menu_jobs }}"> Jobs </a>
-        </li>
-        <li class="nav-item nav-item-lg dropdown col">
-          <a class="nav-link dropdown-toggle text-white nav-link-lg" data-bs-toggle="dropdown" role="button" aria-expanded="false"> About </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="{{ menu_about }}{{ submenu_about }}"> Tickets </a></li>
-            {% cycle submenu_about %}
-            <li><a class="dropdown-item" href="{{ menu_about }}{{ submenu_about }}"> Contact </a></li>
-            {% cycle submenu_about %}
-            <li><a class="dropdown-item" href="{{ menu_about }}{{ submenu_about }}"> Credits </a></li>
-            {% cycle submenu_about %}
-          </ul>
-        </li>
+        {% for menu, menu_dict in site_menu.items %}
+          {% if menu_dict.dropdown == 'false' %}
+            <li class="nav-item nav-item-lg col">
+              <a class="nav-link text-white nav-link-lg" href="{{ menu_jobs }}"> Jobs </a>
+            </li>
+          {% endif %}
+          {% if menu_dict.dropdown == 'true' %}
+            <li class="nav-item nav-item-lg dropdown col">
+              <a class="nav-link dropdown-toggle text-white nav-link-lg" data-bs-toggle="dropdown" role="button" aria-expanded="false"> {{ menu }} </a>
+              <ul class="dropdown-menu">
+                {% for submenu, submenu_href in menu_dict.submenu.items %}
+                  <li><a class="dropdown-item" href="{{ submenu_href }}"> {{ submenu }} </a></li>
+                {% endfor %}
+              </ul>
+            </li>
+          {% endif %}
+        {% endfor %}
       </ul>
+
     </div>
   </div>
 </div>
-{% endwith %}
