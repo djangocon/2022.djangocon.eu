@@ -1,6 +1,8 @@
 @use "base";
 
-@use "homepage";
+@import "homepage";
+
+@import "content";
 
 h1, h2, h3, h4, h5, h6 {
   &.title {
@@ -30,6 +32,7 @@ body {
   flex-shrink: 0;
 }
 
+//
 .text-blue {
   color: base.$TxtBlue;
 }
@@ -37,6 +40,23 @@ body {
 .text-hidden {
   color: transparent;
 }
+
+.title-lg {
+  font: normal normal bold 2.875rem/3.25rem Ubuntu;
+}
+
+.bg-grey {
+  background: base.$BgGrey;
+}
+
+.bg-light-grey {
+  background: base.$BgLightGrey;
+}
+
+@import "header";
+
+@import "footer";
+
 
 //// modules layout
 //.simple-container {
@@ -65,9 +85,6 @@ body {
 //  }
 //}
 
-@import "header";
-
-@import "footer";
 
 //// table
 //table, td, th {
