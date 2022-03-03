@@ -2,6 +2,6 @@
 
 {% with content=content|markdown %}
   <div class="{{ content.meta.layout.0|add:'-content' }} {{ content.meta.class.0 | safe }}">
-    {% include 'templates/'|add:content.meta.layout.0|add:'.html' %} {# simple.html #}
+    {% include 'modules/'|add:content.meta.layout.0|add:'.html' %} {# simple.html #}
   </div>
 {% endwith %}

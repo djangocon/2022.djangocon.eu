@@ -4,7 +4,7 @@
 
   {% for file in files %}
     <div class="container-fluid content-container {% cycle 'bg-grey' 'bg-light-grey' %}">
-      {% include 'templates/default.html' with content=file %}
+      {% include 'modules/default.html' with content=file %}
     </div>
   {% endfor %}
 
