@@ -2,8 +2,10 @@
 {% load static %}
 {% block content %}
 
-{% for file in files %}
-  {% include 'templates/default.html' with content=file %}
-{% endfor %}
+  {% for file in files %}
+    <div class="container-fluid content-container {% cycle 'bg-grey' 'bg-light-grey' %}">
+      {% include 'templates/default.html' with content=file %}
+    </div>
+  {% endfor %}
 
 {% endblock content %}

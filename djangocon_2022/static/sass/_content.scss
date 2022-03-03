@@ -1,0 +1,29 @@
+// content page
+
+@use "base";
+
+.content-container {
+  padding-top: 6.75rem;
+  padding-bottom: 4rem;
+
+  .parent-title {
+    opacity: 30%;
+    color: #003C80;
+    margin-bottom: 0;
+  }
+  .content{
+    font: 1.625rem/1.875rem Ubuntu;
+    color: base.$BgBlue;
+    text-decoration: none;
+
+    p {
+      margin-bottom: 1.875rem;
+    }
+    ul {
+      margin-bottom: 1.875rem;
+    }
+    a {
+      color: base.$BgBlue;
+    }
+  }
+}

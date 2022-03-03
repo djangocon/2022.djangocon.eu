@@ -1,0 +1,40 @@
+{#  <div class="container inner-content-width">#}
+{#    <h1 class="d-block text-center title">our <strong>sponsors</strong></h1>#}
+{#    <div class="row sponsors-row">#}
+{#      <p class="col-12 col-md-2 sponsors-col home-title text-start">Diamond</p>#}
+{#      <div class="col text-start sponsors-val">#}
+{#      </div>#}
+{#    </div>#}
+{#    <div class="row sponsors-row">#}
+{#      <p class="col-12 col-md-2 sponsors-col home-title text-start">Platinum</p>#}
+{#      <div class="col text-start sponsors-val">#}
+{#      </div>#}
+{#    </div>#}
+{#    <div class="row sponsors-row">#}
+{#      <p class="col-12 col-md-2 sponsors-col home-title text-start">Gold</p>#}
+{#      <div class="col text-start sponsors-val">#}
+{#      </div>#}
+{#    </div>#}
+{#    <div class="row sponsors-row">#}
+{#      <p class="col-12 col-md-2 sponsors-col home-title text-start">Silver</p>#}
+{#      <div class="col text-start sponsors-val">#}
+{#      </div>#}
+{#    </div>#}
+{#    <div class="row sponsors-row">#}
+{#      <p class="col-12 col-md-2 sponsors-col home-title text-start">Bronze</p>#}
+{#      <div class="col text-start sponsors-val">#}
+{#      </div>#}
+{#    </div>#}
+{#  </div>#}
+
+<div class="container inner-content-width" id="{{ content.meta.title.0 | safe }}">
+  <div class="row">
+    <div class="col-md-3 col-12 title">
+      <h2 class="parent-title title title-lg">{{ content.meta.parent.0 | safe }}</h2>
+      <h2 class="text-blue title title-lg">{{ content.meta.title.0 | safe }}</h2>
+    </div>
+    <div class="col-lg-9 col-12 content">
+      {{ content.html | safe }}
+    </div>
+  </div>
+</div>
