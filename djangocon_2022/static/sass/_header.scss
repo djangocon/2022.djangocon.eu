@@ -2,19 +2,22 @@
 
 @use "base";
 
-@media (min-width: 992px) {
-  .header-logo {
-    padding-left: 6.375rem;
+@media (min-width: 1200px) and (max-width: 1655.98px) {
+  .header-margin {
+    width: 0px;
+    padding-left: 2.5%;
   }
+}
+
+.header-logo-container {
+  width: auto;
 }
 
 .header {
   background: base.$BgBlue; //#003C80;
   padding-top: 3.125rem;
   padding-bottom: 2rem;
-  .nav {
-    padding-right: 2rem;
-  }
+
   .nav-sm {
     padding-right: 0rem;
     padding-left: 0rem;
@@ -26,7 +29,7 @@
   }
   .nav-link-lg {
     display: inline-block;
-    padding-left: 2.5rem;
+    padding-left: 2rem;
   }
   .btn-primary {
     background: transparent;

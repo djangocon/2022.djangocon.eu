@@ -3,17 +3,17 @@
 
 <div class="container-fluid header">
   <div class="container inner-content-width">
-    <div class="row">
+    <div class="row justify-content-between">
+      <div class="d-flex header-margin"></div>
 
-      <div class="d-block d-lg-none col"></div>
-      <div class="col align-self-center justify-content-end">
+      <div class="col-3 align-self-center justify-content-end header-logo-container">
         <a class="nav-link header-logo" href="{{ home }}">
           <img src="{% static 'images/logo/logo_white.png' %}" alt="Logo" height="66rem">
         </a>
       </div>
 
       <!-- small screens -->
-      <div class="d-block d-lg-none col align-self-center justify-content-end">
+      <div class="d-flex d-lg-none col align-self-center justify-content-end">
         <div class="nav justify-content-end">
           <button class="btn button-primary navbar-light bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNavigation" aria-expanded="false" aria-controls="collapseNavigation">
             <span class="navbar-toggler-icon"></span>
@@ -41,7 +41,7 @@
       </div>
 
       <!-- big screens -->
-      <ul class="nav nav-pills d-none d-lg-flex col-8 align-self-center row row-cols-3 row-cols-lg-6 justify-content-end" style="padding-right: 6.8125rem;"> <!-- inverted order due to flex:left -->
+      <ul class="nav nav-pills d-none d-lg-flex col align-self-center row row-cols-3 row-cols-lg-6 justify-content-end" > <!-- inverted order due to flex:left -->
         {% for menu, menu_dict in site_menu.items %}
           {% if menu_dict.dropdown == 'false' %}
             <li class="nav-item nav-item-lg col">
@@ -60,6 +60,9 @@
           {% endif %}
         {% endfor %}
       </ul>
+
+      <div class="d-flex header-margin"></div>
+
 
     </div>
   </div>
