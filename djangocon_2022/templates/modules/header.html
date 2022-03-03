@@ -45,7 +45,7 @@
         {% for menu, menu_dict in site_menu.items %}
           {% if menu_dict.dropdown == 'false' %}
             <li class="nav-item nav-item-lg col">
-              <a class="nav-link text-white nav-link-lg" href="{{ menu_jobs }}"> Jobs </a>
+              <a class="nav-link text-white nav-link-lg" href="{{ menu_dict.href }}"> {{ menu }} </a>
             </li>
           {% endif %}
           {% if menu_dict.dropdown == 'true' %}
