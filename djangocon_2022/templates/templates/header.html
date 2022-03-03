@@ -2,7 +2,7 @@
 
 {# TODO do better w/ context processors : https://docs.djangoproject.com/en/3.2/ref/templates/api/#writing-your-own-context-processors #}
 {% with  menu_talks='/talks/' menu_info='/information/' menu_sponsors='/sponsors/' menu_conduct='/conduct/' menu_jobs='/jobs/' menu_about='/about/' %}
-  {% cycle 'schedule/' 'cpf/' 'selectionprocess/' as submenu_talks  silent %}
+  {% cycle '#schedule' '#cpf' '#selection_process' as submenu_talks  silent %}
   {% cycle 'venue/' 'swagbag/' 'grants/' 'djangogirls/' 'sprints/' 'announcements/' as submenu_info  silent %}
   {% cycle 'sponsors/' 'contributors/' 'sponsorship/' as submenu_sponsors  silent %}
   {% cycle 'codeofconduct/' 'responseguide/' 'privacyguide/' as submenu_conduct  silent %}
