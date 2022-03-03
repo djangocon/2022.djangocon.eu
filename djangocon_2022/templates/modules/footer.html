@@ -4,7 +4,7 @@
   <div class="container inner-content-width">
     <div class="row justify-content-between">
       <div class="col-12 col-lg-4 footer-links">
-        <a class="nav-link" href="/home"><img src="{% static 'images/logo/logo_white.png' %}" alt="Logo" height="80rem;"></a>
+        <a class="nav-link" href="{{ home }}"><img src="{% static 'images/logo/logo_white.png' %}" alt="Logo" height="80rem;"></a>
       </div>
       <div class="col-12 col-lg-4 row row-cols-5 align-self-center justify-content-center footer-links">
         {% for smedia, smedia_href in social_media.items %}
