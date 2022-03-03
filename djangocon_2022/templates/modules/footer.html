@@ -7,21 +7,13 @@
         <a class="nav-link" href="/home"><img src="{% static 'images/logo/logo_white.png' %}" alt="Logo" height="80rem;"></a>
       </div>
       <div class="col-12 col-lg-4 row row-cols-5 align-self-center justify-content-center">
-          <div class="col-2 text-center footer-social-media-link">
-            <a class="nav-link" href="https://twitter.com/" target="_blank"><img src="{% static 'images/external_logo/logo_twitter.svg' %}" alt="Twitter" height="33rem;"></a>
-          </div>
-          <div class="col-2 text-center footer-social-media-link">
-            <a class="nav-link" href="https://slack.com/" target="_blank"><img src="{% static 'images/external_logo/logo_slack.svg' %}" alt="Slack" height="32rem;"></a>
-          </div>
-          <div class="col-2 text-center footer-social-media-link">
-            <a class="nav-link" href="https://youtube.com/" target="_blank"><img src="{% static 'images/external_logo/logo_youtube.svg' %}" alt="Youtube" height="35rem;"></a>
-          </div>
-          <div class="col-2 text-center footer-social-media-link">
-            <a class="nav-link" href="https://linked.in/" target="_blank"><img src="{% static 'images/external_logo/logo_linkedin.svg' %}" alt="Linkedin" height="35rem;"></a>
-          </div>
-          <div class="col-2 text-center footer-social-media-link">
-            <a class="nav-link" href="https://github.com/djangocon/2022.djangocon.eu/" target="_blank"><img src="{% static 'images/external_logo/logo_github.svg' %}" alt="Github" height="35rem;"></a>
-          </div>
+        {% for smedia, smedia_href in social_media.items %}
+          {% with smedia_logo='images/external_logo/logo_'|add:smedia|add:'.svg' %}
+            <div class="col-2 text-center footer-social-media-link">
+              <a class="nav-link" href="{{ smedia_href }}" target="_blank"><img src="{% static smedia_logo %}" alt="{{ smedia }}" height="33rem;"></a>
+            </div>
+          {% endwith %}
+        {% endfor %}
       </div>
       <div class="col-12 col-lg-4 row align-self-end justify-content-end">
           <div class="col-9 row">
@@ -36,46 +28,20 @@
     <hr class="w-100 mt-4" style="margin: 0px; padding: 0px; border-top: 1px solid rgba(255, 255, 255, .5);"/>
 
     <div class="row" style="padding-top: 3.1875rem;">
-      <div class="col-lg-2 col-sm-4 col-12">
-        <div class="footer-title"><strong>Talks</strong><br/></div>
-        <a class="text-white" href="/talks/schedule/">Schedule</a><br/>
-        <a class="text-white" href="/talks/cfp/">Cfp</a><br/>
-        <a class="text-white" href="/talks/selection_process/">Selection process</a>
-      </div>
-      <div class="col-lg-2 col-sm-4 col-12">
-        <div class="footer-title"><strong>Information</strong><br/></div>
-        <a class="text-white" href="/information/venue/">Venue</a><br/>
-        <a class="text-white" href="/information/swagbag/">Swag bag</a><br/>
-        <a class="text-white" href="/information/grants/">Grants</a><br/>
-        <a class="text-white" href="/information/djangogirls/">Django girls</a><br/>
-        <a class="text-white" href="/information/sprints/">Sprints</a><br/>
-        <a class="text-white" href="/information/announcements/">Announcements</a>
-      </div>
-      <div class="col-lg-2 col-sm-4 col-12">
-        <div class="footer-title"><strong>Sponsors</strong><br/></div>
-        <a class="text-white" href="/sponsors/sponsors/">Sponsors</a><br/>
-        <a class="text-white" href="/sponsors/contributors/">Contributors</a><br/>
-        <a class="text-white" href="/sponsors/sponsorships/">Sponsorships</a><br/>
-      </div>
-      <div class="col-lg-2 col-sm-4 col-12">
-        <div class="footer-title"><strong>Conduct</strong><br/></div>
-        <a class="text-white" href="/conduct/code_of_conduct/">Code of conduct</a><br/>
-        <a class="text-white" href="/conduct/response_guide/">Response guide</a><br/>
-        <a class="text-white" href="/conduct/privacy_guide/">Privacy guide</a><br/>
-      </div>
-      <div class="col-lg-2 col-sm-4 col-12">
-        <div class="footer-title"><a class="text-white" href="/jobs/"><strong>Jobs</strong></a><br/></div>
-        {% comment %}
-        <a class="text-white" href="/path/to/joba/">JobA</a><br/>
-        <a class="text-white" href="/path/to/jobb/">JobB</a>
-        {% endcomment %}
-      </div>
-      <div class="col-lg-2 col-sm-4 col-12">
-        <div class="footer-title"><strong>About</strong><br/></div>
-        <a class="text-white" href="/about/tickets/">Tickets</a><br/>
-        <a class="text-white" href="/about/contact/">Contact</a><br/>
-        <a class="text-white" href="/about/credits/">Credits</a>
-      </div>
+      {% for menu, menu_dict in site_menu.items %}
+        <div class="col-lg-2 col-sm-4 col-12">
+          {% if menu_dict.dropdown == 'false' %}
+            <div class="footer-title"><a class="text-white" href="{{ menu_dict.href }}"><strong>Jobs</strong></a><br/></div>
+          {% endif %}
+          {% if menu_dict.dropdown == 'true' %}
+            <div class="footer-title"><strong> {{ menu }} </strong><br/>
+            </div>
+              {% for submenu, submenu_href in menu_dict.submenu.items %}
+                <a class="text-white" href="{{ submenu_href }}">{{ submenu }}</a><br/>
+              {% endfor %}
+          {% endif %}
+        </div>
+      {% endfor %}
     </div>
     <div class="row justify-content-around" style="padding-top: 2.9375rem; padding-bottom: 1.4375rem;">
       <div class="row row-cols-1 justify-content-center align-self-center">
@@ -84,13 +50,13 @@
         </div>
       </div>
       <div class="row row-cols-3 justify-content-center align-self-center">
-        <div class="col-2">
+        <div class="col-12 col-md-2">
           <a class="nav-link" href="https://2022.djangocon.af/"><p class="text-center footer-djangocon-link">DjangoCon Africa</p></a>
         </div>
-        <div class="col-2">
+        <div class="col-12 col-md-2">
           <a class="nav-link" href="https://2022.djangocon.au/"><p class="text-center footer-djangocon-link">DjangoCon Australia</p></a>
         </div>
-        <div class="col-2">
+        <div class="col-12 col-md-2">
           <a class="nav-link" href="https://2022.djangocon.us/"><p class="text-center footer-djangocon-link">DjangoCon US</p></a>
         </div>
       </div>
