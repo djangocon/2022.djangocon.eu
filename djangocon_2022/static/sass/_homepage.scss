@@ -2,7 +2,7 @@
 
 @use "base";
 
-@media (max-width: 1921px) {
+@media (max-width: 1999.98px) {
   .home-header {
     background: base.$BgBlue url("/static/images/background/homepage_xl.png");
   }
@@ -12,11 +12,16 @@
   font: normal normal normal 1.625rem/1.875rem Ubuntu;
 }
 
+%HOME-TITLE {
+  font: normal normal normal 2rem/2.25rem Ubuntu;
+}
+
 .home-text {
   @extend %HOME-TEXT;
 }
+
 .home-title {
-  font: normal normal normal 2rem/2.25rem Ubuntu;
+  @extend %HOME-TITLE;
 }
 
 .home-header {
@@ -74,6 +79,30 @@
   }
 }
 
+
+@media (max-width: 767.98px) {
+  .important-dates {
+    blockquote {
+      display: block !important;
+      width: 100%;
+      padding-right: 2%;
+
+      h4 {
+        display: inherit;
+        width: inherit;
+        padding-bottom: 1rem;
+      }
+
+      blockquote {
+        display: inherit;
+        width: inherit;
+        padding: .875rem 1rem;
+        width: 100%;
+      }
+    }
+
+  }
+}
 .important-dates {
   background-color: base.$BgLightBlue;
   padding-top: 4.375rem;
@@ -82,16 +111,41 @@
   .title{
     padding-bottom: 4.875rem;
   }
-  .date-row {
-    padding-left: 12.75rem;
-  }
-  .date-col {
-    font-weight: bold;
-    padding-top: 1.125rem;
-    border-top: 0.125rem solid white;
-  }
-  .date-val {
-    margin: 1.625rem .75rem;
+  .dates {
+    text-align: start;
+
+    h4 {
+      @extend %HOME-TITLE;
+      font-weight: bold;
+      padding-top: 1.125rem;
+      border-top: 0.125rem solid white;
+      display: flex;
+      float: left;
+      flex-wrap: wrap;
+      margin: .875rem;
+      min-width: 12rem;
+    }
+    blockquote {
+      display: flex;
+      justify-self: center;
+      width: 100%;
+
+      blockquote {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1 0 0%;
+        padding: .875rem 0rem;
+        margin: .875rem;
+      }
+    }
+    p {
+      @extend %HOME-TEXT;
+      padding-top: .875rem;
+      text-align: start;
+      display: block;
+      width: 100%;
+      margin-bottom: 0px;
+    }
   }
 }
 
