@@ -8,7 +8,7 @@
       <div class="row justify-content-end home-title">
         <div class="col" style="column-width: fill-available"></div>
         <div class="col text-end">
-          <h3 class="text-center" style="width: inherit">We’re back — September 21st-25th</h3>
+          <h3 class="text-center title" style="width: inherit">We’re back — September 21st-25th</h3>
           <img src="{% static 'images/logo/logo_blue.png' %}" alt="Logo">
         </div>
       </div>
@@ -16,23 +16,19 @@
   </div>
 
   {# HOME-SUBHEADER #}
-  <div class="container-fluid home-subheader">
-    <div class="container inner-content-width text-center">
-        <h4 class="text-white home-text">Join us on five days of talks, sprints, and tutorials!</h4>
-        <button class="btn btn-tickets" href="#"><h4>GRAB YOUR TICKET</h4></button>
-    </div>
-    <div class="container inner-content-width home-about">
-      <div class="row justify-content-between">
-        <div class="col"></div>
-        <div class="col-12 col-md-9 text-white">
-          <h4 class="d-block title home-text">DjangoCon Europe is run by the community for the community.</h4>
-          <p class="d-block home-text">This is the 14th edition of the Conference and it is organized by a team made up of Django practitioners from all levels. We welcome people from all over the world.</h4>
-          <p class="d-block home-text">Our conference seeks to educate and develop new skills, best practices and ideas for the benefit of attendees, developers, speakers and everyone in our global Django Community, not least those watching the talks online.</h3>
-        </div>
-        <div class="col"></div>
-      </div>
-    </div>
-  </div>
+    {% include 'modules/default.html' with content=files.0 %}
+{#    <div class="container inner-content-width home-about">#}
+{#      <div class="row justify-content-between">#}
+{#        <div class="col"></div>#}
+{#        <div class="col-12 col-md-9 text-white">#}
+{#          <h4 class="title home-text">DjangoCon Europe is run by the community for the community.</h4>#}
+{#          <p class="home-text">This is the 14th edition of the Conference and it is organized by a team made up of Django practitioners from all levels. We welcome people from all over the world.</p>#}
+{##}
+{#          <p class=" home-text">Our conference seeks to educate and develop new skills, best practices and ideas for the benefit of attendees, developers, speakers and everyone in our global Django Community, not least those watching the talks online.</p>#}
+{#        </div>#}
+{#        <div class="col"></div>#}
+{#      </div>#}
+{#    </div>#}
 
   {# IMPORTANT DATES #}
   <div class="container-fluid important-dates">

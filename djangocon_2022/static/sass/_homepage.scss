@@ -8,8 +8,12 @@
   }
 }
 
-.home-text {
+%HOME-TEXT {
   font: normal normal normal 1.625rem/1.875rem Ubuntu;
+}
+
+.home-text {
+  @extend %HOME-TEXT;
 }
 .home-title {
   font: normal normal normal 2rem/2.25rem Ubuntu;
@@ -37,12 +41,17 @@
   }
 }
 
+
+
 .home-subheader {
   background: base.$BgBlue;
   border: none;
   padding-top: 6rem;
+  color: white;
+  padding-bottom: 8.75rem;
 
   .btn-tickets {
+    height: auto;
     background: white;
     color: base.$BgBlue;
     border-radius: 23px;
@@ -50,13 +59,16 @@
     max-height: 45px;
     padding: .5625rem 2.875rem;
     margin-top: 1.125rem;
+    margin-bottom: 7.8125rem;
+    @extend %HOME-TEXT;
   }
 
+  h4 {
+    @extend %HOME-TEXT;
+  }
   .home-about {
-    padding-top: 7.8125rem;
-    padding-bottom: 8.75rem;
-
     p {
+      @extend %HOME-TEXT;
       margin-top: 3.75rem;
     }
   }
