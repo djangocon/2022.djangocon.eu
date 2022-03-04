@@ -2,28 +2,27 @@
 
 @use "base";
 
-@media (min-width: 768px) and (max-width: 1999.98px) {
-  .header {
-    div .header-margin {
-      width: 0px;
-      padding: 0px;
-    }
+@media (min-width: 425px) and (max-width: 992.125px) {
+  .header-margin {
+    width: 0px;
+    padding-left: 10%;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1655.98px) {
+  .header-margin {
+    width: 0px;
+    padding-left: 2.5%;
   }
 }
 
 .header-logo-container {
   width: auto;
+  padding-left: 0rem;
+  padding-right: 0rem;
 }
-
-@media (max-width: 768px) {
-  .header-logo-container {
-    padding-left: 0rem;
-    padding-right: 0rem;
-  }
-  .header-logo {
-    padding-left: 0rem;
-    padding-right: 0rem;
-  }
+.header-logo {
+  padding-left: 0rem;
+  padding-right: 0rem;
 }
 
 .header {
@@ -31,10 +30,6 @@
   padding-top: 3.125rem;
   padding-bottom: 2rem;
 
-  .header-margin {
-    width: 0px;
-    padding-left: 2.5%;
-  }
   .nav-sm {
     padding-right: 0rem;
     padding-left: 0rem;
