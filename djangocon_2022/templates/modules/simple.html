@@ -1,32 +1,3 @@
-{#  <div class="container inner-content-width">#}
-{#    <h1 class="d-block text-center title">our <strong>sponsors</strong></h1>#}
-{#    <div class="row sponsors-row">#}
-{#      <p class="col-12 col-md-2 sponsors-col home-title text-start">Diamond</p>#}
-{#      <div class="col text-start sponsors-val">#}
-{#      </div>#}
-{#    </div>#}
-{#    <div class="row sponsors-row">#}
-{#      <p class="col-12 col-md-2 sponsors-col home-title text-start">Platinum</p>#}
-{#      <div class="col text-start sponsors-val">#}
-{#      </div>#}
-{#    </div>#}
-{#    <div class="row sponsors-row">#}
-{#      <p class="col-12 col-md-2 sponsors-col home-title text-start">Gold</p>#}
-{#      <div class="col text-start sponsors-val">#}
-{#      </div>#}
-{#    </div>#}
-{#    <div class="row sponsors-row">#}
-{#      <p class="col-12 col-md-2 sponsors-col home-title text-start">Silver</p>#}
-{#      <div class="col text-start sponsors-val">#}
-{#      </div>#}
-{#    </div>#}
-{#    <div class="row sponsors-row">#}
-{#      <p class="col-12 col-md-2 sponsors-col home-title text-start">Bronze</p>#}
-{#      <div class="col text-start sponsors-val">#}
-{#      </div>#}
-{#    </div>#}
-{#  </div>#}
-
 {#<div class="container inner-content-width" id="{{ content.meta.title.0 | safe }}">#}
 {#  <div class="row">#}
 {#    <div class="col-md-3 col-12 title">#}
@@ -42,9 +13,10 @@
 
 <div class="container inner-content-width">
   <div class="row {{ content.meta.title.0 | safe |add:'-row' }}">
-    <div class="col-lg-3 col-12 content-title title pb-4">
+    <div class="col-lg-3 col-12 content-title pb-4">
       <a id="{{ content.meta.title.0 | escape }}">
-        <h1>{{ content.meta.title.0 | safe }}</h1>
+        <h1 class="parent-title title title-lg">{{ content.meta.parent.0 | safe }}</h1>
+        <h1 class="title title-lg">{{ content.meta.title.0 | safe }}</h1>
       </a>
     </div>
     <div class="col margin-right"></div>

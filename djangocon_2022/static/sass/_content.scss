@@ -6,12 +6,18 @@
   padding-top: 6.75rem;
   padding-bottom: 4rem;
 
-  .parent-title {
-    opacity: 30%;
-    color: #003C80;
-    margin-bottom: 0;
+  .content-title {
+    h1 {
+      color: base.$TxtBlue;
+
+      &.parent-title {
+        opacity: 30%;
+        color: #003C80;
+        margin-bottom: 0;
+      }
+    }
   }
-  .content{
+  .simple-content {
     font: 1.625rem/1.875rem Ubuntu;
     color: base.$BgBlue;
     text-decoration: none;

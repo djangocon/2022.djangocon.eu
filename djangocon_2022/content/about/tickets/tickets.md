@@ -1,3 +1,4 @@
+parent: about
 title: tickets
 layout: simple
 
