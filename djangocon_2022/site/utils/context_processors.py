@@ -14,28 +14,28 @@ def links(request):
             'Information': {
                 'dropdown': 'true',
                 'submenu': {
-                    'Venue': '/talks/venue/',
-                    'Swag bag': '/talks/swag_bag/',
-                    'Grants': '/talks/grants/',
-                    'Django girls': '/talks/django_girls/',
-                    'Sprints': '/talks/sprints/',
-                    'Announcements': '/talks/announcements/',
+                    'Venue': '/information/venue/',
+                    'Swag bag': '/information/swag_bag/',
+                    'Grants': '/information/grants/',
+                    'Django girls': '/information/django_girls/',
+                    'Sprints': '/information/sprints/',
+                    'Announcements': '/information/announcements/',
                 },
             },
             'Sponsors': {
                 'dropdown': 'true',
                 'submenu': {
-                    'Sponsors': '/talks/sponsors/',
-                    'Contributors': '/talks/contributors/',
-                    'Sponsorship': '/talks/sponsorship/',
+                    'Sponsors': '/sponsors/sponsors/',
+                    'Contributors': '/sponsors/contributors/',
+                    'Sponsorship': '/sponsors/sponsorship/',
                 },
             },
             'Conduct': {
                 'dropdown': 'true',
                 'submenu': {
-                    'Code of conduct': '/talks/code_of_conduct/',
-                    'Response guide': '/talks/response_guide/',
-                    'Privacy guide': '/talks/privacy_guide/',
+                    'Code of conduct': '/conduct/code_of_conduct/',
+                    'Response guide': '/conduct/response_guide/',
+                    'Privacy guide': '/conduct/privacy_guide/',
                 },
             },
             'Jobs': {
