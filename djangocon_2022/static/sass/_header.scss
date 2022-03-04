@@ -2,10 +2,12 @@
 
 @use "base";
 
-@media (min-width: 1200px) and (max-width: 1655.98px) {
-  .header-margin {
-    width: 0px;
-    padding-left: 2.5%;
+@media (min-width: 768px) and (max-width: 1999.98px) {
+  .header {
+    div .header-margin {
+      width: 0px;
+      padding: 0px;
+    }
   }
 }
 
@@ -13,11 +15,26 @@
   width: auto;
 }
 
+@media (max-width: 768px) {
+  .header-logo-container {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .header-logo {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+}
+
 .header {
   background: base.$BgBlue; //#003C80;
   padding-top: 3.125rem;
   padding-bottom: 2rem;
 
+  .header-margin {
+    width: 0px;
+    padding-left: 2.5%;
+  }
   .nav-sm {
     padding-right: 0rem;
     padding-left: 0rem;
