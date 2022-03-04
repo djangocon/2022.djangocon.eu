@@ -155,6 +155,11 @@
   padding-top: 6.875rem;
   padding-bottom: 2.875rem;
 
+  .content-title {
+    display: none;
+    width: 0%;
+  }
+
   .title {
     padding-bottom: 4.25rem;
     color: base.$TxtBlue;
@@ -163,13 +168,48 @@
       color: base.$BgDarkBlue;
     }
   }
-  .sponsors-row {
-    padding-left: 12.75rem;
-    min-height: 21.875rem;
+
+  .margin-right {
+    display: block;
   }
-  .sponsors-col {
-    padding-top: .75rem;
-    border-top: 0.125rem solid base.$BgDarkBlue;
+  .margin-left {
+    display: block;
+  }
+
+
+  .sponsors-content {
+    h5 {
+      @extend %HOME-TITLE;
+      text-align: start;
+      border-top: 0.125rem solid base.$BgDarkBlue;
+      max-width: 12rem;
+      margin-top: 4.25rem;
+      padding-bottom: 4.25rem;
+      padding-top: .75rem;
+    }
+    p {
+      padding-top: .75rem;
+    }
+    .sponsor {
+      height: 50px;
+      margin: 15px 30px 15px 0;
+    }
+
+    .sponsor.big {
+      height: 70px;
+    }
+
+    .sponsor.lbig {
+      height: 60px;
+    }
+
+    .sponsor.small {
+      height: 40px;
+    }
+
+    .sponsor.smaller {
+      height: 30px;
+    }
   }
 }
 
