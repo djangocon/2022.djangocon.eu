@@ -1,4 +1,3 @@
-parent: about
 title: freebies
 layout: simple
 class: bg-grey

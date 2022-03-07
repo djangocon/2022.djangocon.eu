@@ -1,4 +1,3 @@
-parent: about
 title: assets
 layout: simple
 
