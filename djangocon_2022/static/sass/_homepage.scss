@@ -2,12 +2,6 @@
 
 @use "base";
 
-@media (max-width: 1999.98px) {
-  .home-header {
-    background: base.$BgBlue url("/static/images/background/homepage_xl.png");
-  }
-}
-
 %HOME-TEXT {
   font: normal normal normal 1.125rem/1.375rem Ubuntu;
 }
@@ -24,24 +18,38 @@
   @extend %HOME-TITLE;
 }
 
+@media (max-width: 991.98px) {
+  .home-header {
+    background-position: 0 !important;
+
+    .home-title {
+      h3 {
+        margin-top: 2rem;
+        text-align: end;
+      }
+    }
+  }
+}
+
 .home-header {
-  max-height: 1081px;
-  height: 100vh;
-  background-position-x: center;
-  background-position-y: -10rem;
-  background-size: revert;
-  background: base.$BgBlue url("/static/images/background/homepage.png") repeat-x;
+  height:  80vh;
+  min-height: 20rem;
+  background-position: center bottom;
+  background-size: auto 100%;
+  background-color: base.$BgBlue;
+  background-image: url("/static/images/background/homepage.png");
+  background-repeat: repeat-x;
 
   h3 {
     color: #FFA300;
   }
   .home-title {
-    padding-top: 12.5rem;
+    padding: 5rem 2vw;
   }
   img {
     max-width: 750px;
     width: 100%;
-    min-width: 250px;
+    min-width: 520px;
     padding-top: 1.875rem;
   }
 }
