@@ -14,7 +14,13 @@
 }
 .header-logo {
   padding-left: 0rem;
-  padding-right: 2rem;
+  padding-right: 0rem;
+}
+@media (max-width: 991.98px) {
+  .header-logo {
+    padding-left: 0rem;
+    padding-right: 2rem;
+  }
 }
 
 .header {
