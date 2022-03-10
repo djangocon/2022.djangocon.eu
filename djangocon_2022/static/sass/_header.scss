@@ -23,6 +23,15 @@
   }
 }
 
+@media (max-width: 359.98px) {
+  .header-margin {
+    display: none !important;
+  }
+  .header-logo {
+    padding-right: 0px;
+  }
+}
+
 .header {
   background: base.$BgBlue; //#003C80;
   padding-top: 3.125rem;
