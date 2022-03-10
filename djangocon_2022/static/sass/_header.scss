@@ -2,16 +2,16 @@
 
 @use "base";
 
-@media (min-width: 425px) and (max-width: 992.125px) {
+@media (min-width: 425px) and (max-width: 991.98px) {
   .header-margin {
     width: 0px;
     padding-left: 10%;
   }
 }
-@media (min-width: 1200px) and (max-width: 1655.98px) {
+@media  (min-width: 992px) {
   .header-margin {
     width: 0px;
-    padding-left: 2.5%;
+    padding-left: 1vw;
   }
 }
 
