@@ -48,7 +48,9 @@
     background: base.$BgDarkBlue; //#043062;
 
     p {
-      width: auto;
+      @media (min-width: 768px) {
+        width: auto;
+      }
       margin: .125rem;
       padding: 0rem;
     }
