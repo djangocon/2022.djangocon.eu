@@ -4,7 +4,7 @@
 <div class="container-fluid header">
   <div class="container inner-content-width">
     <div class="row justify-content-between">
-      <div class="d-flex header-margin"></div>
+      <div class="col d-flex d-lg-none header-margin"></div>
 
       <div class="col-3 align-self-center justify-content-end header-logo-container">
         <a class="nav-link header-logo" href="{{ home }}">
@@ -13,7 +13,7 @@
       </div>
 
       <!-- small screens -->
-      <div class="d-flex d-lg-none col align-self-center justify-content-end">
+      <div class="d-flex d-lg-none col align-self-center justify-content-center">
         <div class="nav justify-content-end">
           <button class="btn button-primary navbar-light bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNavigation" aria-expanded="false" aria-controls="collapseNavigation">
             <span class="navbar-toggler-icon"></span>
@@ -61,7 +61,7 @@
         {% endfor %}
       </ul>
 
-      <div class="d-flex header-margin"></div>
+      <div class="d-none d-lg-flex header-margin"></div>
 
 
     </div>

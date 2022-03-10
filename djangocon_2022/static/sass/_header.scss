@@ -2,17 +2,9 @@
 
 @use "base";
 
-@media (min-width: 425px) and (max-width: 991.98px) {
-  .header-margin {
-    width: 0px;
-    padding-left: 10%;
-  }
-}
-@media  (min-width: 992px) {
-  .header-margin {
-    width: 0px;
-    padding-left: 1vw;
-  }
+.header-margin {
+  width: 0px;
+  padding-left: 1vw;
 }
 
 .header-logo-container {
@@ -22,7 +14,7 @@
 }
 .header-logo {
   padding-left: 0rem;
-  padding-right: 0rem;
+  padding-right: 2rem;
 }
 
 .header {
