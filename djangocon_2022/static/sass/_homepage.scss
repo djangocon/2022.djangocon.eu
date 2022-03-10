@@ -100,13 +100,17 @@
           display: block;
           width: auto;
           flex: 1 0 0%;
-          padding-bottom: 1rem;
+          padding-bottom: 0rem;
         }
 
         blockquote {
           display: block !important;
           width: auto;
           padding: .875rem 1rem;
+
+          span {
+            display: none;
+          }
         }
       }
     }
@@ -145,16 +149,16 @@
         margin: 0rem .875rem;
         p {
           @extend %HOME-TEXT;
-          padding-top: .875rem;
+          margin-top: .875rem;
           text-align: start;
           display: block;
           width: 100%;
           margin-bottom: 0px;
         }
       }
-      p {
-        padding: 0rem;
-      }
+    }
+    p {
+      display: none;
     }
   }
 }
