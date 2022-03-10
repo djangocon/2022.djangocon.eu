@@ -4,9 +4,16 @@
 
 @media (max-width: 575.98px) {
   .custom-footer {
+
+    .footer-social-media-link {
+      .nav-link {
+        width: available;
+        padding: .5rem 2.5%;
+      }
+    }
     .footer-site-map {
-      margin-left:  25vw;
-      margin-right: 25vw;
+      margin-left:  1rem;
+      margin-right: 1rem;
 
       .footer-title {
         padding-top: 2rem;
