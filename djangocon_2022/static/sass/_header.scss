@@ -30,6 +30,12 @@
   padding-top: 3.125rem;
   padding-bottom: 2rem;
 
+  a:hover{
+    text-decoration: none;
+  }
+  .dropdown-item:hover {
+    background-color: base.$BgBlue;
+  }
   .nav-sm {
     padding-right: 0rem;
     padding-left: 0rem;
