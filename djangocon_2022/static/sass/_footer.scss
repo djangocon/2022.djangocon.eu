@@ -5,7 +5,12 @@
 @media (max-width: 575.98px) {
   .custom-footer {
     .footer-site-map {
-      text-align: center;
+      margin-left:  25vw;
+      margin-right: 25vw;
+
+      .footer-title {
+        padding-top: 2rem;
+      }
     }
   }
 }
@@ -39,10 +44,13 @@
 
   .footer-end {
     padding-top: 1rem;
+    padding-bottom: 1rem;
     background: base.$BgDarkBlue; //#043062;
 
     p {
       width: auto;
+      margin: .125rem;
+      padding: 0rem;
     }
     a {
       color: white;
