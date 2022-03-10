@@ -39,8 +39,12 @@
 
   .footer-end {
     padding-top: 1rem;
-    padding-bottom: .5rem;
     background: base.$BgDarkBlue; //#043062;
+
+    a {
+      color: white;
+      font-weight: bold;
+    }
   }
   .footer-links {
     padding-top: 3.875rem;
