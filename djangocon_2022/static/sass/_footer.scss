@@ -28,6 +28,10 @@
       align-self: center;
       align-content: center;
       justify-content: center !important;
+
+      ul {
+        margin-left: 2rem;
+      }
     }
   }
 }
@@ -43,10 +47,6 @@
 
   .footer-social-media-link{
     padding: .25rem;
-  }
-
-  .footer-djangocon-link {
-    color: base.$TxtLightBlue; //#8EBEF3;
   }
 
   .footer-end {
