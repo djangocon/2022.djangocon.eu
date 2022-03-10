@@ -2,6 +2,24 @@
 
 @use "base";
 
+@media (max-width: 575.98px) {
+  .custom-footer {
+    .footer-site-map {
+      text-align: center;
+    }
+  }
+}
+@media (max-width: 991.98px) {
+  .custom-footer {
+    .footer-links {
+      text-align: center;
+      align-self: center;
+      align-content: center;
+      justify-content: center !important;
+    }
+  }
+}
+
 .custom-footer{
   background-color: base.$BgBlue; //#003C80;
   color: white;
@@ -20,11 +38,20 @@
   }
 
   .footer-end {
-    height: 3.875rem;
+    padding-top: 1rem;
+    padding-bottom: .5rem;
     background: base.$BgDarkBlue; //#043062;
   }
   .footer-links {
     padding-top: 3.875rem;
     padding-bottom: 1.1875rem;
+  }
+  .footer-social-media-link {
+    display: contents;
+    width: auto;
+  }
+  .footer-site-map {
+    padding-top: 3.1875rem;
+    padding-bottom: 3rem;
   }
 }
