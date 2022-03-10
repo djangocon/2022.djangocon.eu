@@ -59,9 +59,9 @@
 .home-subheader {
   background: base.$BgBlue;
   border: none;
-  padding-top: 6rem;
+  padding-top: 3rem;
   color: white;
-  padding-bottom: 8.75rem;
+  padding-bottom: 4rem;
 
   .btn-tickets {
     height: auto;
@@ -69,9 +69,9 @@
     color: base.$BgBlue;
     border-radius: 23px;
     max-width: 331px;
-    padding: .5625rem 2.875rem;
+    padding: .625rem 2.875rem;
     margin-top: 1.125rem;
-    margin-bottom: 7.8125rem;
+    margin-bottom: 4rem;
     @extend %HOME-TEXT;
   }
 
@@ -81,7 +81,7 @@
   .home-about {
     p {
       @extend %HOME-TEXT;
-      margin-top: 3.75rem;
+      margin-top: 3rem;
     }
   }
 }
@@ -89,34 +89,36 @@
 
 @media (max-width: 767.98px) {
   .important-dates {
-    blockquote {
-      display: block !important;
-      width: 100%;
-      padding-right: 2%;
-
-      h4 {
-        display: inherit;
-        width: inherit;
-        padding-bottom: 1rem;
-      }
-
+    .dates {
       blockquote {
-        display: inherit;
-        width: inherit;
-        padding: .875rem 1rem;
+        display: block !important;
         width: 100%;
+        max-width: 100%;
+        padding-right: 2%;
+
+        h4 {
+          display: block;
+          width: auto;
+          flex: 1 0 0%;
+          padding-bottom: 1rem;
+        }
+
+        blockquote {
+          display: block !important;
+          width: auto;
+          padding: .875rem 1rem;
+        }
       }
     }
-
   }
 }
 .important-dates {
   background-color: base.$BgLightBlue;
-  padding-top: 4.375rem;
-  padding-bottom: 5.875rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 
   .title{
-    padding-bottom: 4.875rem;
+    padding-bottom: 2rem;
   }
   .dates {
     text-align: start;
@@ -126,9 +128,7 @@
       font-weight: bold;
       padding-top: 1.125rem;
       border-top: 0.125rem solid white;
-      display: flex;
-      float: left;
-      flex-wrap: wrap;
+      text-align: start;
       margin: .875rem;
       min-width: 12rem;
     }
@@ -142,16 +142,19 @@
         flex-wrap: wrap;
         flex: 1 0 0%;
         padding: .875rem 0rem;
-        margin: .875rem;
+        margin: 0rem .875rem;
+        p {
+          @extend %HOME-TEXT;
+          padding-top: .875rem;
+          text-align: start;
+          display: block;
+          width: 100%;
+          margin-bottom: 0px;
+        }
       }
-    }
-    p {
-      @extend %HOME-TEXT;
-      padding-top: .875rem;
-      text-align: start;
-      display: block;
-      width: 100%;
-      margin-bottom: 0px;
+      p {
+        padding: 0rem;
+      }
     }
   }
 }
@@ -159,8 +162,8 @@
 .home-sponsors {
   background: base.$BgGrey;
   color: base.$BgDarkBlue;
-  padding-top: 6.875rem;
-  padding-bottom: 2.875rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 
   .content-title {
     display: none;
