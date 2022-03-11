@@ -69,6 +69,11 @@
   .footer-links {
     padding-top: 3.875rem;
     padding-bottom: 1.1875rem;
+
+    li .nav-link {
+      padding-top: .0652rem;
+      padding-bottom: .0652rem;
+    }
   }
   .footer-social-media-link {
     display: contents;
