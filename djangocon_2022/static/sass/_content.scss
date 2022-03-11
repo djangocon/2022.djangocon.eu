@@ -31,5 +31,9 @@
     a {
       color: base.$BgBlue;
     }
+    .btn {
+      color: base.$BtnGolden;
+      border: .0625rem base.$BtnGolden solid;
+    }
   }
 }
