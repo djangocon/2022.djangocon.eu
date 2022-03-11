@@ -52,10 +52,10 @@ def links(request):
             },
         },
         'social_media': {
-            'twitter': 'https://twitter.com/',
+            'twitter': 'https://twitter.com/DjangoConEurope/',
             'slack': 'https://slack.com/',
-            'youtube': 'https://youtube.com/',
-            'linkedin': 'https://linked.in/',
+            'youtube': 'https://youtube.com//user/djangoconeurope/',
+            'linkedin': 'https://linkedin.com/company/djangocon-europe/',
             'github': 'https://github.com/djangocon/2022.djangocon.eu/',
         }
     }
