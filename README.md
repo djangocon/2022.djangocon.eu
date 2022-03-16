@@ -1,4 +1,4 @@
-<img src="images/logo_blue.png" height=100 />
+<img src="djangocon_2022/static/images/logo/logo_blue.png" height=100 />
 
 🌍 [2022.djangocon.eu](https://2022.djangocon.eu/) \
 📍 Hybrid from Porto, Portugal 🇵🇹 \
@@ -7,6 +7,35 @@
 [![built-with](https://img.shields.io/badge/built%20with-Cookiecutter%20Django-blue.svg)](https://github.com/pydanny/cookiecutter-django/)
 [![code-style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)]()
+
+## Running
+
+First, make sure to have all requirements installed using:
+```bash
+> pip install -r requirements/[ local | production ].txt
+```
+
+And create a PostgreSQL database 'djangocon_2022'
+* On Debian-based 10+: 
+```bash
+sudo su - postgres -c "createdb djangocon_2022"
+```
+
+Then start the server through gulp:
+```bash
+> gulp
+...
+[Browsersync] Proxying: http://localhost:8000
+[Browsersync] Access URLs:
+ ---------------------------------------
+       Local: http://localhost:3000
+    External: http://10.101.176.121:3000
+ ---------------------------------------
+          UI: http://localhost:3001
+ UI External: http://localhost:3001
+ ---------------------------------------
+[Browsersync] Watching files...
+```
 
 ## Code of Conduct
 

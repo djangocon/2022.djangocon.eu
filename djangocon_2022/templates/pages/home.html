@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+  {# HOME-HEADER #}
+  <div class="container-fluid home-header">
+    <div class="container inner-content-width">
+      <div class="row justify-content-end home-title">
+        <div class="col d-none d-lg-block" style="column-width: fill-available"></div>
+        <div class="col text-end">
+          <h3 class="text-center title" style="width: inherit">We’re back — September 21st-25th</h3>
+          <img class="d-lg-block d-none" src="{% static 'images/logo/logo_blue.png' %}" alt="Logo">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {# HOME-ABOUT #}
+  {% include 'modules/default.html' with content=files.0 %}
+
+  {# IMPORTANT DATES #}
+  {% include 'modules/default.html' with content=files.1 %}
+
+  {# HOME-SPONSORS #}
+  <div class="container-fluid home-sponsors">
+    <h1 class="d-block text-center title title-lg">our <strong>sponsors</strong></h1>
+    {% include 'modules/default.html' with content=files.2 %}
+  </div>
+
+
+  {#  ABOUT#}
+{#  {% include 'templates/default.html' with content=files.0 %}#}
+{#  <hr/>#}
+
+  {#  LATEST-NEWS#}
+  {#  {% include 'modules/home/news.html' %}#}
+
+  {#  PORTO-INFO#}
+  {% comment %} {% include 'modules/default.html' with content=files.1 %} {% endcomment %}
+
+  {#  SPONSORS#}
+{#  {% include 'modules/default.html' with content=files.2 %}#}
+
+  {#  MAILING-LIST#}
+{#  {% include 'modules/home/mailing.html' %}#}
+
+{% endblock content %}

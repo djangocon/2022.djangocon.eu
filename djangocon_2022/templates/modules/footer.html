@@ -1,0 +1,55 @@
+{% load static %}
+
+<div class="container-fluid footer custom-footer">
+  <div class="container inner-content-width">
+    <div class="row justify-content-between">
+      <div class="col-12 col-lg-4 footer-links align-self-center">
+        <a class="nav-link" href="{{ home }}"><img src="{% static 'images/logo/logo_white.png' %}" alt="Logo" height="80rem;"></a>
+      </div>
+      <div class="col row row-cols-5 align-self-center justify-content-center footer-links">
+        {% for smedia, smedia_href in social_media.items %}
+          {% with smedia_logo='images/external_logo/logo_'|add:smedia|add:'.svg' %}
+            <div class="col-2 text-center footer-social-media-link">
+              <a class="nav-link" href="{{ smedia_href }}" target="_blank"><img src="{% static smedia_logo %}" alt="{{ smedia }}" height="33rem;"></a>
+            </div>
+          {% endwith %}
+        {% endfor %}
+      </div>
+      <div class="col-12 col-lg-4 row align-self-end justify-content-end footer-links text-center">
+        <h5>Looking for another DjangoCon?</h5>
+        <ul class="list-unstyled">
+          <li><a class="nav-link text-white" href="https://djangocon.africa/" target="_blank">DjangoCon Africa</a></li>
+          <li><a class="nav-link text-white" href="https://djangocon.com.au/" target="_blank">DjangoCon Australia</a></li>
+          <li><a class="nav-link text-white" href="https://djangocon.us/" target="_blank">DjangoCon US</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <hr class="w-100 mt-4" style="margin: 0px; padding: 0px; border-top: 1px solid rgba(255, 255, 255, .5);"/>
+
+    <div class="row footer-site-map">
+      {% for menu, menu_dict in site_menu.items %}
+        <div class="col-lg-2 col-sm-4 col-12">
+          {% if menu_dict.dropdown == 'false' %}
+            <div class="footer-title"><a class="text-white" href="{{ menu_dict.href }}"><strong> {{ menu }} </strong></a><br/></div>
+          {% endif %}
+          {% if menu_dict.dropdown == 'true' %}
+            <div class="footer-title"><strong> {{ menu }} </strong><br/>
+            </div>
+              {% for submenu, submenu_href in menu_dict.submenu.items %}
+                <a class="text-white" href="{{ submenu_href }}">{{ submenu }}</a><br/>
+              {% endfor %}
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="row justify-content-center footer-end">
+    <div class="col row text-center align-self-center justify-content-center inner-content-width">
+      <p class="col-12">© 2022 DjangoCon Europe </p>
+      <p class="col-12"><span class="d-none d-md-inline">·</span> developed in <a href="https://djangoproject.com">django</a> with ♥ by <a href="https://evolutio.pt/">evolutio</a> <span class="d-none d-md-inline">·</span></p>
+      <p class="col-12"> help us improve on <a href="{{ social_media.github }}">GitHub</a></p>
+    </div>
+  </div>
+</div>
+
