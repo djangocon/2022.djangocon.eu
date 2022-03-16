@@ -34,8 +34,11 @@
 
 .header {
   background: base.$BgBlue; //#003C80;
-  padding-top: 3.125rem;
-  padding-bottom: 2rem;
+  @media (max-width: 767.98px) {
+    padding: 1rem .5rem;
+
+  }
+  padding: 2rem 0;
 
   a:hover{
     text-decoration: none;
