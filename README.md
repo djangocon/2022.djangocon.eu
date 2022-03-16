@@ -1,4 +1,4 @@
-<img src="djangocon_2022/static/images/logo_blue.png" height=100 />
+<img src="djangocon_2022/static/images/logo/logo_blue.png" height=100 />
 
 🌍 [2022.djangocon.eu](https://2022.djangocon.eu/) \
 📍 Hybrid from Porto, Portugal 🇵🇹 \
@@ -12,7 +12,7 @@
 
 First, make sure to have all requirements installed using:
 ```bash
-> pip install -r requirements/[ local | base | production ].txt
+> pip install -r requirements/[ local | production ].txt
 ```
 
 And create a PostgreSQL database 'djangocon_2022'
