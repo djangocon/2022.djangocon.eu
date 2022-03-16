@@ -5,12 +5,7 @@ Everybody who participates in DjangoCon Europe in one way or another is required
 
 The organizers will introduce a Code of Conduct team that will be primarily responsible for handling any incidents. The CoC applies before and throughout the event (including related activities such as social events, and social media). We have also published our [response guidelines](/conduct/response_guide/).
 
-The team can be reached on [conduct@djangocon.eu](mailto:conduct@djangocon.eu), and its members are (alphabetically):
-
-* Andrew Kinyua
-* Jesse Hunt (he/him)
-* Rin (they/them)
-* Thibaud Colas (he/him)
+The team can be reached on [conduct@djangocon.eu](mailto:conduct@djangocon.eu).
 
 We would like to thank the DjangoCon Europe 2019 CoC team for the awesome CoC (which we adapted with some minor modifications) and the response guidelines (which we have adopted almost unedited from 2018).
 
@@ -57,7 +52,7 @@ This Code of Conduct applies to all conference related spaces. That includes, bu
 
 * The conference online platform
 * Any conference related social activities
-* [Slack](https://t.co/x6X7ylIq3k){:target="_blank"} channels, tweets with the conference hashtag, and other online media
+* [Slack](https://djangoconeurope.slack.com){:target="_blank"} channels, tweets with the conference hashtag, and other online media
 * The Code of Conduct does not exclusively apply to events on the conference agenda. For example, if after a scheduled social event, you go to a bar with a group of fellow participants and someone harasses you there, we would still treat that as a CoC violation.
 
 <hr/>
@@ -77,7 +72,7 @@ In case of a Code of Conduct violation, some of the most common actions organise
 
 #### Where to report incidents
 
-If a Code of Conduct incident happens to you, or you witness it happening to someone else, please contact the CoC team immediately, either in Slack or by sending an email to [conduct@djangocon.eu](mailto:conduct@djangocon.eu).
+If a Code of Conduct incident happens to you, or you witness it happening to someone else, please contact the CoC team immediately, either in [Slack](https://djangoconeurope.slack.com){:target="_blank"} or by sending an email to [conduct@djangocon.eu](mailto:conduct@djangocon.eu).
 
 Your report will be treated confidentially and will only be discussed within the CoC team.
 

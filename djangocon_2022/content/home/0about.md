@@ -2,9 +2,9 @@ title: about
 layout: home_about
 
 <center>
-#### Join us on five days of talks, sprints, and tutorials!
+#### Join us for five days of talks, sprints, and tutorials!
 
-[<button class="btn btn-tickets">GRAB YOUR TICKET</button>](/about/tickets/)
+[<button class="btn btn-tickets">GRAB YOUR TICKET</button>](/tickets/)
 </center>
     
 

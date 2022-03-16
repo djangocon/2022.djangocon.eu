@@ -25,7 +25,12 @@ body {
 }
 
 .innerBody {
+  display: flex;
+  flex-direction: column;
   flex: 1 0 auto;
+  a {
+    text-decoration: underline;
+  }
 }
 
 .footer {
@@ -57,101 +62,6 @@ body {
 
 @import "footer";
 
-
-//// modules layout
-//.simple-container {
-//  padding-top: 40px;
-//  padding-bottom: 40px;
-//
-//  .title {
-//    color: base.$TextBlue;
-//  }
-//}
-//
-//.half_image-container {
-//  .image {
-//    background-repeat: no-repeat;
-//    background-size: cover;
-//    @media (max-width: 992px) {
-//      min-height: 400px;
-//    }
-//  }
-//
-//  .content {
-//    padding: 90px;
-//    h1 {
-//      color: base.$TextBlue;
-//    }
-//  }
-//}
-
-
-//// table
-//table, td, th {
-//  border: 1px solid black;
-//}
-//
-//td, th {
-//  padding: 10px;
-//}
-//
-//.inner {
-//  padding-top: 50px;
-//  padding-bottom: 50px;
-//  h1 {
-//    color: base.$TextBlue;
-//  }
-//}
-//
-//.bg-grey {
-//  background: base.$BgGrey;
-//}
-//
-//.btn {
-//  color: base.$TextBlue;
-//  border: 1px solid base.$TextBlue;
-//}
-//
-//.btn:hover {
-//  color: base.$TextBlue;
-//  text-decoration: underline;
-//}
-//
-//.credits-lg {
-//  background-color: base.$TextBlue;
-//  padding: 15px;
-//  color: white;
-//}
-//
-//.credits-sm {
-//  padding: 10px 55px;
-//  background-color: base.$TextBlue;
-//  color: white;
-//  font-size: 12px
-//}
-//
-//.sponsor {
-//  height: 50px;
-//  margin: 15px 30px 15px 0;
-//}
-//
-//.sponsor.big {
-//  height: 70px;
-//}
-//
-//.sponsor.lbig {
-//  height: 60px;
-//}
-//
-//.sponsor.small {
-//  height: 40px;
-//}
-//
-//.sponsor.smaller {
-//  height: 30px;
-//}
-
-//
 a {
     text-decoration: none;
 }
@@ -165,4 +75,47 @@ a:hover {
 }
 .margin-left {
   display: none;
+}
+
+.important-dates a{
+  color: white;
+  text-decoration: underline;
+}
+
+table {
+  margin: 1rem 0;
+}
+
+th, td {
+  padding: 1rem;
+}
+
+table, th, td {
+  border: 1px solid base.$BgBlue;
+  border-collapse: collapse;
+}
+
+img.sponsor {
+  width: unset;
+  height: 50px;
+  margin: 15px 30px 15px 0;
+}
+img.sponsor.huge {
+  height: 70px;
+}
+img.sponsor.large {
+  height: 60px;
+}
+img.sponsor.small {
+  height: 40px;
+}
+img.sponsor.tiny {
+  height: 25px;
+}
+
+img.hotel {
+  max-width: 200px;
+  max-height: 100px;
+  width: auto;
+  height: auto;
 }

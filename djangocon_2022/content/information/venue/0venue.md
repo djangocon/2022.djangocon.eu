@@ -1,17 +1,28 @@
 title: venue
 layout: simple
 
-The virtual venue of this year's edition will be [loudswarm](https://loudswarm.com/){:target="_blank"}. Following last year's great success and overall satisfaction from the community, we decided to partner up again. The platform offers a "Truly Engaging Virtual Experience" and puts participants in control of their own virtual experience by allowing them to network live with fellow attendees.
+The venue is located very close to the city centre and has easy access by public transport. Fully refurbished last year, this venue's *corporate* auditorium is equipped with seating capacity for 500.
 
-[![loudswarm](/static/images/sponsors/loudswarm.png#cb){:width=150px}](https://loudswarm.com/){:target="_blank"}
+![venue logo](/static/images/other/super_bock_arena_logo.png){.hotel}
+**Super Bock Arena**
+R. de Dom Manuel II
+4050-346 Porto
+Portugal 🇵🇹
 
-Some of the main key features are:
+![venue](/static/images/other/jardins_palacio_cristal.jpg){.w-100}
 
-* highly engaged audience
-* all-in-one integrated experience
-* easy communication with attendees
-* intuitive interface
+<p><iframe width="100%" height="315" src="https://www.youtube.com/embed/4zgNG4-VDOU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
+<iframe width="100%" height="350" id="gmap_canvas" src="https://maps.google.com/maps?q=superbock%20arena&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" class="mb-3"></iframe>
 
-<iframe width="100%" height="465" id="gmap_canvas" src="https://loudswarm.com/embed.html?name=newbrowsing.smil" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+There are both bus and tram stops close to the venue.
 
+|       | Lines |
+| ----- | ----- |
+| Bus   | 200<sup>1</sup>,201,207,208,302,303,501<sup>1</sup>,507<sup>1</sup>,601<sup>2</sup> |
+| Tram  | 18    |
+
+<sup>1</sup> connection to the beach 🏖️ 
+<sup>2</sup> connection to the airport ✈️
+
+More information about the public transport in Porto can be read [here](/information/porto/#getting%20around).

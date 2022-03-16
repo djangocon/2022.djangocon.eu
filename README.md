@@ -1,4 +1,4 @@
-<img src="images/logo_blue.png" height=100 />
+<img src="djangocon_2022/static/images/logo_blue.png" height=100 />
 
 🌍 [2022.djangocon.eu](https://2022.djangocon.eu/) \
 📍 Hybrid from Porto, Portugal 🇵🇹 \

@@ -15,12 +15,12 @@
           {% endwith %}
         {% endfor %}
       </div>
-      <div class="col-12 col-lg-4 row align-self-end justify-content-end footer-links">
-        <h5 class="col-12 col-sm-8 col-lg-12">Looking for another DjangoCon?</h5>
-        <ul class="col-8 col-sm-6 col-md-4 col-lg-10">
-          <li><a class="nav-link text-white" href="https://2022.djangocon.af/">Africa</a></li>
-          <li><a class="nav-link text-white" href="https://2022.djangocon.au/">Australia</a></li>
-          <li><a class="nav-link text-white" href="https://2022.djangocon.us/">US</a></li>
+      <div class="col-12 col-lg-4 row align-self-end justify-content-end footer-links text-center">
+        <h5>Looking for another DjangoCon?</h5>
+        <ul class="list-unstyled">
+          <li><a class="nav-link text-white" href="https://djangocon.africa/" target="_blank">DjangoCon Africa</a></li>
+          <li><a class="nav-link text-white" href="https://djangocon.com.au/" target="_blank">DjangoCon Australia</a></li>
+          <li><a class="nav-link text-white" href="https://djangocon.us/" target="_blank">DjangoCon US</a></li>
         </ul>
       </div>
     </div>
@@ -31,7 +31,7 @@
       {% for menu, menu_dict in site_menu.items %}
         <div class="col-lg-2 col-sm-4 col-12">
           {% if menu_dict.dropdown == 'false' %}
-            <div class="footer-title"><a class="text-white" href="{{ menu_dict.href }}"><strong>Jobs</strong></a><br/></div>
+            <div class="footer-title"><a class="text-white" href="{{ menu_dict.href }}"><strong> {{ menu }} </strong></a><br/></div>
           {% endif %}
           {% if menu_dict.dropdown == 'true' %}
             <div class="footer-title"><strong> {{ menu }} </strong><br/>

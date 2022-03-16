@@ -3,11 +3,11 @@
 @use "base";
 
 %HOME-TEXT {
-  font: normal normal normal 1.125rem/1.375rem Ubuntu;
+  font: normal normal normal 1.125rem/1.5rem Ubuntu, sans-serif;
 }
 
 %HOME-TITLE {
-  font: normal normal normal 1.5rem/1.75rem Ubuntu;
+  font: normal normal normal 1.5rem/1.75rem Ubuntu, sans-serif;
 }
 
 .home-text {
@@ -38,7 +38,7 @@
   background-size: auto 100%;
   background-color: base.$BgBlue;
   background-image: url("/static/images/background/homepage.png");
-  background-repeat: repeat-x;
+  background-repeat: no-repeat;
 
   h3 {
     color: #FFA300;
@@ -81,7 +81,7 @@
   .home-about {
     p {
       @extend %HOME-TEXT;
-      margin-top: 3rem;
+      margin-top: 1rem;
     }
   }
 }
@@ -206,26 +206,6 @@
       padding-top: .75rem;
       margin-right: .875rem;
       margin-left: .875rem;
-    }
-    .sponsor {
-      height: 50px;
-      margin: 15px 30px 15px 0;
-    }
-
-    .sponsor.big {
-      height: 70px;
-    }
-
-    .sponsor.lbig {
-      height: 60px;
-    }
-
-    .sponsor.small {
-      height: 40px;
-    }
-
-    .sponsor.smaller {
-      height: 30px;
     }
   }
 }

@@ -6,46 +6,48 @@ def links(request):
             'Talks': {
                 'dropdown': 'true',
                 'submenu': {
+                    'Call for Participation': '/talks/cfp/',
+                    'Selection Process': '/talks/selection_process/',
                     'Schedule': '/talks/schedule/',
-                    'Cfp': '/talks/cfp/',
-                    'Selection process': '/talks/selection_process/',
                 },
             },
             'Information': {
                 'dropdown': 'true',
                 'submenu': {
+                    'Porto': '/information/porto/',
                     'Venue': '/information/venue/',
-                    'Swag bag': '/information/swag_bag/',
                     'Grants': '/information/grants/',
-                    'Django girls': '/information/django_girls/',
                     'Sprints': '/information/sprints/',
+                    'Hospitality': '/information/hospitality/',
+                    'Party': '/information/party/',
+                    'T-shirts': '/information/tshirts/',
                     'Announcements': '/information/announcements/',
                 },
             },
-            'Sponsors': {
+            'Sponsors & Jobs': {
                 'dropdown': 'true',
                 'submenu': {
-                    'Sponsors': '/sponsors/sponsors/',
-                    'Contributors': '/sponsors/contributors/',
+                    'Sponsors': '/sponsors/sponsors',
+                    'Supporters': '/sponsors/supporters/',
+                    'Jobs': '/sponsors/jobs/',
                     'Sponsorship': '/sponsors/sponsorship/',
                 },
             },
             'Conduct': {
                 'dropdown': 'true',
                 'submenu': {
-                    'Code of conduct': '/conduct/code_of_conduct/',
-                    'Response guide': '/conduct/response_guide/',
-                    'Privacy guide': '/conduct/privacy_guide/',
+                    'Code of Conduct': '/conduct/code_of_conduct/',
+                    'Response Guide': '/conduct/response_guide/',
+                    'Privacy Guide': '/conduct/privacy_guide/',
                 },
             },
-            'Jobs': {
+            'Tickets': {
                 'dropdown': 'false',
-                'href': '/jobs/',
+                'href': '/tickets/',
             },
             'About': {
                 'dropdown': 'true',
                 'submenu': {
-                    'Tickets': '/about/tickets/',
                     'Contact': '/about/contact/',
                     'Credits': '/about/credits/',
                 },
@@ -53,8 +55,8 @@ def links(request):
         },
         'social_media': {
             'twitter': 'https://twitter.com/DjangoConEurope/',
-            'slack': 'https://slack.com/',
-            'youtube': 'https://youtube.com//user/djangoconeurope/',
+            'slack': 'https://djangoconeurope.slack.com/',
+            'youtube': 'https://youtube.com/user/djangoconeurope/',
             'linkedin': 'https://linkedin.com/company/djangocon-europe/',
             'github': 'https://github.com/djangocon/2022.djangocon.eu/',
         }

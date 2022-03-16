@@ -3,6 +3,7 @@
 @use "base";
 
 .content-container {
+  flex: 1;
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
 
@@ -18,22 +19,31 @@
     }
   }
   .simple-content {
-    font: 1.125rem/1.375rem Ubuntu;
+    font: 1.125rem/1.5rem Ubuntu, sans-serif;
     color: base.$BgBlue;
     text-decoration: none;
 
     p {
-      margin-bottom: 1.875rem;
+      margin-bottom: 1.5rem;
     }
     ul {
-      margin-bottom: 1.875rem;
+      margin-bottom: 1.5rem;
     }
     a {
       color: base.$BgBlue;
     }
     .btn {
-      color: base.$BtnGolden;
-      border: .0625rem base.$BtnGolden solid;
+      color: base.$BgBlue;
+      border: .0625rem base.$BgBlue solid;
+      background-color: base.$BtnGolden;
     }
+  }
+
+  img {
+    width: 100%;
+  }
+
+  h2 {
+    margin-bottom: 1rem;;
   }
 }
