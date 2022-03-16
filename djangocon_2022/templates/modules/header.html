@@ -33,8 +33,8 @@
               <li><a href="{{ menu_dict.href }}" class="nav-link text-white btn btn-primary"> {{ menu }} </a></li>
             {% endif %}
             {% if menu_dict.dropdown == 'true' %}
-              <li><a class="nav-link text-white btn btn-primary" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseSubNav{{ menu|striptags|safe|escape|escapejs }}" href="#collapseSubNav{{ menu|striptags|safe|escape|escapejs }}"> {{ menu }} </a></li>
-              <div class="subnav collapse container-fluid text-center" id="collapseSubNav{{ menu }}">
+              <li><a class="nav-link text-white btn btn-primary" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="collapseSubNav{{ menu|slugify }}" href="#collapseSubNav{{ menu|slugify }}"> {{ menu }} </a></li>
+              <div class="subnav collapse container-fluid text-center" id="collapseSubNav{{ menu|slugify }}">
                 <ul class="nav nav-sm">
                   {% for submenu, submenu_href in menu_dict.submenu.items %}
                     <li><a href="{{ submenu_href }}" class="nav-link text-white"> {{ submenu }} </a></li>
