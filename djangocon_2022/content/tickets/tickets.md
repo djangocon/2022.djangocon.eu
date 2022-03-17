@@ -1,7 +1,7 @@
 title: tickets
 layout: simple
 
-**All tickets include access to all 3 conference days (September 21 - 23) and the 2 sprints days (June 24 - 25)**. Don't forget to follow us on Twitter [@DjangoConEurope](https://twitter.com/djangoconeurope){:target="_blank"} for the latest up to date information!
+**All tickets include access to all 3 conference days (September 21 - 23) and the 2 sprints days (September 24 - 25)**. Don't forget to follow us on Twitter [@DjangoConEurope](https://twitter.com/djangoconeurope){:target="_blank"} for the latest up to date information!
 
 [<center><button class="btn">Grab your ticket!</button></center>](https://pretix.evolutio.pt/evolutio/djceu2022/){:target="_blank"}
 
