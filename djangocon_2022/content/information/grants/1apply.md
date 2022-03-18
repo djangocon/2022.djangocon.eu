@@ -16,6 +16,5 @@ If you have questions, you can write [2022@djangocon.eu](mailto:2022@djangocon.e
 
 **The application window will end on June 15th at 23:59 UTC!** 
 
-<!--<center>[<button class="btn">Apply for a Grant Here!</button>](https://forms.gle/DLfB1dp3Wi3atHQe8){:target="_blank"}</center>-->
-<center><button class="btn">Application Period will open soon!</button></center>
+<center>[<button class="btn">Apply for a Grant Here!</button>](https://forms.gle/ftJ3WWWNbhFE2ZnC8){:target="_blank"}</center>
 
