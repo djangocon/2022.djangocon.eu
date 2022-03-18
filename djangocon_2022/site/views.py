@@ -7,7 +7,7 @@ from config.settings.base import APPS_DIR
 def default_view(request, menu='home', submenu=None):
     path = APPS_DIR.__str__() + '/content/' + menu + ('/' + submenu if submenu else '')
     page = ''
-    ctx = dict(menu=menu.capitalize() if not submenu else submenu.capitalize())
+    ctx = dict(menu=(menu if not submenu else submenu).capitalize().replace('_', ' '))
     files = []
 
     for dirpath, dirname, filenames in walk(path):
