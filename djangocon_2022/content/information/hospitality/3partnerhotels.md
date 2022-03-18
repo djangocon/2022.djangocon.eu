@@ -188,7 +188,9 @@ Porto's most prestigious city centre luxury hotel the Infante Sagres has been a 
 
 **Website:** [https://www.infantesagres.com/](https://www.infantesagres.com/){:target="_blank"}
 
-**Discount:** TABELA? TODO
+**Discount:** Classic, Superior or Deluxe room:
+- Single: €235.00
+- Twin/double: €248.00
 
 **Conditions:** Bookings can be made using the e-mail - [bookings@infantesagres.com](mailto:bookings@infantesagres.com) -  referring the participation in the conference. The accommodation prices includes breakfast, wi-fi and access to the plunge pool. Subject to availability. 
 
@@ -349,3 +351,18 @@ Its rooms are spacious and comfortable, with an elegant interior design in which
 The Exe Essenzia Porto also has a cafeteria bar that adds to the important offer that exists in the area, as well as a fully equipped gym to continue with your routine during your days in Porto.
 
 **Website:** [https://www.eurostarshotels.com/exe-essenzia-porto.html](https://www.eurostarshotels.com/exe-essenzia-porto.html){:target="_blank"}
+
+<hr/>
+
+![Neya](/static/images/hotels/neya.png){:class='hotel'}
+
+#### Neya
+
+Located in the privileged location of Porto’s ribeirinha area and 15 minutes away from the airport, NEYA Porto Hotel embraces the Douro river edge. Along with the stunning view, guests will find the perfect retreat to escape routine, enjoy family holidays, do business or simply have a relaxed weekend.
+The hotel, which faces the Douro river, was a previously historical convent called the Madre Deus de Monchique convent. The building was refurbished while respecting the abbey’s original architecture and preserving historical artifacts.
+
+**Website:** [https://neyaporto.backhotelite.com/](https://neyaporto.backhotelite.com/){:target="_blank"}
+
+**Discount:** 10% discount
+
+**Conditions:** Bookings can be made using the official website for September 21-15 using the coupon ```DjangoCon```.
