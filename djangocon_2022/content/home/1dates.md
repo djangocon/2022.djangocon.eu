@@ -7,7 +7,7 @@ layout: home_dates
 > >
 > > ✈️ 18th - [Grants](/information/grants/) applications' form opens
 > >
-> > 🎤 21st - [Call for Participation](/talks/cfp/) opens
+> > 🎤 23rd - [Call for Participation](/talks/cfp/) opens
 
 <span></span>
 
