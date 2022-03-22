@@ -24,6 +24,8 @@ The following **ticket types** are available:
 
 ** Super Early Bird Ticket sales close April 1 or until their quota is reached (whichever comes first). **
 
+The tickets for the in-person conference include the following food: morning snack, lunch, and afternoon snack. Please don't forget to ** add you dietary restrictions when purchasing your ticket! **
+
 ---
 
 If you wish to amend your order or if you have a ticket claim (for instance through a sponsorship or as a speaker), please get in touch at [2022@djangocon.eu](mailto:2022@djangocon.eu).
