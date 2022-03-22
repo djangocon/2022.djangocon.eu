@@ -1,7 +1,7 @@
 title: venue
 layout: simple
 
-The venue is located very close to the city centre and has easy access by public transport. Fully refurbished last year, this venue's *corporate* auditorium is equipped with seating capacity for 500.
+The venue is located very close to the city centre and has easy access by public transport. Fully refurbished 2 years ago, this venue's *corporate* auditorium is equipped with seating capacity for more than 500 persons. Moreover, the venue is wheelchair [accessible](https://www.tur4all.com/pt/organize-a-sua-viagem){:target="_blank"}. for both attendees and speakers alike.
 
 ![venue logo](/static/images/other/super_bock_arena_logo.png){.hotel}
 **Super Bock Arena**
