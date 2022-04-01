@@ -5,7 +5,7 @@ layout: simple
 
 ##### Grants
 
-[![dsf](/static/images/sponsors/dsf.png){:class='sponsor huge'}](https://www.djangoproject.com/){:target="_blank"}
+[![dsf](/static/images/sponsors/dsf.png){:class='sponsor huge'}](https://www.djangoproject.com/){:target="_blank"} [![europython](/static/images/sponsors/eps.png){:class='sponsor'}](https://www.europython-society.org/){:target="_blank"}
 
 ##### Partners
 
