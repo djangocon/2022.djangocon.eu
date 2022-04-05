@@ -9,6 +9,8 @@ We have made a large sponsorship menu to invite all to contribute and to give yo
 
 The following table highlights the main sponsor levels.
 
+<div style="overflow-x: scroll;">
+
 | Levels | High-level Description | Included Tickets | Price* |
 | ---- | ----- | ----- | ----- |
 | **Bronze** | A great presence of your logo | - | € 1.000 |
@@ -16,6 +18,8 @@ The following table highlights the main sponsor levels.
 | **Gold** | Special visibility (inc. booth at the *foyer*) | 3 |  € 6.000 |
 | **Platinum** | Extraordinary visibility at the event | 5 |  € 10.000 |
 | **Diamond** | To be seen **EVERYWHERE** | 8 | € 15.000 |
+
+</div>
 
 *Excl. VAT.
 
