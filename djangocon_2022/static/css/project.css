@@ -289,6 +289,7 @@ body {
   font: 1.125rem/1.5rem Ubuntu, sans-serif;
   color: #003C80;
   text-decoration: none;
+  overflow-x: scroll !important;
 }
 .content-container .simple-content p {
   margin-bottom: 24px;
