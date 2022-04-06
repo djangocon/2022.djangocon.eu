@@ -15,4 +15,4 @@ Feel free to download any assets that you might need:
     * [White](/static/images/logo/icon_white.svg){:target="_blank" download="icon_white.svg"}
     * [Blue](/static/images/logo/icon_blue.svg){:target="_blank" download="icon_blue.svg"}
     * [Black](/static/images/logo/icon_black.svg){:target="_blank" download="icon_black.svg"}
-* [Background Banner](/static/images/home/background_xl.png){:target="_blank" download="background.png"} (PNG)
+* [Background Banner](/static/images/background/homepage_xl.png){:target="_blank" download="background.png"} (PNG)
