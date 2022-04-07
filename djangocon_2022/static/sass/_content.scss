@@ -22,6 +22,7 @@
     font: 1.125rem/1.5rem Ubuntu, sans-serif;
     color: base.$BgBlue;
     text-decoration: none;
+    overflow-x: auto !important;
 
     p {
       margin-bottom: 1.5rem;
