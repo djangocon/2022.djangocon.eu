@@ -3,7 +3,7 @@ layout: simple
 
 Get a discount on your accommodation in Porto!
 
-Porto offers a wide range of hotels  to suit all tastes and budgets. To help make your decision on where to stay a bit easier, we’ve partnered with some fantastic hotels and best of all, they are offering exclusive discounts to DjangoCon 2020 attendees!
+Porto offers a wide range of hotels  to suit all tastes and budgets. To help make your decision on where to stay a bit easier, we’ve partnered with some fantastic hotels and best of all, they are offering exclusive discounts to DjangoCon 2022 attendees!
 
 All of our partner hotels are located in the city centre and are close to this year’s venue, Super Bock Arena, making any of them a great choice for your's DjangoCon stay. Read on to find out how to book your discounted rates.
 
