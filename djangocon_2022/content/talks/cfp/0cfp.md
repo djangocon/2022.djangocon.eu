@@ -12,3 +12,9 @@ If you think you have something great to talk about – submit your idea! If you
 <center>[<button class="btn">Submit your talk here!</button>](https://pretalx.evolutio.pt/djangocon-europe-2022/cfp){:target="_blank"}</center>
 
 <iframe width="100%" height="480" src="https://www.youtube.com/embed/4rsL974kwsE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+** CfP powered by: **
+
+[![pretalx](/static/images/other/pretalx.svg){:class='hotel'}](https://pretalx.com/p/about/){:target="_blank"}

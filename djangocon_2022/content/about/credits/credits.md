@@ -16,6 +16,7 @@ This list of individuals is still growing. Nonetheless, these are our sincerest 
 * João Pires
 * João Polónia
 * Markus Holtermann
+* Mário Barbosa
 * Miguel Magalhães
 * Murilo Rosa
 * Telmo Guerra
