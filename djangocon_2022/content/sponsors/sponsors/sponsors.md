@@ -14,7 +14,7 @@ layout: simple
 
 ##### Official Carrier
 
-[![tap](/static/images/sponsors/tap.svg){:class='sponsor'}](https://flytap.com/){:target="_blank"}
+[![tap](/static/images/sponsors/tap.svg){:class='sponsor'}](/static/docs/tap.pdf){:target="_blank"}
 
 ##### Organizer
 
