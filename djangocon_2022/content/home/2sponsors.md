@@ -3,6 +3,10 @@ layout: simple
 
 ** Your logo can be here! ** Discover the available sponsorship opportunities [here](/sponsors/sponsorship/).
 
+##### Bronze
+
+[![ambient](/static/images/sponsors/ambient.svg){:class='sponsor'}](https://ambient.digital/){:target="_blank"} 
+
 ##### Grants
 
 [![dsf](/static/images/sponsors/dsf.png){:class='sponsor huge'}](https://www.djangoproject.com/){:target="_blank"} [![europython](/static/images/sponsors/eps.png){:class='sponsor'}](https://www.europython-society.org/){:target="_blank"}
