@@ -3,6 +3,10 @@ layout: simple
 
 ** Your logo can be here! ** Discover the available sponsorship opportunities [here](/sponsors/sponsorship/).
 
+##### Gold
+
+[![sendcloud](/static/images/sponsors/sendcloud.png){:class='sponsor tiny'}](https://jobs.sendcloud.com/){:target="_blank"} 
+
 ##### Bronze
 
 [![ambient](/static/images/sponsors/ambient.svg){:class='sponsor'}](https://ambient.digital/){:target="_blank"} 
