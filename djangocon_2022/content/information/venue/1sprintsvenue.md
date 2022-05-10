@@ -1,6 +1,5 @@
 title: sprints venue
 layout: simple
-class: bg-grey
 
 
 The sprints will take place in the Department of Computer Sciences from the Faculty of Sciences of the University of Porto. This venue is also located very close the city centre. Moreover, it is also wheelchair [accessible](https://www.tur4all.com/pt/organize-a-sua-viagem){:target="_blank"}.
