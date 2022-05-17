@@ -3,17 +3,23 @@ layout: simple
 
 ** Your logo can be here! ** Discover the available sponsorship opportunities [here](/sponsors/sponsorship/).
 
+##### Platinum
+
+[![kolo](/static/images/sponsors/kolo.svg){:class='sponsor large'}](https://kolo.app/){:target="_blank"} 
+
 ##### Gold
 
-[![sendcloud](/static/images/sponsors/sendcloud.png){:class='sponsor tiny'}](https://jobs.sendcloud.com/){:target="_blank"} 
+[![sendcloud](/static/images/sponsors/sendcloud.png){:class='sponsor tiny'}](https://jobs.sendcloud.com/){:target="_blank"} [![silvr](/static/images/sponsors/silvr.svg){:class='sponsor'}](https://careers.silvr.co/){:target="_blank"} 
+
 
 ##### Bronze
 
-[![ambient](/static/images/sponsors/ambient.svg){:class='sponsor'}](https://ambient.digital/){:target="_blank"} 
+[![ambient](/static/images/sponsors/ambient.svg){:class='sponsor'}](https://ambient.digital/){:target="_blank"} [![simple poll](/static/images/sponsors/simple_poll.svg){:class='sponsor tiny'}](https://simplepoll.rocks/){:target="_blank"} 
+
 
 ##### Grants
 
-[![dsf](/static/images/sponsors/dsf.png){:class='sponsor huge'}](https://www.djangoproject.com/){:target="_blank"} [![europython](/static/images/sponsors/eps.png){:class='sponsor'}](https://www.europython-society.org/){:target="_blank"}
+[![dsf](/static/images/sponsors/dsf.png){:class='sponsor huge'}](https://www.djangoproject.com/){:target="_blank"} [![europython](/static/images/sponsors/eps.png){:class='sponsor'}](https://www.europython-society.org/){:target="_blank"} [![psf](/static/images/sponsors/psf.png){:class='sponsor'}](https://www.python.org/){:target="_blank"}
 
 ##### Partners
 
