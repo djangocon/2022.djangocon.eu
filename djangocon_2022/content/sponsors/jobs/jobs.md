@@ -12,7 +12,7 @@ Looking for a job? Here we'll have an awesome list with companies who sponsored 
 Evolutio is a Software House specialized in Data-Intensive and Location Intelligence Solutions with worldwide ambitions. Backed by a very strong experienced team with a solid track record in developing cutting edge software solutions. Open-source runs in the blood - currently organizing DjangoCon Europe. We are looking for both Backend and Frontend Developers.
  Drop us an email to discuss the ideal opportunity for you at [lvaz@evolutio.pt](mailto:lvaz@evolutio.pt)!
  
-**Note for 🇺🇦:** If you are running away from war, we will help you (and your family) with accomodation for the first months in addition to your salary.
+**Note for 🇺🇦:** If you are running away from war, we will help you (and your family) with accomodation for the first months.
 
 <hr/>
 
