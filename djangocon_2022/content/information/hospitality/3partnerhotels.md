@@ -113,7 +113,7 @@ The hotels under the HF brand are located in the heart of the two main Portugues
 
 **Discount:** 6% discount off best available rate and access to exclusive offers that will be launched.
 
-**Conditions:** Bookings can be made on the booking website [djangoconepycon2022.hfhotels.com](djangoconepycon2022.hfhotels.com){:target="_blank"}. Reservations can be made until the day before the conference, subject to availability.
+**Conditions:** Bookings can be made on the booking website [djangoconepycon2022.hfhotels.com](https://djangoconepycon2022.hfhotels.com){:target="_blank"}. Reservations can be made until the day before the conference, subject to availability.
 
 <hr/>
 
