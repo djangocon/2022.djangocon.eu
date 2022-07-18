@@ -13,7 +13,7 @@ layout: simple
 
 ##### Bronze
 
-[![ambient](/static/images/sponsors/ambient.svg){:class='sponsor'}](https://ambient.digital/){:target="_blank"} [![simple poll](/static/images/sponsors/simple_poll.svg){:class='sponsor tiny'}](https://simplepoll.rocks/){:target="_blank"} [![prorenata](/static/images/sponsors/prorenata.png){:class='sponsor small'}](https://prorenata.se/){:target="_blank"} 
+[![ambient](/static/images/sponsors/ambient.svg){:class='sponsor'}](https://ambient.digital/){:target="_blank"} [![simple poll](/static/images/sponsors/simple_poll.svg){:class='sponsor tiny'}](https://simplepoll.rocks/){:target="_blank"} [![prorenata](/static/images/sponsors/prorenata.png){:class='sponsor small'}](https://prorenata.se/){:target="_blank"} [![maykinmedia](/static/images/sponsors/maykin.png){:class='sponsor'}](https://www.maykinmedia.nl/en/){:target="_blank"} 
 
 ##### Grants
 
