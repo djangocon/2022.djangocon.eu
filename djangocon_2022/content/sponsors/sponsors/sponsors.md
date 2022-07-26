@@ -3,17 +3,21 @@ layout: simple
 
 ** Your logo can be here! ** Discover the available sponsorship opportunities [here](/sponsors/sponsorship/).
 
+##### Diamond
+
+[![platformsh](/static/images/sponsors/platformsh.png){:class='sponsor'}](https://platform.sh/){:target="_blank"} 
+
 ##### Platinum
 
 [![kolo](/static/images/sponsors/kolo.svg){:class='sponsor large'}](https://kolo.app/){:target="_blank"} 
 
 ##### Gold
 
-[![sendcloud](/static/images/sponsors/sendcloud.png){:class='sponsor tiny'}](https://jobs.sendcloud.com/){:target="_blank"} [![silvr](/static/images/sponsors/silvr.svg){:class='sponsor'}](https://careers.silvr.co/){:target="_blank"} 
+[![sendcloud](/static/images/sponsors/sendcloud.png){:class='sponsor tiny'}](https://jobs.sendcloud.com/){:target="_blank"} [![silvr](/static/images/sponsors/silvr.svg){:class='sponsor'}](https://careers.silvr.co/){:target="_blank"} [![octopus](/static/images/sponsors/octopus.png){:class='sponsor huge'}](https://octopus.energy/careers/){:target="_blank"} 
 
 ##### Bronze
 
-[![ambient](/static/images/sponsors/ambient.svg){:class='sponsor'}](https://ambient.digital/){:target="_blank"} [![simple poll](/static/images/sponsors/simple_poll.svg){:class='sponsor tiny'}](https://simplepoll.rocks/){:target="_blank"} [![prorenata](/static/images/sponsors/prorenata.png){:class='sponsor small'}](https://prorenata.se/){:target="_blank"} [![maykinmedia](/static/images/sponsors/maykin.png){:class='sponsor'}](https://www.maykinmedia.nl/en/){:target="_blank"} 
+[![ambient](/static/images/sponsors/ambient.svg){:class='sponsor'}](https://ambient.digital/){:target="_blank"} [![simple poll](/static/images/sponsors/simple_poll.svg){:class='sponsor tiny'}](https://simplepoll.rocks/){:target="_blank"} [![prorenata](/static/images/sponsors/prorenata.png){:class='sponsor small'}](https://prorenata.se/){:target="_blank"} [![maykinmedia](/static/images/sponsors/maykin.png){:class='sponsor'}](https://www.maykinmedia.nl/en/){:target="_blank"} [![foxley](/static/images/sponsors/foxley.png){:class='sponsor large'}](https://www.foxleytalent.com/){:target="_blank"} [![torchbox](/static/images/sponsors/torchbox.svg){:class='sponsor large'}](https://torchbox.com/){:target="_blank"} [![monit](/static/images/sponsors/monit.png){:class='sponsor small'}](https://monitdata.com/){:target="_blank"} 
 
 ##### Grants
 
