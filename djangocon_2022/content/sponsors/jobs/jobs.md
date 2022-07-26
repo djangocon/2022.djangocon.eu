@@ -5,6 +5,11 @@ Looking for a job? Here we'll have an awesome list with companies who sponsored 
 
 <hr/>
 
+[![foxley](/static/images/sponsors/foxley.png){:class='sponsor huge'}](https://www.foxleytalent.com/){:target="_blank"}
+**Speak to Foxley Talent for job opportunities, hiring solutions and career advice.** We specialise in helping django engineers move jobs. As a part of the community we also donate a percentage of our profits back into the django ecosystem.
+
+<hr/>
+
 ![evolutio](/static/images/sponsors/evolutio.png){:class='sponsor'}
 
 [**Software Engineer @ evolutio**](https://evolutio.pt/){:target="_blank"} 
