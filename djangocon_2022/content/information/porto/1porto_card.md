@@ -12,7 +12,11 @@ The best way to explore the city and save more! Free admission tickets and disco
 ** We have partnered with the Porto tourism bureau to offer a discounted rate to all partipants. To have access to 10% discount please mention the code ```PROMODCE22``` when purchasing your card (valid with or without transportation until the event). **
 [<center><button class="btn">Read more about Porto.CARD</button></center>](/static/docs/porto-card.pdf){:target="_blank"}
 
-![porto card](/static/images/other/portocard.jpeg)
+<div style="position:relative;padding-top:max(60%,326px);height:0;width:100%"><iframe allow="clipboard-write" sandbox="allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox" allowfullscreen="true" style="position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;" src="https://e.issuu.com/embed.html?d=portocard__2013_en&hideIssuuLogo=true&pageLayout=singlePage&u=visitporto"></iframe></div>
+
+<hr/>
+
+<div style="position:relative;padding-top:max(60%,326px);height:0;width:100%"><iframe allow="clipboard-write" sandbox="allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox" allowfullscreen="true" style="position:absolute;border:none;width:100%;height:100%;left:0;right:0;top:0;bottom:0;" src="https://e.issuu.com/embed.html?d=visitporto_portocitybreak_en_digita&hideIssuuLogo=true&pageLayout=singlePage&u=visitporto"></iframe></div>
 
 <script type="text/javascript">
 window.__lc = window.__lc || {};
