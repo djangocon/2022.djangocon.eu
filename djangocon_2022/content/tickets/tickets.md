@@ -7,7 +7,7 @@ layout: simple
 
 If you are from a marginalised or under-represented group, and you are not able to afford a ticket, you should apply for a [grant](/information/grants/). **Please consider making an extra donation** to help us offer grants to people from marginalised or under-represented groups.
 
-This year, we will offer all DjangoCon Europe attendees a ticket for the ** first PyCon Portugal at a discounted price of just €30** (limited to 1 ticket per DjangoCon attendee). The first edition of the conference will take place September 24 (Saturday) in parallel with the [Sprints](/information/sprints/) at the University of Porto. More info soon at: [2022.pycon.pt](https://2022.pycon.pt/){:target="_blank"}.
+<s>This year, we will offer all DjangoCon Europe attendees a ticket for the ** first PyCon Portugal at a discounted price of just €30** (limited to 1 ticket per DjangoCon attendee).</s> Discounted PyCon Portugal Tickets SOLD OUT! You can still grab one at a non-discounted price. The first edition of the conference will take place September 24 (Saturday) in parallel with the [Sprints](/information/sprints/) at the University of Porto. More info soon at: [2022.pycon.pt](https://2022.pycon.pt/){:target="_blank"}. 
 
 We are still drawing up the best [t-shirts](/information/tshirts/) for you! In the meanwhile, you can already purchase them together with your ticket. They will be from organic materials and you will be able to select its specifications later on (size, design, color, etc.).
 
