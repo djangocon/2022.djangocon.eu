@@ -51,7 +51,7 @@ The rooms at our hotel have a minimalist, simple and elegant decor, where both c
 
 **Website:** [www.legendaryportohotel.com](https://www.legendaryportohotel.com){:target="_blank"}
 
-**Conditions:** Bookings be made on the official website using the promotional code ```DJANGOCON2022```. Discounts available from 21 to 26 of September
+**Conditions:** Bookings be made on the official website using the promotional code ```DJANGO```. Discounts available from 21 to 26 of September
 	- Single - 120.00€
 	- Duplo - 130.00€
 	- The rates shown are per room, per night, buffet breakfast included.
