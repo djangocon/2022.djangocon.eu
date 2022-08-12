@@ -56,7 +56,7 @@ The rooms at our hotel have a minimalist, simple and elegant decor, where both c
 	- Duplo - 130.00€
 	- The rates shown are per room, per night, buffet breakfast included.
 	- City tourist tax not included (2€/pax/night).
-	- Free cancelations up to 48 hours. Discounts available from 19 of Sptember to 3 of October. Free cancellation until 17/09/2022.
+	- Free cancellations up to 48 hours. Discounts available from 19 of September to 3 of October. Free cancellation until 17/09/2022.
 
 <hr/>
 
