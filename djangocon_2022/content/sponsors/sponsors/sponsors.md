@@ -13,7 +13,7 @@ layout: simple
 
 ##### Gold
 
-[![sendcloud](/static/images/sponsors/sendcloud.png){:class='sponsor tiny'}](https://jobs.sendcloud.com/){:target="_blank"} [![silvr](/static/images/sponsors/silvr.svg){:class='sponsor'}](https://careers.silvr.co/){:target="_blank"} [![octopus](/static/images/sponsors/octopus.png){:class='sponsor huge'}](https://octopus.energy/careers/){:target="_blank"} 
+[![sendcloud](/static/images/sponsors/sendcloud.png){:class='sponsor tiny'}](https://jobs.sendcloud.com/){:target="_blank"} [![silvr](/static/images/sponsors/silvr.svg){:class='sponsor'}](https://careers.silvr.co/){:target="_blank"} [![octopus](/static/images/sponsors/octopus.png){:class='sponsor huge'}](https://octopus.energy/careers/){:target="_blank"} [![sentry](/static/images/sponsors/sentry.svg){:class='sponsor'}](https://sentry.io/){:target="_blank"} 
 
 ##### Bronze
 
