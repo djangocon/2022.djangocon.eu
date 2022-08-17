@@ -21,6 +21,7 @@ def default_view(request, menu='home', submenu=None):
 
     if menu == 'home':
         page += 'pages/' + menu
+        ctx['files'].append(f'{APPS_DIR.__str__()}/content/sponsors/sponsors/sponsors.md')
     elif len(files) == 0:
         page += '404'
     else:
