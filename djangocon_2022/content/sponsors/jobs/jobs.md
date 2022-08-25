@@ -28,19 +28,19 @@ Evolutio is a Software House specialized in Data-Intensive and Location Intellig
 📍 **Remote, Anywhere** 🌎
 ⏱️ **Full-time**
 Platform.sh is a groundbreaking hosting and development tool for web applications. We run dozens of cloud regions all over the world with a mix of clients, from individual developers running small development clusters to the biggest companies on earth, running some of their critical apps on us.
-For its groundbreaking PaaS solution, https://platform.sh is looking for a Cloud Software Engineer with an interest in Python or Go, good understanding of Linux systems, and an ability to embrace the challenges of building robust, distributed systems.
+For its groundbreaking PaaS solution, https://platform.sh is looking for a Cloud Software Engineer with an interest in Python or Go, good understanding of Linux systems, and an ability to embrace the challenges of building robust, distributed systems. [Read More.](https://grnh.se/8d57e3db2us){:target="_blank"}
 
 [**Developer Relations Engineer / DevRel (EMEA/Americas) @ Platform.sh**](https://grnh.se/b16d68922us){:target="_blank"}
 📍 **Remote, Europe/UK or Americas** 🌎
 ⏱️ **Full-time**
 As a member of the Developer Relations team, you will play a key role in better understanding how our developers use the product - from onboarding and first explorations, to advanced Enterprise applications - and using what you’ve learned to enable the community and to champion feature requests and improvements on their behalf.
-You’ll work directly with Documentation writers, Product Managers, and Engineering to use what you’ve found to improve the developer experience for every user by producing technical articles, documentation, example code, and training resources, and to advocate for that experience in event talks and public demos. 
+You’ll work directly with Documentation writers, Product Managers, and Engineering to use what you’ve found to improve the developer experience for every user by producing technical articles, documentation, example code, and training resources, and to advocate for that experience in event talks and public demos. [Read More.](https://grnh.se/b16d68922us){:target="_blank"}
 
 [**Senior Technical Writer @ Platform.sh**](https://grnh.se/93b6134a2us){:target="_blank"}
 📍 **Remote, North America / EMEA** 🌎
 ⏱️ **Full-time**
 The Technical Writing & Education team is looking for a Senior Technical Writer to help with our public documentation. The job involves organizing, updating, and optimizing the materials we have to help developers use Platform.sh. The role reports to the Technical Education Manager.
-The hours for the role are flexible, but should ideally have at least some overlap with CET.
+The hours for the role are flexible, but should ideally have at least some overlap with CET. [Read More.](https://grnh.se/93b6134a2us){:target="_blank"}
 
 <hr/>
 
