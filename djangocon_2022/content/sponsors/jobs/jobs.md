@@ -18,7 +18,29 @@ Looking for a job? Here we'll have an awesome list with companies who sponsored 
 Evolutio is a Software House specialized in Data-Intensive and Location Intelligence Solutions with worldwide ambitions. Backed by a very strong experienced team with a solid track record in developing cutting edge software solutions. Open-source runs in the blood - currently organizing DjangoCon Europe. We are looking for both Backend and Frontend Developers.
  Drop us an email to discuss the ideal opportunity for you at [lvaz@evolutio.pt](mailto:lvaz@evolutio.pt)!
  
-**Note for 🇺🇦:** If you are running away from war, we will help you (and your family) with accomodation for the first months.
+**Note for 🇺🇦:** If you are running away from war, we will help you (and your family) with accommodation for the first months.
+
+<hr/>
+
+![platformsh](/static/images/sponsors/platformsh.png){:class='sponsor tiny'}
+
+[**Cloud Software Engineer @ Platform.sh**](https://grnh.se/8d57e3db2us){:target="_blank"}
+📍 **Remote, Anywhere** 🌎
+⏱️ **Full-time**
+Platform.sh is a groundbreaking hosting and development tool for web applications. We run dozens of cloud regions all over the world with a mix of clients, from individual developers running small development clusters to the biggest companies on earth, running some of their critical apps on us.
+For its groundbreaking PaaS solution, https://platform.sh is looking for a Cloud Software Engineer with an interest in Python or Go, good understanding of Linux systems, and an ability to embrace the challenges of building robust, distributed systems.
+
+[**Developer Relations Engineer / DevRel (EMEA/Americas) @ Platform.sh**](https://grnh.se/b16d68922us){:target="_blank"}
+📍 **Remote, Europe/UK or Americas** 🌎
+⏱️ **Full-time**
+As a member of the Developer Relations team, you will play a key role in better understanding how our developers use the product - from onboarding and first explorations, to advanced Enterprise applications - and using what you’ve learned to enable the community and to champion feature requests and improvements on their behalf.
+You’ll work directly with Documentation writers, Product Managers, and Engineering to use what you’ve found to improve the developer experience for every user by producing technical articles, documentation, example code, and training resources, and to advocate for that experience in event talks and public demos. 
+
+[**Senior Technical Writer @ Platform.sh**](https://grnh.se/93b6134a2us){:target="_blank"}
+📍 **Remote, North America / EMEA** 🌎
+⏱️ **Full-time**
+The Technical Writing & Education team is looking for a Senior Technical Writer to help with our public documentation. The job involves organizing, updating, and optimizing the materials we have to help developers use Platform.sh. The role reports to the Technical Education Manager.
+The hours for the role are flexible, but should ideally have at least some overlap with CET.
 
 <hr/>
 
