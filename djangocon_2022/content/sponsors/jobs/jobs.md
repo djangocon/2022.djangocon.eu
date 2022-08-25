@@ -46,20 +46,20 @@ The hours for the role are flexible, but should ideally have at least some overl
 
 ![sendcloud](/static/images/sponsors/sendcloud.png){:class='sponsor tiny'}  
 
-[**Backend Team Lead (Python) @ sendcloud**](https://jobs.sendcloud.com/jobs/6119507002?gh_jid=6119507002){:target="_blank"} 
+[**DevOps Engineer @ sendcloud**](https://grnh.se/d0eb1e442us){:target="_blank"} 
 📍 **Eindhoven, Netherlands** 🇳🇱
 ⏱️ **Full-time**
-As a Lead Engineer in the Shared Services team, you will be working on the Sendcloud platform, providing and maintaining various horizontally scaled services and products for the engineering organization. Sendcloud integrates various carriers and online stores in a fast and intuitive tool. We release early and often. Curious about the application process? [Read more.](https://jobs.sendcloud.com/jobs/6119507002?gh_jid=6119507002){:target="_blank"} 
+As a DevOps Engineer, you will be working on the Sendcloud platform within the platform domain. Your work will be distributed between the requirements set by engineering teams, while still being able to contribute to the overall platform improvements. That platform is used by our software engineering teams to build, test, deploy and run software themselves. You will be responsible for onboarding those feature teams into the world of DevOps, and guide software engineers on the importance of inclusion of non-functional requirements (observability, operations, deployments, security, etc.), with how to define their CI/CD pipelines, and assist them with software development tooling.[Read More.](https://grnh.se/d0eb1e442us){:target="_blank"} 
 
-[**Senior Backend Developer @ sendcloud**](https://jobs.sendcloud.com/jobs/6126146002?gh_jid=6126146002){:target="_blank"} 
+[**Principal Engineer @ sendcloud**](https://grnh.se/ccee9d8e2us){:target="_blank"} 
 📍 **Eindhoven, Netherlands** 🇳🇱
 ⏱️ **Full-time**
-As a Senior Backend Developer you will be working on the Sendcloud system. Sendcloud integrates various carriers and online stores in a fast and intuitive tool. We release early and often.The development team is responsible for building the Sendcloud system and keeping it running. Our code base has a high test coverage, we apply continuous integration and we love to automate stuff to squeeze out manual steps in our process. Curious about the application process? [Read more.](https://jobs.sendcloud.com/jobs/6126146002?gh_jid=6126146002){:target="_blank"} 
+As a Principal Engineer you will be part of one of our 11 teams. In the near future we will grow to 12-15 teams, therefore we are looking for seniority to launch these teams and be a technical guide for the rest of the team. Sendcloud integrates various carriers and online stores in a fast and intuitive tool, we are on our mission to build the largest shipping platform of the world. We release early and often. Our code base has a high test coverage, we apply continuous integration and we love to automate stuff to squeeze out manual steps in our process.[Read More.](https://grnh.se/ccee9d8e2us){:target="_blank"} 
 
-[**DevOps Engineer @ sendcloud**](https://jobs.sendcloud.com/jobs/5538960002?gh_jid=5538960002){:target="_blank"} 
+[**Lead Engineer @ sendcloud**](https://grnh.se/4619f5312us){:target="_blank"} 
 📍 **Eindhoven, Netherlands** 🇳🇱
 ⏱️ **Full-time**
-As a DevOps engineer you will be working on the Sendcloud platform within the platform domain. Your work will be distributed between the requirements set by the development team, while still being able to contribute to the overall platform improvements. That platform is used by our software development teams to build, test, deploy and run software themselves.  Curious about the application process? [Read more.](https://jobs.sendcloud.com/jobs/5538960002?gh_jid=5538960002){:target="_blank"} 
+As Lead Engineer you will be a member and people manager of one of our 11 teams. Next to your coding projects you are responsible for the end delivery and the performance of your  team. You are the go-to person for the team to ask questions about architecture, as you will work closely with the Software Architects. In the near future our teams will grow to 12-15 teams, therefore we are looking for seniority to lead these teams. You will report to and work closely with the Engineering Manager. Sendcloud integrates various carriers and online stores in a fast and intuitive tool, we are on our mission to build the largest shipping platform of the world. We release early and often. Our code base has a high test coverage, we apply continuous integration and we love to automate stuff to squeeze out manual steps in our process. [Read More.](https://grnh.se/4619f5312us){:target="_blank"} 
 
 <hr/>
 
