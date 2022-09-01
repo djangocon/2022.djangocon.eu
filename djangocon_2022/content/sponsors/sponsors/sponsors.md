@@ -15,6 +15,10 @@ layout: simple
 
 [![sendcloud](/static/images/sponsors/sendcloud.png){:class='sponsor tiny'}](https://jobs.sendcloud.com/){:target="_blank"} [![silvr](/static/images/sponsors/silvr.svg){:class='sponsor'}](https://careers.silvr.co/){:target="_blank"} [![octopus](/static/images/sponsors/octopus.png){:class='sponsor huge'}](https://octopus.energy/careers/){:target="_blank"} [![sentry](/static/images/sponsors/sentry.svg){:class='sponsor'}](https://sentry.io/){:target="_blank"} 
 
+##### Silver
+
+[![checksec](/static/images/sponsors/checksec.png){:class='sponsor small'}](https://www.checksec.com/){:target="_blank"} 
+
 ##### Bronze
 
 [![ambient](/static/images/sponsors/ambient.svg){:class='sponsor'}](https://ambient.digital/){:target="_blank"} [![simple poll](/static/images/sponsors/simple_poll.svg){:class='sponsor tiny'}](https://simplepoll.rocks/){:target="_blank"} [![prorenata](/static/images/sponsors/prorenata.png){:class='sponsor small'}](https://prorenata.se/){:target="_blank"} [![maykinmedia](/static/images/sponsors/maykin.png){:class='sponsor'}](https://www.maykinmedia.nl/en/){:target="_blank"} [![foxley](/static/images/sponsors/foxley.png){:class='sponsor large'}](https://www.foxleytalent.com/){:target="_blank"} [![torchbox](/static/images/sponsors/torchbox.svg){:class='sponsor large'}](https://torchbox.com/){:target="_blank"} [![monit](/static/images/sponsors/monit.png){:class='sponsor small'}](https://monitdata.com/){:target="_blank"}  [![six feet up](/static/images/sponsors/sfu.png){:class='sponsor'}](https://sixfeetup.com/){:target="_blank"}
