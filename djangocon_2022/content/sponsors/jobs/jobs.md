@@ -44,7 +44,7 @@ The hours for the role are flexible, but should ideally have at least some overl
 
 <hr/>
 
-![sendcloud](/static/images/sponsors/sendcloud.png){:class='sponsor tiny'}  
+![sendcloud](/static/images/sponsors/sendcloud.png){:class='sponsor small'}  
 
 [**DevOps Engineer @ sendcloud**](https://grnh.se/d0eb1e442us){:target="_blank"} 
 📍 **Eindhoven, Netherlands** 🇳🇱
