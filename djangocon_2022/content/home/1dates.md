@@ -52,7 +52,7 @@ layout: home_dates
 >
 > > 🎪 21st, 22nd, 23rd - [Main conference](/talks/schedule/) @ [Super Bock Arena](/information/venue/)
 > >
-> > 🎉 23rd - [Party](/information/party/)
+> > 🎉 23rd - [Party](/information/social_events/#party)
 > >
 > > 🎪 24th, 25th - [Sprints](/information/sprints/) @ [University of Porto](/information/venue/)
 

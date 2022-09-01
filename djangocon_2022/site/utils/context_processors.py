@@ -19,7 +19,7 @@ def links(request):
                     'Grants': '/information/grants/',
                     'Sprints': '/information/sprints/',
                     'Hospitality': '/information/hospitality/',
-                    'Party': '/information/party/',
+                    'Social Events': '/information/social_events/',
                     'T-shirts': '/information/tshirts/',
                     'Announcements': '/information/announcements/',
                 },
