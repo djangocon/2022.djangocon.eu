@@ -63,6 +63,28 @@ As Lead Engineer you will be a member and people manager of one of our 11 teams.
 
 <hr/>
 
+![Octopus Energy](/static/images/sponsors/octopus.png){:class='sponsor small'}  
+
+[**Backend Developer - Kraken Technologies**](https://jobs.lever.co/octoenergy/37eeec91-cec2-40e3-9b5e-808971f5d790){:target="_blank"} 
+📍 **London, United Kingdom** 🇬🇧
+⏱️ **Full-time**
+All technology is written and maintained by a multi-discipline engineering team of around 250 people globally. This includes server-side, client-side and mobile engineers working closely with UX experts, copywriters and designers.
+We follow a Kanban-like approach, using Google docs and Asana to specify and manage work; Github, CircleCI and Terraform Enterprise as part of an immutable-infrastructure, continuous delivery pipeline; and Loggly, Sentry and Cloudwatch to measure performance and monitor production. [Read More.](https://jobs.lever.co/octoenergy/37eeec91-cec2-40e3-9b5e-808971f5d790){:target="_blank"} 
+
+[**Backend Developer - Octopus Energy France**](https://jobs.lever.co/octoenergy/2e77f196-3f3e-4808-bb60-0562ce0f7b2d){:target="_blank"} 
+📍 **Paris, France** 🇫🇷
+⏱️ **Full-time**
+All technology is written and maintained by a multi-discipline engineering team of around 250 people globally. This includes server-side, client-side and mobile engineers working closely with UX experts, copywriters and designers.
+We follow a Kanban-like approach, using Google docs and Asana to specify and manage work; Github, CircleCI and Terraform Enterprise as part of an immutable-infrastructure, continuous delivery pipeline; and Loggly, Sentry and Cloudwatch to measure performance and monitor production. [Read More.](https://jobs.lever.co/octoenergy/2e77f196-3f3e-4808-bb60-0562ce0f7b2d){:target="_blank"} 
+
+[**Backend Developer - Octopus Energy Spain**](https://jobs.lever.co/octoenergy/05efc370-6242-46e6-a813-222755c5019a){:target="_blank"} 
+📍 **Valencia, Spain** 🇪🇸
+⏱️ **Full-time**
+All technology is written and maintained by a multi-discipline engineering team of around 250 people globally. This includes server-side, client-side and mobile engineers working closely with UX experts, copywriters and designers.
+We follow a Kanban-like approach, using Google docs and Asana to specify and manage work; Github, CircleCI and Terraform Enterprise as part of an immutable-infrastructure, continuous delivery pipeline; and Loggly, Sentry and Cloudwatch to measure performance and monitor production. [Read More.](https://jobs.lever.co/octoenergy/05efc370-6242-46e6-a813-222755c5019a){:target="_blank"} 
+
+<hr/>
+
 ![prorenata](/static/images/sponsors/prorenata.png){:class='sponsor small'}
 
 [**Technical Application Specialist @ prorenata**](https://emp.jobylon.com/jobs/134239-prorenata-ab-teknisk-systemspecialist/){:target="_blank"} 
