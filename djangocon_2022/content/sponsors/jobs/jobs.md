@@ -22,7 +22,7 @@ Evolutio is a Software House specialized in Data-Intensive and Location Intellig
 
 <hr/>
 
-![platformsh](/static/images/sponsors/platformsh.png){:class='sponsor tiny'}
+![platformsh](/static/images/sponsors/platformsh.png){:class='sponsor'}
 
 [**Cloud Software Engineer @ Platform.sh**](https://grnh.se/8d57e3db2us){:target="_blank"}
 📍 **Remote, Anywhere** 🌎
@@ -44,7 +44,7 @@ The hours for the role are flexible, but should ideally have at least some overl
 
 <hr/>
 
-![sendcloud](/static/images/sponsors/sendcloud.png){:class='sponsor small'}  
+![sendcloud](/static/images/sponsors/sendcloud.png){:class='sponsor tiny'}  
 
 [**DevOps Engineer @ sendcloud**](https://grnh.se/d0eb1e442us){:target="_blank"} 
 📍 **Eindhoven, Netherlands** 🇳🇱
@@ -63,7 +63,7 @@ As Lead Engineer you will be a member and people manager of one of our 11 teams.
 
 <hr/>
 
-![Octopus Energy](/static/images/sponsors/octopus.png){:class='sponsor small'}  
+![Octopus Energy](/static/images/sponsors/octopus.png){:class='sponsor huge'} 
 
 [**Backend Developer - Kraken Technologies**](https://jobs.lever.co/octoenergy/37eeec91-cec2-40e3-9b5e-808971f5d790){:target="_blank"} 
 📍 **London, United Kingdom** 🇬🇧
