@@ -17,7 +17,7 @@ layout: simple
 
 ##### Silver
 
-[![checksec](/static/images/sponsors/checksec.png){:class='sponsor small'}](https://www.checksec.com/){:target="_blank"} 
+[![checksec](/static/images/sponsors/checksec.png){:class='sponsor small'}](https://www.checksec.com/){:target="_blank"} [![saltpay](/static/images/sponsors/SaltPay_Logo_Purple.svg){:class='sponsor'}](https://www.saltpay.co){:target="_blank"} 
 
 ##### Bronze
 
