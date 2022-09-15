@@ -50,9 +50,11 @@ layout: home_dates
 
 > #### september
 >
-> > 🎪 21st, 22nd, 23rd - [Main conference](/talks/schedule/) @ [Super Bock Arena](/information/venue/)
+> > 🎪 21st, 22nd, 23rd - [Main Conference](/talks/schedule/) @ [Super Bock Arena](/information/venue/)
 > >
-> > 🎉 23rd - [Party](/information/social_events/#party)
+> > ⛵️ 21st, 22nd, 23rd - [Boat Cruise](/information/social_events/)
+> >
+> > 🎉 22rd - [Party](/information/social_events/)
 > >
 > > 🎪 24th, 25th - [Sprints](/information/sprints/) @ [University of Porto](/information/venue/)
 
