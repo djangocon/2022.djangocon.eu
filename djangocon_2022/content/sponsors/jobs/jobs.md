@@ -85,14 +85,13 @@ We follow a Kanban-like approach, using Google docs and Asana to specify and man
 
 <hr/>
 
-![checksec](/static/images/sponsors/checksec.png)
+![checksec](/static/images/sponsors/checksec.png){:class='sponsor small'}
 
 [**Senior Backend Developer @ CheckSec**](https://checksec.com/jobs/full_stack_developer.html){:target="_blank"}
 📍 **Remote, prefer +/- 3 hours GMT/BST** 🌎
 ⏱️ **Full-time**
 We’re building products that help security teams manage the assessment and reporting of security issues (these come from pentesting, red teaming, auditing via frameworks, and more). Our products manage the business processes of security teams in the same way that Salesforce does for sales teams. 
 The Senior Backend Engineer role will focus on improving and supporting our core product. You will be responsible for working with the team on designing and building new features, reducing technical debt, improving performance, and also supporting our clients in resolving bugs they report (although the role is not specifically client facing). Our software stack is predominantly python (we rely on django, and build on top of it). Experience and skill with python is one of the main attributes we look at. The more the better. On the front-end we use react.js (typescript), so if you have experience with that too, great :) 
-If you’re interested, you can find more information at: [https://checksec.com/jobs/full_stack_developer.html](https://checksec.com/jobs/full_stack_developer.html){:target="_blank"}
 
 <hr/>
 
