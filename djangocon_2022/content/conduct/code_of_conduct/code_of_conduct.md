@@ -57,7 +57,7 @@ This Code of Conduct applies to all conference related spaces. That includes, bu
 
 * The conference online platform
 * Any conference related social activities
-* [Slack](https://djangoconeurope.slack.com){:target="_blank"} channels, tweets with the conference hashtag, and other online media
+* [Slack](https://join.slack.com/t/djangoconeurope/shared_invite/zt-1gjg5lqkz-qVQkNnhjztXVme7TQ7ziQA){:target="_blank"} channels, tweets with the conference hashtag, and other online media
 * The Code of Conduct does not exclusively apply to events on the conference agenda. For example, if after a scheduled social event, you go to a bar with a group of fellow participants and someone harasses you there, we would still treat that as a CoC violation.
 
 <hr/>
@@ -77,7 +77,7 @@ In case of a Code of Conduct violation, some of the most common actions organise
 
 #### Where to report incidents
 
-If a Code of Conduct incident happens to you, or you witness it happening to someone else, please contact the CoC team immediately, either in [Slack](https://djangoconeurope.slack.com){:target="_blank"} or by sending an email to [conduct@djangocon.eu](mailto:conduct@djangocon.eu).
+If a Code of Conduct incident happens to you, or you witness it happening to someone else, please contact the CoC team immediately, either in [Slack](https://join.slack.com/t/djangoconeurope/shared_invite/zt-1gjg5lqkz-qVQkNnhjztXVme7TQ7ziQA){:target="_blank"} or by sending an email to [conduct@djangocon.eu](mailto:conduct@djangocon.eu).
 
 Your report will be treated confidentially and will only be discussed within the CoC team.
 

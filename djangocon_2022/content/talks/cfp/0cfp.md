@@ -7,7 +7,7 @@ The talk submissions are ** closed **! If you have any questions, please do not 
 
 ** Deadline was 2022-05-31 23h59 UTC 🔥 **- precisely speaking, that was May 31st, 2022, 23:59 UTC. You could edit your submissions up until this date.
 
-If you think you have something great to talk about – submit your idea! If you are unsure, talk it over with somebody, or go to [Slack](https://djangoconeurope.slack.com){:target="_blank"} to find previous speakers and participants to discuss your idea with. ** When in doubt, submit your talk 😉!**
+If you think you have something great to talk about – submit your idea! If you are unsure, talk it over with somebody, or go to [Slack](https://join.slack.com/t/djangoconeurope/shared_invite/zt-1gjg5lqkz-qVQkNnhjztXVme7TQ7ziQA){:target="_blank"} to find previous speakers and participants to discuss your idea with. ** When in doubt, submit your talk 😉!**
 
 <center>[<button class="btn">Submit your talk here!</button>](https://pretalx.evolutio.pt/djangocon-europe-2022/cfp){:target="_blank"}</center>
 
