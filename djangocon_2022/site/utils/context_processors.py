@@ -55,7 +55,7 @@ def links(request):
         },
         'social_media': {
             'twitter': 'https://twitter.com/DjangoConEurope/',
-            'slack': 'https://djangoconeurope.slack.com/',
+            'slack': 'https://join.slack.com/t/djangoconeurope/shared_invite/zt-1gjg5lqkz-qVQkNnhjztXVme7TQ7ziQA',
             'youtube': 'https://youtube.com/user/djangoconeurope/',
             'linkedin': 'https://linkedin.com/company/djangocon-europe/',
             'github': 'https://github.com/djangocon/2022.djangocon.eu/',
