@@ -1,6 +1,10 @@
 title: party 🎉
 layout: simple
 
+### Please, take your bracelets for the party at the check-in to get a _complimentary drink_!
+
+<br/>
+
 The party will take place at **22h00 on September 22nd**, and it is sponsored by [platform.sh](https://platform.sh/){:target="_blank"}.
 
 [![platformsh](/static/images/sponsors/platformsh.png){:class='sponsor'}](https://platform.sh/){:target="_blank"} 
