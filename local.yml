@@ -1,0 +1,71 @@
+version: '3'
+
+volumes:
+  djangocon_2022_local_postgres_data: {}
+  djangocon_2022_local_postgres_data_backups: {}
+
+services:
+  django:
+    build:
+      context: .
+      dockerfile: ./compose/local/django/Dockerfile
+    image: djangocon_2022_local_django
+    container_name: djangocon_2022_local_django
+    platform: linux/x86_64
+    depends_on:
+      - postgres
+    volumes:
+      - .:/app:z
+    env_file:
+      - ./.envs/.local/.django
+      - ./.envs/.local/.postgres
+    ports:
+      - "8000:8000"
+    command: /start
+
+  postgres:
+    build:
+      context: .
+      dockerfile: ./compose/production/postgres/Dockerfile
+    image: djangocon_2022_production_postgres
+    container_name: djangocon_2022_local_postgres
+    volumes:
+      - djangocon_2022_local_postgres_data:/var/lib/postgresql/data:Z
+      - djangocon_2022_local_postgres_data_backups:/backups:z
+    env_file:
+      - ./.envs/.local/.postgres
+
+  docs:
+    image: djangocon_2022_local_docs
+    container_name: djangocon_2022_local_docs
+    platform: linux/x86_64
+    build:
+      context: .
+      dockerfile: ./compose/local/docs/Dockerfile
+    env_file:
+      - ./.envs/.local/.django
+    volumes:
+      - ./docs:/docs:z
+      - ./config:/app/config:z
+      - ./djangocon_2022:/app/djangocon_2022:z
+    ports:
+      - "9000:9000"
+    command: /start-docs
+
+  node:
+    build:
+      context: .
+      dockerfile: ./compose/local/node/Dockerfile
+    image: djangocon_2022_local_node
+    container_name: djangocon_2022_local_node
+    depends_on:
+      - django
+    volumes:
+      - .:/app:z
+      # http://jdlm.info/articles/2016/03/06/lessons-building-node-app-docker.html
+      - /app/node_modules
+    command: npm run dev
+    ports:
+      - "3000:3000"
+      # Expose browsersync UI: https://www.browsersync.io/docs/options/#option-ui
+      - "3001:3001"

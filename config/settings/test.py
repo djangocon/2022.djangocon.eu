@@ -10,7 +10,7 @@ from .base import env
 # https://docs.djangoproject.com/en/dev/ref/settings/#secret-key
 SECRET_KEY = env(
     "DJANGO_SECRET_KEY",
-    default="6qbnH7xJNgkR2G6J8odS97MNs740vLAyLWW9z7WPoalq7gXUK3syuiJmOV0GQYx9",
+    default="iPUPb3uEkHcjososiaWTc9y9EoSZ8jR0cbPXJcAaIGCLffW4KqMjQt6oR9jXUFlb",
 )
 # https://docs.djangoproject.com/en/dev/ref/settings/#test-runner
 TEST_RUNNER = "django.test.runner.DiscoverRunner"
@@ -24,6 +24,10 @@ PASSWORD_HASHERS = ["django.contrib.auth.hashers.MD5PasswordHasher"]
 # ------------------------------------------------------------------------------
 # https://docs.djangoproject.com/en/dev/ref/settings/#email-backend
 EMAIL_BACKEND = "django.core.mail.backends.locmem.EmailBackend"
+
+# DEBUGING FOR TEMPLATES
+# ------------------------------------------------------------------------------
+TEMPLATES[0]["OPTIONS"]["debug"] = True  # type: ignore # noqa F405
 
 # Your stuff...
 # ------------------------------------------------------------------------------
