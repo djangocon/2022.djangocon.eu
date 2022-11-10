@@ -4,7 +4,6 @@ layout: home_about
 <center>
 #### Join us for five days of talks, sprints, and tutorials!
 
-[<button class="btn btn-tickets">GRAB YOUR TICKET</button>](/tickets/)
 </center>
     
 
