@@ -3,7 +3,7 @@ layout: simple
 
 **All tickets include access to all 3 conference days (September 21 - 23) and the 2 sprints days (September 24 - 25)**. Don't forget to follow us on Twitter [@DjangoConEurope](https://twitter.com/djangoconeurope){:target="_blank"} for the latest up to date information!
 
-[<center><button class="btn">Grab your ticket!</button></center>](https://pretix.evolutio.pt/evolutio/djceu2022/){:target="_blank"}
+<center><button class="btn">Ticket sale closed!</button></center>
 
 If you are from a marginalised or under-represented group, and you are not able to afford a ticket, you should apply for a [grant](/information/grants/). **Please consider making an extra donation** to help us offer grants to people from marginalised or under-represented groups.
 
@@ -20,7 +20,7 @@ The following **ticket types** are available:
 - **Business Ticket (€385)** - If your employer is paying for the ticket or reimbursing you for your conference expenses.
 - **Business SUPPORTER Ticket (€485)** - The additional money from this ticket type ensure we can afford offering cheaper tickets to students and other people who could not afford to join otherwise. Thank you for doing so! As a token of appreciation, your (company) name will be eternalised in the official DjangoCon Europe 2022 [supporters page](/sponsors/supporters/) (upon your authorization); and, you will also receive a <u>special gift</u> at the conference!
 
-[<center><button class="btn">Grab your ticket!</button></center>](https://pretix.evolutio.pt/evolutio/djceu2022/){:target="_blank"}
+<center><button class="btn">Ticket sale closed!</button></center>
 
 The tickets for the in-person conference include the following food: morning snack, lunch, and afternoon snack. Please don't forget to ** add you dietary restrictions when purchasing your ticket! **
 
