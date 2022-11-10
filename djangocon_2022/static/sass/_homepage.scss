@@ -32,7 +32,7 @@
 }
 
 .home-header {
-  height: 80vh;
+  height:  80vh;
   min-height: 20rem;
   background-position: center bottom;
   background-size: auto 100%;
@@ -43,11 +43,9 @@
   h3 {
     color: #FFA300;
   }
-
   .home-title {
     padding: 5rem 2vw;
   }
-
   img {
     max-width: 750px;
     width: 100%;
@@ -56,17 +54,7 @@
   }
 }
 
-.btn-tickets {
-  height: auto;
-  background: white;
-  color: base.$BgBlue;
-  border-radius: 23px;
-  max-width: 331px;
-  padding: .625rem 2.875rem;
-  margin-top: 1.125rem;
-  margin-bottom: 4rem;
-  @extend %HOME-TEXT;
-}
+
 
 .home-subheader {
   background: base.$BgBlue;
@@ -75,11 +63,21 @@
   color: white;
   padding-bottom: 4rem;
 
+  .btn-tickets {
+    height: auto;
+    background: white;
+    color: base.$BgBlue;
+    border-radius: 23px;
+    max-width: 331px;
+    padding: .625rem 2.875rem;
+    margin-top: 1.125rem;
+    margin-bottom: 4rem;
+    @extend %HOME-TEXT;
+  }
 
   h4 {
     @extend %HOME-TEXT;
   }
-
   .home-about {
     p {
       @extend %HOME-TEXT;
@@ -118,16 +116,14 @@
     }
   }
 }
-
 .important-dates {
   background-color: base.$BgLightBlue;
   padding-top: 3rem;
   padding-bottom: 3rem;
 
-  .title {
+  .title{
     padding-bottom: 2rem;
   }
-
   .dates {
     text-align: start;
 
@@ -140,7 +136,6 @@
       margin: .875rem;
       min-width: 12rem;
     }
-
     blockquote {
       display: flex;
       justify-self: center;
@@ -152,7 +147,6 @@
         flex: 1 0 0%;
         padding: .875rem 0rem;
         margin: 0rem .875rem;
-
         p {
           @extend %HOME-TEXT;
           margin-top: .875rem;
@@ -163,7 +157,6 @@
         }
       }
     }
-
     p {
       display: none;
     }
@@ -193,7 +186,6 @@
   .margin-right {
     display: block;
   }
-
   .margin-left {
     display: block;
   }
@@ -210,7 +202,6 @@
       margin-right: .875rem;
       margin-left: .875rem;
     }
-
     p {
       padding-top: .75rem;
       margin-right: .875rem;

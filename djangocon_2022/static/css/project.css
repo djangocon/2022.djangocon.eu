@@ -43,7 +43,7 @@ body {
   color: #b94a48;
 }
 
-.important-dates .dates blockquote blockquote p, .home-subheader .home-about p, .home-subheader h4, .btn-tickets, .home-text {
+.important-dates .dates blockquote blockquote p, .home-subheader .home-about p, .home-subheader h4, .home-subheader .btn-tickets, .home-text {
   font: normal normal normal 18px/24px Ubuntu, sans-serif;
   font: normal normal normal 1.125rem/1.5rem Ubuntu, sans-serif;
 }
@@ -87,7 +87,16 @@ body {
   padding-top: 1.875rem;
 }
 
-.btn-tickets {
+.home-subheader {
+  background: #003C80;
+  border: none;
+  padding-top: 48px;
+  padding-top: 3rem;
+  color: white;
+  padding-bottom: 64px;
+  padding-bottom: 4rem;
+}
+.home-subheader .btn-tickets {
   height: auto;
   background: white;
   color: #003C80;
@@ -99,16 +108,6 @@ body {
   margin-top: 1.125rem;
   margin-bottom: 64px;
   margin-bottom: 4rem;
-}
-
-.home-subheader {
-  background: #003C80;
-  border: none;
-  padding-top: 48px;
-  padding-top: 3rem;
-  color: white;
-  padding-bottom: 64px;
-  padding-bottom: 4rem;
 }
 .home-subheader .home-about p {
   margin-top: 16px;
