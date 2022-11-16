@@ -11,6 +11,7 @@ The team can be reached on [conduct@djangocon.eu](mailto:conduct@djangocon.eu) a
 * Mustapha Unubi Momoh
 * Noah Alorwu
 * Nuno Hespanhol
+* Thibaud Colas
 
 We would like to thank the DjangoCon Europe 2019 CoC team for the awesome CoC (which we adapted with some minor modifications) and the response guidelines (which we have adopted almost unedited from 2018).
 
