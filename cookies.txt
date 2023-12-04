@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+127.0.0.1:8000	TRUE	/	FALSE	1999999999	csrftoken	ohcfWjvFpdJpXKf4TMaIn5GEeyFGwrzA
+127.0.0.1:8000	TRUE	/	FALSE	1999999999	SameSite	Lax
+
