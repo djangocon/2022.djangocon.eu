@@ -1,0 +1,51 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.evolutio.pt//djangocon-europe-2022//AYA3UU
+BEGIN:VTIMEZONE
+TZID:WET
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:WET
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:WEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-djangocon-europe-2022-8X37KK@pretalx.evolutio.pt
+DTSTART;TZID=WET:20220921T171000
+DTEND;TZID=WET:20220921T174000
+DESCRIPTION:Data isolation is key when working with bounded physical tenant
+ s like grocery stores. All the APIs and data are tenant dependent and we d
+ on't want to mix them between stores. This is the tale of the yellow brick
+  road to multitenancy and how a Django project hack became an open-source 
+ library for everyone to use. The hack behind the curtain\, welcome to Oz!
+DTSTAMP:20231211T163652Z
+LOCATION:Auditorium
+SUMMARY:The hack behind the curtain! Deploying a Multitenant Django applica
+ tion to more than 1600 stores - Emilio Carrión
+URL:https://pretalx.evolutio.pt/djangocon-europe-2022/talk/8X37KK/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-djangocon-europe-2022-UH8KUK@pretalx.evolutio.pt
+DTSTART;TZID=WET:20220922T171000
+DTEND;TZID=WET:20220922T180000
+DESCRIPTION:TDD is a software design methodology that is based on first wri
+ ting tests\, then writing source code that successfully passes those tests
+ \, and finally refactoring the written code.\n\nAt the end of the workshop
+ \, you will leave knowing which are the steps to follow to make Django API
+  developments with the TDD methodology and be able to apply what you have 
+ learned.
+DTSTAMP:20231211T163652Z
+LOCATION:Workshops
+SUMMARY:TDD applied to Django API development - Emilio Carrión
+URL:https://pretalx.evolutio.pt/djangocon-europe-2022/talk/UH8KUK/
+END:VEVENT
+END:VCALENDAR

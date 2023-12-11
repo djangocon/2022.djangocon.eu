@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.evolutio.pt//djangocon-europe-2022//FDSMFS
+BEGIN:VTIMEZONE
+TZID:WET
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:WET
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:WEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-djangocon-europe-2022-RFFG3Z@pretalx.evolutio.pt
+DTSTART;TZID=WET:20220923T160000
+DTEND;TZID=WET:20220923T165000
+DESCRIPTION:Reading and understanding existing code is a big part of work a
+ s software developers. We're constantly exploring code that we did not wri
+ te and are not familiar with. Yet the tools we have for this frequent task
+  leave a lot to be desired. In this talk we explore how we can use runtime
+  inspection and Kolo to observe what our Django app is doing while running
+  and how that can help us rapidly build a strong mental model that we can 
+ then draw on when writing new code.
+DTSTAMP:20231211T163740Z
+LOCATION:Workshops
+SUMMARY:Understanding everything your Django code is doing at runtime using
+  Kolo - Wilhelm Klopp
+URL:https://pretalx.evolutio.pt/djangocon-europe-2022/talk/RFFG3Z/
+END:VEVENT
+END:VCALENDAR

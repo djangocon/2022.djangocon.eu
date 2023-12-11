@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.evolutio.pt//AFYRWB
+BEGIN:VTIMEZONE
+TZID:WET
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:WET
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:WEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-djangocon-europe-2022-AFYRWB@pretalx.evolutio.pt
+DTSTART;TZID=WET:20220923T165500
+DTEND;TZID=WET:20220923T174500
+DESCRIPTION:In this workshop we will learn how to create automated integrat
+ ion tests for a REST API using ScanAPI. We will learn how to configure the
+  library\, to define the endpoints to be hit\, the expected behaviors for 
+ each response\, how to run the tests and how to access the generated repor
+ t - which might be used as the API documentation itself.
+DTSTAMP:20231211T163748Z
+LOCATION:Workshops
+SUMMARY:Automated Integration Testing and Live Documentation for your Djang
+ o APIs with ScanAPI - Camila Maia
+URL:https://pretalx.evolutio.pt/djangocon-europe-2022/talk/AFYRWB/
+END:VEVENT
+END:VCALENDAR

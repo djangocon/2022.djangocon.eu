@@ -1,0 +1,216 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    
+<!-- Mirrored from pretalx.evolutio.pt/djangocon-europe-2022/talk/RFFG3Z/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Dec 2023 16:37:53 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta charset="utf-8">
+        <title>Understanding everything your Django code is doing at runtime using Kolo ::  DjangoCon Europe 2022 :: pretalx</title>
+        <meta name="title" content="Understanding everything your Django code is doing at runtime using Kolo  - DjangoCon Europe 2022 pretalx">
+        <meta name="description" content="One of the most time consuming aspects of creating great software is reading and understanding the code we&#x27;re extending or building on top of. In fact, some say that for every 1 new line of code that we write, we first read and understand 10 other lines of code. Yet we seem to have few tools that really help us read, learn, and understand existing codebases.
+
+This talk discusses how more often than not, we rely on our own imagination and brain power to understand and explore our codebases. We talk about where debuggers can be useful and the many places where they fall short and actually slow down our learning process.
+
+We explore the inspection of runtime data and observing what our code is actually doing as a potential approach to speed up how quickly we can learn and understand a codebase. Specifically we look at all the information we can observe and visualise during a Django HTTP request/response cycle to help us understand everything that our code is doing.
+
+Finally, we think about where else we could apply this idea of &quot;runtime inspection&quot; to solve other problems: Could this approach help us generate test cases? Or at least help us write test fixtures more quickly? Could it help us notice more quickly when our SQL queries are not efficient? And much more
+
+
+**Outline**
+1. The problem with reading and understanding code
+2. Inspecting runtime data as a potential solution
+3. Demo of Kolo: What can Kolo do today?
+4. The Glorious Future of collecting, inspecting, and visualizing our code at runtime">
+        <meta name="application-name" content="pretalx">
+        <meta name="generator" content="pretalx">
+        <meta name="keywords" content="DjangoCon Europe 2022, djangocon-europe-2022, 2022, schedule, talks, cfp, call for papers, conference, submissions, organizer">
+        
+        <meta name="robots" content="index, follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#003C80">
+        <meta name="HandheldFriendly" content="True"/>
+        <meta property="thumbnail" content="logo_white_wBNAEWb.png">
+    <meta property="og:image" content="logo_white_wBNAEWb.png">
+        <meta property="og:title" content="Understanding everything your Django code is doing at runtime using Kolo DjangoCon Europe 2022">
+        <meta property="og:description" content="One of the most time consuming aspects of creating great software is reading and understanding the code we&#x27;re extending or building on top of. In fact, some say that for every 1 new line of code that we write, we first read and understand 10 other lines of code. Yet we seem to have few tools that really help us read, learn, and understand existing codebases.
+
+This talk discusses how more often than not, we rely on our own imagination and brain power to understand and explore our codebases. We talk about where debuggers can be useful and the many places where they fall short and actually slow down our learning process.
+
+We explore the inspection of runtime data and observing what our code is actually doing as a potential approach to speed up how quickly we can learn and understand a codebase. Specifically we look at all the information we can observe and visualise during a Django HTTP request/response cycle to help us understand everything that our code is doing.
+
+Finally, we think about where else we could apply this idea of &quot;runtime inspection&quot; to solve other problems: Could this approach help us generate test cases? Or at least help us write test fixtures more quickly? Could it help us notice more quickly when our SQL queries are not efficient? And much more
+
+
+**Outline**
+1. The problem with reading and understanding code
+2. Inspecting runtime data as a potential solution
+3. Demo of Kolo: What can Kolo do today?
+4. The Glorious Future of collecting, inspecting, and visualizing our code at runtime">
+        <meta property="og:url" content="index.html">
+        <meta property="twitter:card" content="summary">
+
+        
+            <link rel="icon" type="image/png" sizes="32x32" href="../../../static/common/img/favicon-32x32.38c2aab28d3a.png">
+            <link rel="icon" type="image/png" sizes="16x16" href="../../../static/common/img/favicon-16x16.02f8a56e1af3.png">
+        
+
+        <link rel="stylesheet" type="text/css" href="../../../static/common/scss/uncompressed.cabbf3759e3e.css" />
+        
+            <link rel="stylesheet" type="text/css" href="../../../static/vendored/fullcalendar/fullcalendar.min.ba055a2cd2b3.css"/>
+            <link rel="stylesheet" type="text/css" href="https://pretalx.evolutio.pt/media/djangocon-europe-2022/cfp.327d3d760ca24fc4.css"/>
+            <link rel="stylesheet" type="text/css" href="https://pretalx.evolutio.pt/media/djangocon-europe-2022/agenda.81671e2b8d31c1b9.css"/>
+        
+        
+        <script src="../../../static/CACHE/js/output.079684506270.js" defer></script>
+        
+    
+    <link rel="alternate" type="application/json" title="DjangoCon Europe 2022 API" href="https://pretalx.evolutio.pt/api/events/djangocon-europe-2022/talks/RFFG3Z" />
+
+    
+    
+
+    </head>
+    <body data-datetimeformat="YYYY-MM-DD HH:mm:ss" data-dateformat="YYYY-MM-DD" data-datetimelocale="pt-PT">
+        <div id="top-bg" class="header bg-primary">
+            
+                <img src="https://pretalx.evolutio.pt/media/djangocon-europe-2022/img/youtube-djangocon-02_17.19.17_obdzYHN.png" id="header-image">
+            
+        </div>
+        
+        <div class="container" id="main-container">
+            <header>
+                <h1>
+                    <a href="../../schedule/index.html">
+                        
+                            <img src="https://pretalx.evolutio.pt/media/djangocon-europe-2022/img/logo_white_wBNAEWb.png" id="event-logo" alt="The event's logo">
+                        
+                    </a>
+                </h1>
+                <div class="d-flex" id="header-row">
+                    
+                    
+                        <a href="../../login/index.html">login</a>
+                    
+                </div>
+            </header>
+            <div class="card" id="main-card">
+                <main>
+                    
+
+                    
+    
+    
+    <article>
+        
+        <h3 class="talk-title">
+            <div class="heading-with-buttons">
+                Understanding everything your Django code is doing at runtime using Kolo
+                <div class="buttons" id="talk-buttons">
+                    
+                        <a class="btn btn-outline-primary" href="../djangocon-europe-2022-RFFG3Z.ics">
+                            <i class="fa fa-calendar"></i> .ical
+                        </a>
+                    
+                    
+                        <a href="feedback/index.html"
+                           class="btn btn-success">
+                            <i class="fa fa-comments"></i> 
+                        </a>
+                    
+                    
+                </div>
+            </div>
+            <small>
+                
+                    09-23, 16:00–16:50 (Europe/Lisbon), Workshops 
+                
+                
+                
+            </small>
+        </h3>
+        <div class="talk row">
+            <div class="talk-content">
+                
+                
+                
+                <section class="abstract">
+                    <p>Reading and understanding existing code is a big part of work as software developers. We're constantly exploring code that we did not write and are not familiar with. Yet the tools we have for this frequent task leave a lot to be desired. In this talk we explore how we can use runtime inspection and Kolo to observe what our Django app is doing while running and how that can help us rapidly build a strong mental model that we can then draw on when writing new code.</p>
+                </section>
+                
+                    <hr />
+                
+                <section class="description">
+                    <p>One of the most time consuming aspects of creating great software is reading and understanding the code we're extending or building on top of. In fact, some say that for every 1 new line of code that we write, we first read and understand 10 other lines of code. Yet we seem to have few tools that really help us read, learn, and understand existing codebases.</p>
+<p>This talk discusses how more often than not, we rely on our own imagination and brain power to understand and explore our codebases. We talk about where debuggers can be useful and the many places where they fall short and actually slow down our learning process.</p>
+<p>We explore the inspection of runtime data and observing what our code is actually doing as a potential approach to speed up how quickly we can learn and understand a codebase. Specifically we look at all the information we can observe and visualise during a Django HTTP request/response cycle to help us understand everything that our code is doing.</p>
+<p>Finally, we think about where else we could apply this idea of "runtime inspection" to solve other problems: Could this approach help us generate test cases? Or at least help us write test fixtures more quickly? Could it help us notice more quickly when our SQL queries are not efficient? And much more</p>
+<p><strong>Outline</strong><br>
+1. The problem with reading and understanding code<br>
+2. Inspecting runtime data as a potential solution<br>
+3. Demo of Kolo: What can Kolo do today?<br>
+4. The Glorious Future of collecting, inspecting, and visualizing our code at runtime</p>
+                </section>
+                
+            </section>
+            
+            <section>
+                
+            </section>
+        </div>
+    </div>
+    
+        
+            <div class="pretalx-session">
+                <div class="pretalx-session-time-box avatar">
+                    <a href="../../speaker/FDSMFS/index.html">
+                        <div class="avatar-wrapper">
+                            
+                                <img src="https://pretalx.evolutio.pt/media/avatars/final-medium_2C0IcjC.png">
+                            
+                        </div>
+                    </a>
+                </div>
+                <div class="pretalx-session-info">
+                    <div class="title">
+                        <a href="../../speaker/FDSMFS/index.html">Wilhelm Klopp</a>
+                    </div>
+                    <div class="abstract"><p>Wil is the founder of Simple Poll, one of the most popular apps for Slack, which he develops with his small remote team. Wil loves Django, so naturally Simple Poll was created as a Django app 6 years ago.</p>
+<p>Over the past two years, he has been exploring how to improve his own Django development workflow with a side project called Kolo. Kolo is a Django middleware and VSCode extension that shows you everything your Django app is doing as it’s running, making it much faster to ramp up on unfamiliar code and understand whats happening.</p>
+<p>Wil lives in London with his partner Emily and puppy Ada.</p></div>
+                    
+                </div>
+            </div>
+        
+    
+    </article>
+
+
+                </main>
+            </div>
+            <footer>
+                
+                
+
+
+    powered by <a href="https://pretalx.com/" target="_blank" rel="noopener">pretalx</a>
+
+
+                
+                    &middot;
+                    <a href="mailto:2022@djangocon.eu">Contact us</a>
+                
+                
+                    &middot;
+                    <a href="https://2022.djangocon.eu/conduct/privacy_guide/" target="_blank" rel="noopener">Imprint</a>
+                
+                
+            </footer>
+        </div>
+    </body>
+
+<!-- Mirrored from pretalx.evolutio.pt/djangocon-europe-2022/talk/RFFG3Z/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Dec 2023 16:37:55 GMT -->
+</html>

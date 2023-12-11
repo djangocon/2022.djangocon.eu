@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.evolutio.pt//7NACE9
+BEGIN:VTIMEZONE
+TZID:WET
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:WET
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:WEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-djangocon-europe-2022-7NACE9@pretalx.evolutio.pt
+DTSTART;TZID=WET:20220922T121000
+DTEND;TZID=WET:20220922T130000
+DESCRIPTION:If something is hard to do\, you’re unlikely to do it as ofte
+ n as you probably should. Development environments are no exception. How m
+ any people on your team have the skills and experience to create staging e
+ nvironments to assess performance and new features?
+DTSTAMP:20231211T163834Z
+LOCATION:Workshops
+SUMMARY:What are development environments for\, and why isn’t it simple t
+ o make them? - Chad Carlson
+URL:https://pretalx.evolutio.pt/djangocon-europe-2022/talk/7NACE9/
+END:VEVENT
+END:VCALENDAR

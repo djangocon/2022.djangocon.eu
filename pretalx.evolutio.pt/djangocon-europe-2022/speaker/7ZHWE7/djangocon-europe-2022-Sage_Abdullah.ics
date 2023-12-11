@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.evolutio.pt//djangocon-europe-2022//7ZHWE7
+BEGIN:VTIMEZONE
+TZID:WET
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:WET
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:WEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-djangocon-europe-2022-RNGQXV@pretalx.evolutio.pt
+DTSTART;TZID=WET:20220921T111500
+DTEND;TZID=WET:20220921T114500
+DESCRIPTION:File-system based routing has been widely used in JavaScript we
+ b frameworks\nsuch as Next.js\, NuxtJS\, Remix\, Gatsby\, and SvelteKit.\n
+ \nWith file-system based routing\, the URL structure of your web applicati
+ on\nis defined by the structure of the codebase. This makes it easier to f
+ ind the\nview that handles a certain path\, and vice versa.\n\nThis talk w
+ ill explore an experiment that implements file-based routing in a Django p
+ roject.
+DTSTAMP:20231211T163730Z
+LOCATION:Auditorium
+SUMMARY:Experimenting with file-based routing in Django - Sage Abdullah
+URL:https://pretalx.evolutio.pt/djangocon-europe-2022/talk/RNGQXV/
+END:VEVENT
+END:VCALENDAR

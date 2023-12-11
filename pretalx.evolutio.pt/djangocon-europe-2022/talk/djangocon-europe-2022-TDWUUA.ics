@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.evolutio.pt//TDWUUA
+BEGIN:VTIMEZONE
+TZID:WET
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:WET
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:WEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-djangocon-europe-2022-TDWUUA@pretalx.evolutio.pt
+DTSTART;TZID=WET:20220922T111500
+DTEND;TZID=WET:20220922T120500
+DESCRIPTION:The Django framework makes it really easy to use Python classes
+  for our data structures and from thereof create forms together with their
+  editors. However\, the usability of forms created the Django way have a h
+ uge potential to improve their usability. In this talk I will show how to 
+ achieve this without the need for JavaScript frameworks and with minimal c
+ hanges to the existing code base.
+DTSTAMP:20231211T163854Z
+LOCATION:Workshops
+SUMMARY:Rethinking Forms in Django - Jacob Rief
+URL:https://pretalx.evolutio.pt/djangocon-europe-2022/talk/TDWUUA/
+END:VEVENT
+END:VCALENDAR

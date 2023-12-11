@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.evolutio.pt//djangocon-europe-2022//ZQSWKV
+BEGIN:VTIMEZONE
+TZID:WET
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:WET
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:WEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-djangocon-europe-2022-BDATHF@pretalx.evolutio.pt
+DTSTART;TZID=WET:20220923T163500
+DTEND;TZID=WET:20220923T170500
+DESCRIPTION:We discuss financial sponsorships in open source project\, from
+  the point of view of open source maintainers: When and how to introduce s
+ ponsorships\, what to offer\, how to make it easy for companies to pay\, a
+ nd how to get paid as a maintainer.
+DTSTAMP:20231211T163650Z
+LOCATION:Auditorium
+SUMMARY:How to facilitate sponsorships for open source projects - Deleted U
+ ser
+URL:https://pretalx.evolutio.pt/djangocon-europe-2022/talk/BDATHF/
+END:VEVENT
+END:VCALENDAR

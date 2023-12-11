@@ -1,0 +1,1897 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- Made with love by pretalx v2023.1.3. -->
+<schedule>
+    <generator name="pretalx" version="2023.1.3" />
+    <version>1.11</version>
+    <conference>
+        <acronym>djangocon-europe-2022</acronym>
+        <title>DjangoCon Europe 2022</title>
+        <start>2022-09-21</start>
+        <end>2022-09-23</end>
+        <days>3</days>
+        <timeslot_duration>00:05</timeslot_duration>
+        <base_url>https://pretalx.evolutio.pt/djangocon-europe-2022/schedule/</base_url>
+        <time_zone_name>Europe/Lisbon</time_zone_name>
+    </conference>
+    <day index='1' date='2022-09-21' start='2022-09-21T04:00:00+01:00' end='2022-09-22T03:59:00+01:00'>
+        <room name='Auditorium'>
+            <event guid='f1f7f660-98ab-5012-b31e-efa8ee634a4f' id='398'>
+                <date>2022-09-21T09:00:00+01:00</date>
+                <start>09:00</start>
+                <duration>00:15</duration>
+                <room>Auditorium</room>
+                <slug>djangocon-europe-2022-398-welcome-session</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/UKB8YC/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Welcome Session</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Other</type>
+                <language>en</language>
+                <abstract>Welcome Session</abstract>
+                <description>Video: https://youtu.be/0kOLsFQGxyk</description>
+                <logo></logo>
+                <persons>
+                    
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='f0967f7f-bc7d-5530-9ba2-e9b41519615d' id='393'>
+                <date>2022-09-21T09:15:00+01:00</date>
+                <start>09:15</start>
+                <duration>01:00</duration>
+                <room>Auditorium</room>
+                <slug>djangocon-europe-2022-393-keynote-improving-contributor-experience-broadening-contributor-scope</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/TKE3E3/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Keynote: Improving Contributor Experience &amp; Broadening Contributor Scope</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Keynote</type>
+                <language>en</language>
+                <abstract>I&apos;ll be proposing a new category of code contributor I&apos;m calling &quot;Code Contributor Mentor&quot;, and also enumerating the need to recognize, recruit &amp; support non-code contributors.</abstract>
+                <description>As a largely volunteer-driven community, the Django code base and community rely on their contributors. In this talk I&apos;ll focus on two different categories of contributors the Django community needs:
+- Code Contributors
+- Non-Code Contributors
+
+The first part of the talk will propose a new category of code contributor: _Code Contributor Mentors_. These contributors are meant to provide an intermediate layer of support. They would benefit both current project maintainers (who are often overworked volunteers) and potential new contributors (who are often overwhelmed with how/where to start or continue).
+
+The second part of the talk will focus on the often-overlooked need for non-code contributors. Django (as well as Python and other related projects) are large enough that they need contributions beyond code.  These contributions range from needs on the global level, on the DSF &amp; PSF boards, to local meetups &amp; conferences. But these needs are often overlooked since they&apos;re not code-related.
+
+The goal of the talk is to both raise awareness of issues, but also propose potential solutions.
+
+Video: https://youtu.be/tfRcEFIWmUA</description>
+                <logo></logo>
+                <persons>
+                    <person id='411'>Kojo Idrissa</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='340e849c-5d02-5436-95d0-ec953051aa1c' id='183'>
+                <date>2022-09-21T10:15:00+01:00</date>
+                <start>10:15</start>
+                <duration>00:30</duration>
+                <room>Auditorium</room>
+                <slug>djangocon-europe-2022-183-hidden-gems-of-django-admin-part-1-</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/DVCGPD/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Hidden gems of Django Admin. Part 1.</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>In my presentation I will talk about how powerful django.contrib.admin really is. This is the first part of a series of presentations. For beginners and advanced developers.</abstract>
+                <description>The Django Admin Panel is a complex and bad-documented tool in the Django that can greatly speed up development if you start to understand it.
+
+- &quot;Isn&apos;t it easier for us to write our Backend?&quot;
+I will answer: &#8220;No, it&#8217;s not easier!&#8221;.
+Seven years of insights and discoveries in my report.
+
+The following questions should be in this conversation:
+1. Django admin panel as it could be.
+2. Django admin sites multiplication.
+2. ModelAdmin, How to remove the legacy of older versions of Django.
+4. AdminActions based on Generic-CBV, simplicity and convenience.
+5. Undocumented Django.contrib.admin features.
+6. Using Django Admin Panel for third-party Backend implementations.
+
+The next part of this series of talks will take place at Django Con US 2022. For advanced and experienced developers.
+
+Video: https://youtu.be/HJfPkbzcCJQ</description>
+                <logo>/media/djangocon-europe-2022/submissions/DVCGPD/DAP_Porto_2ZukFJe.png</logo>
+                <persons>
+                    <person id='285'>Maxim Danilov</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='25364fc5-4bdb-5442-8b3d-866a1f4ddaf8' id='304'>
+                <date>2022-09-21T11:15:00+01:00</date>
+                <start>11:15</start>
+                <duration>00:30</duration>
+                <room>Auditorium</room>
+                <slug>djangocon-europe-2022-304-experimenting-with-file-based-routing-in-django</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/RNGQXV/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Experimenting with file-based routing in Django</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>File-system based routing has been widely used in JavaScript web frameworks
+such as Next.js, NuxtJS, Remix, Gatsby, and SvelteKit.
+
+With file-system based routing, the URL structure of your web application
+is defined by the structure of the codebase. This makes it easier to find the
+view that handles a certain path, and vice versa.
+
+This talk will explore an experiment that implements file-based routing in a Django project.</abstract>
+                <description>File-system based routing has been widely used in JavaScript web frameworks
+such as [Next.js][nextjs], [NuxtJS][nuxtjs], [Remix][remix], [Gatsby][gatsby], and [SvelteKit][sveltekit].
+It works by scanning the files in a specific directory (e.g. `pages`) and mapping the
+default export of each file to a URL route in the web application.  This means that each
+URL path corresponds to a single view file under the same path in your codebase.
+
+Meanwhile, in Django, URL routes are traditionally defined in a `urls.py` file in the
+project directory. You can separate the `urls.py` into multiple different files and use
+`include()` to bring them all together. However, you still have to explicitly define each
+path and the view it corresponds to.
+
+In this talk, we&apos;ll explore how we can implement file-based routing in a Django project to
+automatically generate URL paths based on your file structure, as well as the challenges
+that come with it.
+
+The talk will be structured as follows:
+- What file-system based routing is and why it can be useful
+- How it works in other web frameworks
+- How it may work in Django
+- How it can be implemented
+- What challenges we&apos;ll face and how to overcome them
+- What possible improvements and new ideas we can bring
+- How you can use it in your project
+
+Resources:
+- [Slides][slides]
+- [Repository][repository]
+
+[nextjs]: https://nextjs.org/docs/routing/introduction
+[nuxtjs]: https://nuxtjs.org/docs/features/file-system-routing/
+[remix]: https://remix.run/docs/en/v1/guides/routing
+[gatsby]: https://www.gatsbyjs.com/docs/reference/routing/file-system-route-api/
+[sveltekit]: https://kit.svelte.dev/docs/routing
+[slides]: https://slides.laymonage.com/fs-paths
+[repository]: https://github.com/laymonage/django-fs-paths
+
+Video: https://youtu.be/_2VZ9AOXblY</description>
+                <logo></logo>
+                <persons>
+                    <person id='12'>Sage Abdullah</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='acf2d0de-63eb-5299-82e0-a5131cd23a9b' id='306'>
+                <date>2022-09-21T11:50:00+01:00</date>
+                <start>11:50</start>
+                <duration>00:30</duration>
+                <room>Auditorium</room>
+                <slug>djangocon-europe-2022-306-add-multi-factor-authentication-mfa-to-django-in-mere-minutes</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/TKBMTH/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Add Multi-Factor Authentication (MFA) to Django in Mere Minutes</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>Passwords alone can&#8217;t protect us. We need multi-factor authentication, which doesn&#8217;t come with Django out of the box. But we can add MFA to our Django projects in just a few minutes, giving our users the ability to protect their accounts with Touch ID, security keys, and one-time passwords.</abstract>
+                <description>Passwords alone can&#8217;t protect us. Can&#8217;t protect our bank accounts or medical records &#8212; our most sensitive data.
+
+We need multi-factor authentication, which doesn&#8217;t come with Django out of the box. But we can add MFA to our Django projects in just a few minutes, giving users the ability to add multiple factors in addition to their password:
+
+* time-based one-time passwords (TOTP)
+* hardware security keys, including Touch ID (WebAuthn)
+* backup emergency codes
+
+Among the MFA options available for Django include [Kagi](https://github.com/justinmayer/kagi), an open-source project that builds upon the work that a team of security professionals undertook to add multi-factor authentication to the Python Package Index (PyPI).
+
+Attendees of this talk will take home the following knowledge and skills:
+
+* why multi-factor authentication is so important
+* steps needed to add MFA to a Django project
+* how to customize templates for MFA-related views
+* adding TOTP to a phone for easy logins on-the-go
+* how to use Touch ID as second factor
+* browser vendor plans for logins without passwords
+
+Video: https://youtu.be/aannTf_z1XU</description>
+                <logo>/media/djangocon-europe-2022/submissions/TKBMTH/hacker_0Vmok2u.jpg</logo>
+                <persons>
+                    <person id='359'>Justin Mayer</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='bece4393-6046-564d-b4f6-a2b74187d232' id='217'>
+                <date>2022-09-21T12:25:00+01:00</date>
+                <start>12:25</start>
+                <duration>00:30</duration>
+                <room>Auditorium</room>
+                <slug>djangocon-europe-2022-217-introducing-django-ninja</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/FAZTAT/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Introducing Django Ninja</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>Django Ninja is the quickest way to build REST APIs, that will be fast, secure and documented automatically.</abstract>
+                <description>I&apos;m the author of Django Ninja - a framework for creating REST APIs built on top of Django.
+
+The core feature is a type-hints based API&#8217;s declaration that automatically generates OpenAPI/swagger documentation.
+
+While being simple it gives high performance both on single thread parsing and in hight concurrent load thanks to async support.
+
+It is new, but already used in production by multiple companies.
+During the talk I will walk you through a demo and show you all primary features.
+
+Video: https://youtu.be/zpR1QCLBpIA</description>
+                <logo></logo>
+                <persons>
+                    <person id='199'>Vitaliy Kucheryaviy</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='4f667746-21d1-5e17-a74d-ad7c06bfb493' id='325'>
+                <date>2022-09-21T14:00:00+01:00</date>
+                <start>14:00</start>
+                <duration>01:00</duration>
+                <room>Auditorium</room>
+                <slug>djangocon-europe-2022-325-keynote-scaling-from-one-to-billions</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/ST9NLK/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Keynote: Scaling from One to Billions</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Keynote</type>
+                <language>en</language>
+                <abstract>This talk ties the core components of what makes a good Django/Python/whatever developer into activities that can affect billions of people. The volume of lives affected raises ethical questions, for as Ian Malcolm says, &#8220;Your scientists were so preoccupied with whether or not they could, they didn&#8217;t stop to think if they should.&#8221;</abstract>
+                <description>Video: https://youtu.be/EHedUWYkSwA</description>
+                <logo></logo>
+                <persons>
+                    <person id='365'>Daniel Roy Greenfeld</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='9fd9c305-205f-5b0d-bc07-164d90bd6af8' id='238'>
+                <date>2022-09-21T15:00:00+01:00</date>
+                <start>15:00</start>
+                <duration>00:30</duration>
+                <room>Auditorium</room>
+                <slug>djangocon-europe-2022-238-deep-inside-django-s-orm-how-django-builds-queries</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/GZDHYB/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Deep Inside Django&apos;s ORM: How Django Builds Queries</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>Django&apos;s ORM is probably the most powerful feature of this framework. This talk is about how queries to the database are internally translated into SQL with Query objects and how to hack that process.</abstract>
+                <description>In this talk, we will have a deeper look at the fundamentals of Django&apos;s ORM.
+
+The first part is about Query objects (`django.db.models.sql.query.Query`) and how Django uses them to map QuerySets to SQL. In this part, we will also see how Expressions (from `django.db.models.expressions`) work, how related fields are managed by Django internally, and how aggregate functions are handled.
+
+The second part of the talk provides some creative ways to leverage these insights in real-world projects to customize queries, build dynamic queries and improve performance.
+
+Video: https://youtu.be/OEN5wONsaYU</description>
+                <logo></logo>
+                <persons>
+                    <person id='319'>Bas Steins</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='ed9f3a11-4cbf-57d3-a45d-90207ab5e970' id='312'>
+                <date>2022-09-21T16:00:00+01:00</date>
+                <start>16:00</start>
+                <duration>00:30</duration>
+                <room>Auditorium</room>
+                <slug>djangocon-europe-2022-312-component-driven-ui-development-with-django-and-storybook</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/YHUWBL/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Component-driven UI development with Django and Storybook</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>In the modern JavaScript landscape, component-focused UI frameworks are the norm. We&#8217;ll look at how the team behind Wagtail brought component-driven development from React to Django templates with Storybook, speeding up the development process and simplifying maintenance of large pattern libraries.</abstract>
+                <description>Django doesn&apos;t have many opinions about front-end development. This is a blessing and a curse -- it means a lot of freedom for projects to approach UIs however they see fit, but also a lot of choices to make on each and every project. It also means the Django ecosystem is lagging far behind more modern platforms.
+
+It doesn&apos;t have to be this way. The team behind the Wagtail CMS spent a lot of time refining how they approach UI development in the context of Django projects, and we&apos;ll now get to learn from their experience.
+
+We started with workflows that work well with React: components are first-class citizens, and tools like Storybook playing to those strengths. We then adapted this for Django, building a full-fledged design system and making the most of automation to test our user interface.
+
+In this talk we&apos;ll cover,
+
+-   Component-driven development as a methodology
+-   Tools we used and created to apply those concepts to Django codebases
+-   Demo time! How we use those tools to build our CMS, Wagtail
+-   How we envision the Django ecosystem evolving
+
+This should generally be a beginner-level talk for Django developers. Developers who are mostly focused on back-end work will learn about modern front-end methodologies. We will make some references to popular JavaScript frameworks (React, Vue), but no prior knowledge with those will be required.
+
+Video: https://youtu.be/fke3NYdnPBs</description>
+                <logo></logo>
+                <persons>
+                    <person id='73'>Thibaud Colas</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='8b5b925d-96c5-56b5-b128-394c7856dcac' id='315'>
+                <date>2022-09-21T16:35:00+01:00</date>
+                <start>16:35</start>
+                <duration>00:30</duration>
+                <room>Auditorium</room>
+                <slug>djangocon-europe-2022-315-the-windy-path-to-fast-pain-free-reproducible-developer-environments</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/EEPJN7/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>The windy path to fast, pain-free, reproducible developer environments</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>How we extricated ourselves from a world of thorny, slow developer onboarding and daily MacOS Docker-compose file sync performance issues. And how you can too.</abstract>
+                <description>If you&#8217;ve been part of a team developing with Django you will be familiar with the woes of local development across multiple operating systems. &#8220;Docker is melting my new Macbook&#8221;, &#8220;What is zlib and how do I get it?&#8221;, &#8220;The backend is just returning HTTP 502???&#8221;..
+
+Docker &amp; Compose promised to solve it all, and did get most of the way there for us - but we were left with huge performance issues when file syncing a multi-million line repo on non-native *nix systems: namely MacOS. We were left with modern machines that resembled fancy paper weights.
+
+The issues became such a daily problem for us at YunoJuno that they got in the way of shipping, so we went on the hunt for alternative setups and discovered the incredible powers of native, reproducible builds with the Nix ecosystem alongside the potential intriguing benefits of cloud-based development.
+
+This talk will be a journey through the issues we faced, a deep dive into the avenues we went down and all the trade offs we faced on our way to finding something that worked for us. The end result helps our devs ship correct code faster by spending less time faffing with local development pains.
+
+Video: https://youtu.be/Mx3yiE_CJOY</description>
+                <logo></logo>
+                <persons>
+                    <person id='342'>Darian Moody</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='c2914056-72f5-5990-b4c1-5def76135673' id='243'>
+                <date>2022-09-21T17:10:00+01:00</date>
+                <start>17:10</start>
+                <duration>00:30</duration>
+                <room>Auditorium</room>
+                <slug>djangocon-europe-2022-243-the-hack-behind-the-curtain-deploying-a-multitenant-django-application-to-more-than-1600-stores</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/8X37KK/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>The hack behind the curtain! Deploying a Multitenant Django application to more than 1600 stores</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>Data isolation is key when working with bounded physical tenants like grocery stores. All the APIs and data are tenant dependent and we don&apos;t want to mix them between stores. This is the tale of the yellow brick road to multitenancy and how a Django project hack became an open-source library for everyone to use. The hack behind the curtain, welcome to Oz!</abstract>
+                <description>In MercadonaTech we have online orders preparation warehouses called hives. We have evolved and optimized the tools used in these facilities over the last 5 years and we were ready to bring them to our stores where we planned to prepare online orders as well. But we had one little problem, we wanted to move from 3 isolated warehouses to more than 1600 stores. And until that moment, all the logic we developed for them didn&apos;t expect data from other centres, we had simple on-premise deployments for each hive and different databases that did not share data between them. That was a problem.
+
+This is a story of wonder that tells how we hacked Django&apos;s ORM to automagically isolate the data from different stores and how we converted this messy hack into an amazing open-source library you can use to implement your own multitenant applications. The hack behind the curtain, welcome to Oz!
+
+Video: https://youtu.be/_9vMEAHNmHE</description>
+                <logo></logo>
+                <persons>
+                    <person id='325'>Emilio Carri&#243;n</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='6420d453-0d38-5f36-a9db-45e3126f2af6' id='403'>
+                <date>2022-09-21T17:45:00+01:00</date>
+                <start>17:45</start>
+                <duration>00:45</duration>
+                <room>Auditorium</room>
+                <slug>djangocon-europe-2022-403-lightning-talks</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/P9NRKD/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Lightning Talks</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Other</type>
+                <language>en</language>
+                <abstract>Lightning Talks</abstract>
+                <description>Video: https://youtu.be/XTSQiPrAz08</description>
+                <logo></logo>
+                <persons>
+                    
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            
+        </room>
+        <room name='Workshops'>
+            <event guid='efdfed8b-b96b-59e7-a93f-9ec71a531c94' id='187'>
+                <date>2022-09-21T11:15:00+01:00</date>
+                <start>11:15</start>
+                <duration>00:50</duration>
+                <room>Workshops</room>
+                <slug>djangocon-europe-2022-187-bulletproof-python-property-based-testing-with-hypothesis</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/H8EJBJ/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Bulletproof Python &#8211; Property-Based Testing with Hypothesis</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Workshop</type>
+                <language>en</language>
+                <abstract>Property-based testing is a great benefit to the robustness and maintainability of your software. Yet, the technique is still vastly underused in the Python community. The workshop gives a hands-on introduction to Hypothesis and practices different approaches for writing property-based tests for Django applications.</abstract>
+                <description>Do you find yourself working through pages of copied and pasted tests to accommodate a simple code change? Does your software frequently break in unexpected ways despite your testing efforts? Don&#8217;t despair! Property-based testing could be your way out of that mess. Rather than working harder and writing more test code, property-based testing forces you to work smarter and test more code with fewer tests.
+
+Traditional tests are example-based. They require the developer to come up with arbitrary inputs and check a system&#8217;s behavior against explicit outputs. More often than not, developers only think of inputs that are handled correctly by their code, thus leaving bugs hidden. Property-based tests generate the inputs for you and in many cases they&#8217;re more likely to find invalid inputs than humans. The difficulty lies in formulating these test cases.
+
+After this workshop you&#8217;ll be comfortable with property-based testing using Hypothesis. You&#8217;ll have experience requesting appropriate test data from Hypothesis and in writing tests for common and more advanced properties. At work, your co-workers will be impressed by your unbreakable code ;)
+
+Participants are expected to have basic familiarity with unit testing and a testing framework. Provided code examples use pytest.</description>
+                <logo></logo>
+                <persons>
+                    <person id='286'>Michael Seifert</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='fde4eebd-d9a2-5cad-ae6f-42b2ec030e48' id='194'>
+                <date>2022-09-21T12:10:00+01:00</date>
+                <start>12:10</start>
+                <duration>00:50</duration>
+                <room>Workshops</room>
+                <slug>djangocon-europe-2022-194-build-a-production-ready-graphql-api-using-python</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/FXNXPV/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Build a production ready GraphQL API using Python</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Workshop</type>
+                <language>en</language>
+                <abstract>This workshop will teach you how to create a production ready GraphQL API using Python and Strawberry. We will be using using Django as our framework of choice, but most of the concept will be applicable to other frameworks too.
+
+We&apos;ll learn how GraphQL works under the hood, and how we can leverage type hints to create end to end type safe GraphQL queries.
+
+We&apos;ll also learn how to authenticate users when using GraphQL and how to make sure our APIs are performant.
+
+If we have enough time we&apos;ll take a look at doing realtime APIs using GraphQL subscriptions and how to use GraphQL with frontend frameworks such as React.</abstract>
+                <description>Agenda of the worshop
+
+- Workshop introduction
+	- The introduction will explain the goal of the workshop and make sure everyone is ready to start
+- Intro to type hints
+	- Before looking at what GraphQL is, we&apos;ll do a short introduction on type hints in Python, since we&apos;ll be using the a lot during the workshop.
+- Introduction to GraphQL
+	- Here we&apos;ll be looking at what GraphQL is, how it works and why it has been created
+- Our first GraphQL API
+	- Here we&apos;ll get our hands dirty by creating our first GraphQL API using Strawberry. We&apos;ll also take time to see how to configure Strawberry with Django.
+- Let&apos;s test our API
+	- I&apos;m a big fan of TDD, so before continuing with our workshop we&apos;ll quickly see how to test our GraphQL API using pytest.
+- Schema design
+	- In this section we&apos;ll spend time taking a look at how to design a GraphQL schema. We&apos;ll also understand the difference between queries and mutations.
+- Authentication
+	- In this section we&apos;ll implement authentication to our GraphQL API. We&apos;ll discuss session based auth vs JWT authentication.
+- **Bonus**
+   - Performance / Monitoring / Observability
+	- In this section we&apos;ll discuss how we can add observability/monitoring to our APIs and make sure we can keep our API performant over time.
+	- We&apos;ll also see how we can use dataloaders to make our queries efficient. We&apos;ll also talk about other potential performance improvements (SQL optimisation, Static Queries and more)
+
+	- Integration with React
+		- In this section we&apos;ll see how we can use GraphQL with a frontend framework like React.
+	- Subscriptions
+		- In this section we&apos;ll see what subscriptions are in GraphQL and how you can leverage them to build realtime APIs.</description>
+                <logo></logo>
+                <persons>
+                    <person id='206'>Patrick Arminio</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='1237ef99-02f6-5ed5-89e9-2ff2350d9ecb' id='313'>
+                <date>2022-09-21T16:00:00+01:00</date>
+                <start>16:00</start>
+                <duration>00:50</duration>
+                <room>Workshops</room>
+                <slug>djangocon-europe-2022-313-introduction-to-ditaxis</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/NRNF8P/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Introduction to Di&#225;taxis</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Workshop</type>
+                <language>en</language>
+                <abstract>Over the last year, the [Di&#225;taxis documentation framework](https://diataxis.fr) has taken off in popularity. This workshop provides a brief introduction to the framework, and includes a number of hands-on exercises.</abstract>
+                <description>I have run this workshop about 20 times in the last year; it&apos;s thoroughly road-tested with a wide range of audiences. 
+
+It gives participants the opportunity to work though key aspects of the Di&#225;taxis framework in a structured, collaborative context.</description>
+                <logo></logo>
+                <persons>
+                    <person id='224'>Daniele Procida</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='a061d3c3-4fa5-521d-8cc9-e179942ade4a' id='321'>
+                <date>2022-09-21T16:55:00+01:00</date>
+                <start>16:55</start>
+                <duration>00:50</duration>
+                <room>Workshops</room>
+                <slug>djangocon-europe-2022-321-demystifying-modern-javascript-using-vue-js</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/DDCFN8/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Demystifying Modern JavaScript using Vue.js</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Workshop</type>
+                <language>en</language>
+                <abstract>Learn about modern JavaScript through a practical example. We will build a Vue.js application from scratch: a note taking app for DjangoCon. This will give us some much needed context to help us learn about modern JavaScript, its ecosystem, the frontend frameworks and more.</abstract>
+                <description>The workshop is about building a Vue.js application from scratch: a note taking app for DjangoCon.
+
+You will learn about the basics of:
+  - Modern JavaScript
+  - its ecosystem, and common tooling
+  - frontend frameworks (on the example of Vue.js): why they are useful and when to use them
+
+We will build a Vue.js app and cover:
+  - Tooling
+  - Data binding/Reactivity
+  - Templates
+  - Components
+  - Fetching and sending data
+
+Given the short duration of the workshop, we will cover basics and won&apos;t get a chance to dive deep.
+
+The main goal of the workshop is for you to walk away confident in being able to explore and work with modern JavaScript / frontend frameworks.
+
+This workshop is intended for developers with little or no JavaScript experience (especially with modern JavaScript). Some JavaScript knowledge is welcome, but not necessary at all.
+If you have a lot of experience with frontend frameworks, this workshop is probably not for you.
+
+If you&apos;re attending, please take a look at [the Github repo](https://github.com/zanderle/Demystifying-Modern-JS) and make sure you have Node 14.18+ or 16+ installed.</description>
+                <logo></logo>
+                <persons>
+                    <person id='85'>&#381;an Anderle</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            
+        </room>
+        
+    </day>
+    <day index='2' date='2022-09-22' start='2022-09-22T04:00:00+01:00' end='2022-09-23T03:59:00+01:00'>
+        <room name='Auditorium'>
+            <event guid='0ea3a6c9-4ec2-58a2-a775-d71977473707' id='399'>
+                <date>2022-09-22T09:00:00+01:00</date>
+                <start>09:00</start>
+                <duration>00:05</duration>
+                <room>Auditorium</room>
+                <slug>djangocon-europe-2022-399-morning-announcements</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/HH8XEG/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Morning Announcements</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Other</type>
+                <language>en</language>
+                <abstract>Morning Announcements</abstract>
+                <description></description>
+                <logo></logo>
+                <persons>
+                    
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='e07d4eb2-bd5e-5ad3-a5c3-f9856d72c04f' id='250'>
+                <date>2022-09-22T09:05:00+01:00</date>
+                <start>09:05</start>
+                <duration>01:00</duration>
+                <room>Auditorium</room>
+                <slug>djangocon-europe-2022-250-keynote-what-should-you-have-to-worry-about</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/EE3XCD/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Keynote: What should you have to worry about</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Keynote</type>
+                <language>en</language>
+                <abstract>As a Django developer, there are things you *need* to worry about. Keeping up to date with Django trends and best practices is one thing, but what about all the other parts of technology that are incessantly advertised towards you? What *should* you have to worry about?</abstract>
+                <description>This keynote will explore some recent popular trends in open source software and development, and assess their relevance to a Django developer. There may be some things that you may want to try out, but there&apos;s a difference between learning more for expanding your knowledge, and things that you must do. 
+
+While trends are always changing, this keynote will focus on three main pillars: architecture, software, and community. 
+
+You will come away with a shortlist of things that will be of relevance to you in 2022, and as future trends appear, give you tools to help you identify what you should have to worry about.
+
+Video: https://youtu.be/MisoW7LHcfE</description>
+                <logo></logo>
+                <persons>
+                    <person id='13'>Katie McLaughlin</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='4e828221-f979-5975-a027-70be094a64fd' id='278'>
+                <date>2022-09-22T10:05:00+01:00</date>
+                <start>10:05</start>
+                <duration>00:30</duration>
+                <room>Auditorium</room>
+                <slug>djangocon-europe-2022-278-will-pyscript-replace-django-what-pyscript-is-and-is-not</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/73ZDF9/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Will PyScript replace Django? - What PyScript is and is not</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>PyScript hit the community like a storm after its announcement and becomes the top trending project on GitHub. It allows the running of Python on the browser. But there&#8217;s still some misunderstanding of it. Will it replace all web frameworks? What you can or cannot use PyScript for? Let&#8217;s find out.</abstract>
+                <description>In this talk, through some examples and demos of PyScript, we will see how to use it - just include the CDN URL, understand that it is a frontend-only Python that runs on the browser and learn the fact that it can work with javascript in conjunction.
+
+After that, we will look at what is under the hood - Pyodide - which is a Python distribution for the browser. It is what is essential to power PyScript. We will discover what is the difference between using PyScript and Pyodide.
+
+Finally, we will conclude what is already available in PyScirpt like which library you can run on PyScript and which ones are still yet to come. In the end, we will answer the question - Will PyScript replace Django?
+
+This talk is for those who are curious about PyScript and the idea of running Python in the browser in general. We will assume no prior knowledge about it.
+
+Video: https://youtu.be/tzRRImsez88</description>
+                <logo></logo>
+                <persons>
+                    <person id='339'>Cheuk Ting Ho</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='cf631b76-f7f5-58a6-a439-2bf375a52807' id='214'>
+                <date>2022-09-22T11:15:00+01:00</date>
+                <start>11:15</start>
+                <duration>00:30</duration>
+                <room>Auditorium</room>
+                <slug>djangocon-europe-2022-214--</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/CUTX7H/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>&#128013; &#10084;&#65039; &#129408;</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>We love writing Python. Yet, sometimes, its performance is not ideal. Instead of going to use C let&apos;s use Rust instead.</abstract>
+                <description>Python has several performance problems. Not only its GIL, but also the fact that it&apos;s only an interpreted language. Historically, people looked at writing C extensions for performance critical code. C being a dangerous piece of equipment, can nowadays be replaced with Rust. Let&apos;s look at what that could possibly mean for the Django environment.
+
+In this talk, I&apos;ll give a (very) brief introduction into Rust, and then dive right into how the integration works with Python. Lastly, I&apos;ll show an example how a &quot;bit&quot; of Rust could be used inside Django or inside a Django project.
+
+Video: https://youtu.be/1rJ3-0JXqQo</description>
+                <logo></logo>
+                <persons>
+                    <person id='305'>Markus Holtermann</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='749ebc10-57b6-5d55-81bf-4c4004dbf8cc' id='262'>
+                <date>2022-09-22T11:50:00+01:00</date>
+                <start>11:50</start>
+                <duration>00:30</duration>
+                <room>Auditorium</room>
+                <slug>djangocon-europe-2022-262-better-managing-i18n-and-po-files</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/HXKMJX/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Better managing i18n and PO files</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>Stop dealing with giant PO files when trying to achieve i18n on your website and start managing them better.</abstract>
+                <description>When dealing with static pages translation in python we have to work with PO files that are the standard way to internationalize our page, however, these files can get pretty big and complex to maintain  (I&#8217;ve seen cases where these files have 25k lines of translations), so the idea behind this talk is to share a workflow that can help us to deal with these large files under the philosophy of &#8220;divide and conquer&#8221;. In this talk you will learn how to standardize the process for translating your pages and how to stop dealing with those big ugly files by using the polib library, also you will be able to start sending parallel translation projects, saving your organization time and money.
+
+Video: https://youtu.be/n_OPN1dH0sM</description>
+                <logo></logo>
+                <persons>
+                    <person id='332'>Felix Mino</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='b48eb623-2854-5501-9691-c4094ff0d2e2' id='198'>
+                <date>2022-09-22T12:25:00+01:00</date>
+                <start>12:25</start>
+                <duration>00:30</duration>
+                <room>Auditorium</room>
+                <slug>djangocon-europe-2022-198-observe-</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/ZQ8L93/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Observe!</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>We have a lot of great tools to help us develop Django applications, from tests to the Debug Toolbar. But what happens once you deploy your code to production? In this talk we will go through the options and best practices to make your production environment as friendly as possible.</abstract>
+                <description>Observability is a massive buzzword, let&apos;s break it down and see what you need in order to sleep well with code in production. Let&apos;s start with the low hanging fruit and work up from there:
+
+* Is it working? (uptime monitoring)
+* What is it doing? (logging)
+* How is it doing? (metrics)
+* How is it doing it? (APM)
+* What just happened? (Gathering errors)
+
+We will close up with Tips &amp; Tricks to get the most out of your new observability setup.
+
+Video: https://youtu.be/n_OPN1dH0sM</description>
+                <logo></logo>
+                <persons>
+                    <person id='296'>Honza Kr&#225;l</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='0c416b13-8659-5e2d-b77b-3c23a4d11ce5' id='275'>
+                <date>2022-09-22T14:00:00+01:00</date>
+                <start>14:00</start>
+                <duration>00:30</duration>
+                <room>Auditorium</room>
+                <slug>djangocon-europe-2022-275-how-to-wag-a-dog</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/3KNEEA/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>How to wag a dog</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>Dogs wag their tails, and when the opposite happens, it represents distorted priorities and a disturbing, problematic reversal of the proper order. But not when it comes to software and its documentation! I believe that the tail of documentation can and should wag the dog of software, and I&apos;ll show just how powerful this tail can be.</abstract>
+                <description>The tail of the dog expresses its disposition and reflects its health, and we expect it to be a reliable outward sign of what&apos;s going on inside the dog. We expect the same kind of relationship between software and documentation: that documentation should reliably tell us about the software, providing clear and up-to-date insights into it.
+
+I think that this is a na&#239;ve view of both dogs and software. 
+
+I will discuss, with examples, why it&apos;s a problematic idea for documentation. It&apos;s not actually true, and failing to recognise this is one reason why documentation is often so bad. Recognising the true nature of the relationship on the other hand puts documentation authors in a much more powerful position than they are usually understood to have - and that&apos;s something they can use to their advantage. 
+
+In other words, the tail is already wagging the dog, and that&apos;s the way it should be.
+
+This talk is about documentation, but it&apos;s also an exploration and critique of some commonly-held ideas about the relationship between supposedly active and creative activities - of which making software is one example - and those seen as more passive and interpretive ones - like documentation.
+
+Along the way, this talk will discuss topics including: the relationship between seeing and looking, riding on motorbikes, visiting museums, and why we should reconsider now-discredited pre-Newtonian theories of vision. 
+
+We&apos;ll get from dogs and their tales to an approach to documentation that improves **both** documentation and software, and gives us a tool for reassessing other patterns of work and life too.
+
+Video: https://youtu.be/R4O2WoFC-JQ</description>
+                <logo></logo>
+                <persons>
+                    <person id='224'>Daniele Procida</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='6861aa1e-292b-581e-b70b-bae44749ef22' id='237'>
+                <date>2022-09-22T14:35:00+01:00</date>
+                <start>14:35</start>
+                <duration>00:30</duration>
+                <room>Auditorium</room>
+                <slug>djangocon-europe-2022-237-quality-assurance-in-django-testing-what-matters</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/AM3J89/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Quality Assurance in Django - Testing what matters</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>Writing tests is notoriously cunning - you can do a lot of busy work with little impact on the overall project quality.
+
+In this talk, we will slice our Django app in different layers, in order to identify the testing sweet spot, in each of those layers.
+
+The final goal - to test what actually matters!</abstract>
+                <description>In software development, having tests is essential.
+
+As developers, tests not only help us sleep well at night, but they also allow us to iterate faster &amp; make changes with more confidence.
+
+If we want quality, we need tests.
+
+When it comes to writing tests in Django, we often ask ourselves - &#8220;What to test?&#8221;.
+
+It&#8217;s an important question since we don&#8217;t always have the time to test everything we want. Sometimes, we need to make a conscious decision about what to test &amp; what to leave untested.
+
+When making that decision, it&#8217;s important to have a good sense of &#8220;what&#8217;s important&#8221;, so we can test that.
+
+Django gives us plenty of testing tools &amp; a lot of choices for what to test - we can test models, forms, views, APIs, serializers, services, selectors, tasks &amp; basically anything that&#8217;s well defined within the Django Framework.
+
+In this talk, we&#8217;ll do 3 important things:
+
+1. We&#8217;ll put our quality assurance hat on.
+2. We&#8217;ll explore different real-life scenarios with Django apps.
+3. And we&#8217;ll see how to approach testing in those scenarios, so we can test the things that matter!
+
+By exploring those scenarios, we&#8217;ll also touch upon the following topics:
+
+- Having a test plan.
+- Naming conventions for our tests &amp; test methods.
+- Django test settings.
+- Factories.
+- Test speed &amp; optimizations.
+
+The talk is going to be practical &amp; pragmatic, giving plenty of examples &amp; references for a follow-up.
+
+Video: https://youtu.be/PChaEAIsQls</description>
+                <logo>/media/djangocon-europe-2022/submissions/AM3J89/Quality_Assurance_in_DjangoTesting_what_matters_q3C4cfI.png</logo>
+                <persons>
+                    <person id='79'>Radoslav Georgiev</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='7f0626fd-2b85-58f8-b1f5-5c90e418ea80' id='311'>
+                <date>2022-09-22T15:10:00+01:00</date>
+                <start>15:10</start>
+                <duration>00:30</duration>
+                <room>Auditorium</room>
+                <slug>djangocon-europe-2022-311-predict-lightning-strikes-using-django-and-aws</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/CQHQEM/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Predict Lightning Strikes using Django and AWS</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>Can you predict lightning strikes using Django and AWS? Yes! Learn how to take an algorithm and idea from a Jupyter Notebook to production ready and cloud native.</abstract>
+                <description>Predicting a lightning strike with 99.6% accuracy requires advanced algorithms, expert developers and data &#8212; a lot of data. FLASH Scientific Technology pulls data from a variety of sources including weather radars and location-specific information like altitude, moisture, wind direction and temperature. It was imperative that FLASH develop an application that could pull, read and process the data both quickly and accurately.
+ 
+In this case study and product demo, you&#8217;ll learn how to take an algorithm and idea from a Jupyter Notebook to production ready and cloud native.
+ 
+
+1. Optimize Python code structure 
+    1. As the Zen of Python states, &#8220;simple is better than complex.&#8221; The first part of this presentation will focus on the importance of reviewing and simplifying code to ensure faster data processing speeds and that the code is easy to both read and duplicate.
+2. Build fast, efficient and accurate APIs with Django 
+    1. Once the code is optimized, it&#8217;s ready for production. You&#8217;ll learn how we built an interface that could both request data from various web services and quickly make accurate predictions using FLASH&#8217;s proprietary and patent-issued algorithm. Specifically, this talk will feature:  
+        1. best practices and lessons learned, including insight into why we stored all of the Django application elements in a single library; 
+        2. why all of the data needed to be pulled directly from the cache; and 
+        3. why the algorithm was kept separate.
+3. Deploy serverless and scalable applications using AWS Lambda and AWS Fargate 
+    1. Finally, this talk will:
+        1. showcase how the Django application we built integrates seamlessly with the serverless components of AWS including AWS Lambda and AWS Fargate; 
+        2. unveil the secrets of building Python Container Images for AWS Lambda (Hint: by using container images for Lambda code vs. manually submitting .zip files we saved significant time, money, and effort. We also reduced errors associated with manual changes.); 
+        3. review the importance of building applications to be serverless from the beginning. 
+4. Product Demo 
+    1. Today, the application &#8212; which initially took minutes to make lightning strike predictions with 99.6% accuracy and a 15- to 25-minute lead time (saving time, money and lives) &#8212; can predict when and where lightning will strike in just seconds. The presentation will conclude with a demo of the product, which is deployed with GitLab CI/CD merge request pipeline.
+
+Both beginner and intermediate developers will benefit from this talk, and it is ideal for developers wanting to learn how to use Django for complex predictive-technology projects.
+
+Video: https://youtu.be/41S6bwdGHRo</description>
+                <logo></logo>
+                <persons>
+                    <person id='190'>Calvin Hendryx-Parker</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='372607d6-3d73-5244-ba2a-4dfb34559f7c' id='295'>
+                <date>2022-09-22T16:15:00+01:00</date>
+                <start>16:15</start>
+                <duration>00:30</duration>
+                <room>Auditorium</room>
+                <slug>djangocon-europe-2022-295-from-react-to-htmx-on-a-real-world-saas-product-we-did-it-and-it-s-awesome-</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/MZWJEA/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>From React to htmx on a real-world SaaS product: we did it, and it&apos;s awesome!</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>We took the plunge and replaced the 2-year-of-work React UI of our SaaS product with simple Django templates and htmx in a couple of months. We&#8217;d like to share our experience with you, with concrete indicators on various aspects, and convince your CTO!</abstract>
+                <description>&#128269; You&#8217;ve probably heard of **[htmx](https://htmx.org)**, maybe seen talks about it (maybe even [right here last year](https://www.youtube.com/watch?v=Zs0DXR1S03M)). Demos are great, potential seems enormous. Maybe you&apos;ve heard it&apos;s great for quick prototyping and tried it.
+
+&#10067; But what about switching for your real-life project, against everything you&#8217;ve heard since 2016 (&#8221;*modern web interfaces need Javascript-driven webapps*&#8221;, &quot;*the best SaaS products are made of an SPA*&quot;, etc.)? Does htmx keep its promises? What impact on your product, your team, your business?
+
+&#9989; That&apos;s what we just did at **[Contexte](https://www.contexte.com/)**, by getting rid of the React SPA of a SaaS product. It wasn&apos;t a easy decision to make (because the UI holds some fairly complex interactions and we were told such interactions require client-side state management), but it&apos;s now such a relief. Maybe if we share our experience the decision would be easier to make for others.
+
+&#128172; Draft outline of the talk:
+
+- **What is Contexte**? mainly about our Product/Tech team size and organization
+- **What is our first SaaS product, Contexte Scan** (click [here](https://essai-contexte-com.translate.goog/scan?_x_tr_sl=fr&amp;_x_tr_tl=en&amp;_x_tr_hl=fr&amp;_x_tr_pto=wapp) for a Google-translated product presentation)? a quick demo, with an emphasis on the most complex UI elements (I&apos;m not here to sell it to you &#128521; )
+- **Our React UI**: bulky, buggy, constantly refactored, dependency hell (quick tour, some figures)
+- **Our htmx UI**: a bit of code here, with examples of how you replace client-side state management with just some htmx-loaded HTML fragments
+- **Impact on end-users**: same UX, better performances
+- **Impact on the team**: faster, fullstack, more agile
+- **Impact on the planet**: smaller footprint on end-users computers
+- **Conclusion**: go for it!
+
+Video: https://youtu.be/3GObi93tjZI</description>
+                <logo></logo>
+                <persons>
+                    <person id='354'>David Guillot</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='876eaa40-d52a-55a4-aef8-2c8c8d98b59d' id='296'>
+                <date>2022-09-22T16:50:00+01:00</date>
+                <start>16:50</start>
+                <duration>00:30</duration>
+                <room>Auditorium</room>
+                <slug>djangocon-europe-2022-296-the-python-magic-of-django-a-tour-of-the-codebase</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/JCSCHB/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>The (Python) Magic of Django: A Tour of the Codebase</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>This tour of Django&apos;s codebase will explain how Django&apos;s magic is implemented, covering some of its metaclasses and other special techniques.</abstract>
+                <description>Learning how Django worked under the hood was the thing that gave me the confidence, and more importantly some _guidance_, to use Python&apos;s advanced functionality. Advanced things like &apos;dunder&apos; methods, metaclasses, and even things like iterating through the contents of a module.
+
+I&apos;ll cherry-pick and explain some of Django&apos;s more advanced code features, things like:
+
+* How Django loads code dynamically to put your application and configuration together.
+* The `ModelBase` metaclass, and how it attaches magic functonality to your `Model` subclasses.
+    * How `__init_subclass__` can be used to provide some or all of this behaviour in Python 3.6+
+* How `kwargs` are handled to configure queries and generate SQL.
+
+As we look at the code, I&apos;ll also cover some of the design decisions that make Django such a joy to work with, without having to understand the implementation details hidden under the hood.
+
+Video: https://youtu.be/92l_MyGIulA</description>
+                <logo></logo>
+                <persons>
+                    <person id='53'>Mark Smith</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='b18cd7b0-cf56-536c-b4ad-e90bfe823135' id='266'>
+                <date>2022-09-22T17:25:00+01:00</date>
+                <start>17:25</start>
+                <duration>00:30</duration>
+                <room>Auditorium</room>
+                <slug>djangocon-europe-2022-266-factoryboy-testing-like-a-pro</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/XWUYA8/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>factory_boy: testing like a pro</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>How to test complex objects using the library factory_boy. The lessons I&#8217;ve learned using the tool in a Django monolith containing 230+ tables and 75k+ relevant lines of code for over 3 years.</abstract>
+                <description>After working using the factory_boy library for over 3 years on a Django monolith containing +230 tables, +2200 relevant files, and +75k relevant lines of code, I&apos;ve collected and listed all my biggest learnings.
+
+In this presentation, I try to share some of my experiences, showing what I consider to be good practices in using factory_boy in complex systems.
+
+Content:
+
+* A short introduction of myself
+* factory_boy: what is it? - the definition and the purpose of the tool
+* Example application - a quick overview of the application we will use to demonstrate the best practices
+* How to install factory_boy
+* How to use factory_boy
+* Best Practices:
+1. Factories must represent their models
+2. Do not rely on defaults from factories
+3. Factories must have only the required data. if the field is nullable -&gt; under traits.
+4. Build over create
+5. If FK is in the table -&gt; SubFactory. If FK is in the other table -&gt; RelatedFactory + trait
+6. Fixtures only to wrap factories in the test file
+7. Avoid using fixtures on shared files like conftest
+* Wrapping up
+
+Repository: https://github.com/camilamaia/factory-boy-best-practices
+
+Video: https://youtu.be/-C-XNHAJF-c</description>
+                <logo></logo>
+                <persons>
+                    <person id='334'>Camila Maia</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='89376be5-11cb-5517-8dee-e76a8792516e' id='401'>
+                <date>2022-09-22T18:00:00+01:00</date>
+                <start>18:00</start>
+                <duration>00:45</duration>
+                <room>Auditorium</room>
+                <slug>djangocon-europe-2022-401-lightning-talks</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/SQ8SUR/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Lightning Talks</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Other</type>
+                <language>en</language>
+                <abstract>Lightning Talks</abstract>
+                <description>Video: https://youtu.be/fOi9K0YuKyI</description>
+                <logo></logo>
+                <persons>
+                    
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            
+        </room>
+        <room name='Workshops'>
+            <event guid='65407347-b929-559d-b9e4-e3acdbbace7c' id='271'>
+                <date>2022-09-22T11:15:00+01:00</date>
+                <start>11:15</start>
+                <duration>00:50</duration>
+                <room>Workshops</room>
+                <slug>djangocon-europe-2022-271-rethinking-forms-in-django</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/TDWUUA/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Rethinking Forms in Django</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Workshop</type>
+                <language>en</language>
+                <abstract>The Django framework makes it really easy to use Python classes for our data structures and from thereof create forms together with their editors. However, the usability of forms created the Django way have a huge potential to improve their usability. In this talk I will show how to achieve this without the need for JavaScript frameworks and with minimal changes to the existing code base.</abstract>
+                <description>We Django users know well how to create a full-featured editor from a given data structure and without the need of cumbersome HTML coding. This workflow probably is one of the main factors for its success. With the Django-Admin it in fact became so easy to create editors, that out of laziness, they nowadays are used ubiquesly. A prominent proponent adopting this antipattern is Django-CMS.
+
+On the other side, features currently offered by Django often are not suitable to create frontend-centric web-applications with a contemporary user interface. This is where Single Page Applications kick in, written in one of the many modern JavaScript frameworks. This may relegate Django to a pure data store, shifting the business logic of an application towards the browser. With the advent of HTMX it seems that this trend is reverting again, since a high level of interactivity can be achieved without going the SPA path.
+
+One of the main hurdles remaining is the interactive handling of forms. Remember, that since Django was first released, a lot has changed in HTML 5 and JavaScript. Django however, still relies on a pure HTTP request/response-cycles for form validation and submission. This is where Django can not compete with the usability of JavaScript frameworks, since most of them make heavy usage of the built-in form data processing and validation functions.
+
+In this talk I will show how to achieve a user experience equal to that of many contemporary Single Page Applications, but without having to introduce external frameworks and their mindset. This works by using a special webcomponent wrapping one or more Django forms, and letting it handle all the validation, feedback and submission. 
+
+Compared to other solutions, for a developer this approach is almost unintrusive since it is possible to reuse all existing Django Form- and ModelForm classes without any modification. Only the Django Form Views have to be slightly adopted. This proposed solution can handle all input fields and their corresponding widgets, which Django currently offers (except geospacials). With this tool, a developer can create the detail view for a Django model with the same ease, as doing the same task using the Django-Admin. In addition, the counterpart of the StackedInline class can be nested up to an infinite number of levels. It even is possible to create full editable list views for a model.
+
+Thanks to the form field renderer introduced in Django 4.0, the proposed solution works with any of the major CSS frameworks, such as Bootstrap, Bulma, Foundation, Tailwind, UIKit or even your own implementation. This therefore could become a real game changer on how we handle forms with a way better User eXperience.</description>
+                <logo></logo>
+                <persons>
+                    <person id='336'>Jacob Rief</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='6878223d-7098-5da3-af5f-8e7e4d432179' id='333'>
+                <date>2022-09-22T12:10:00+01:00</date>
+                <start>12:10</start>
+                <duration>00:50</duration>
+                <room>Workshops</room>
+                <slug>djangocon-europe-2022-333-what-are-development-environments-for-and-why-isn-t-it-simple-to-make-them-</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/7NACE9/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>What are development environments for, and why isn&#8217;t it simple to make them?</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Workshop</type>
+                <language>en</language>
+                <abstract>If something is hard to do, you&#8217;re unlikely to do it as often as you probably should. Development environments are no exception. How many people on your team have the skills and experience to create staging environments to assess performance and new features?</abstract>
+                <description>Developing Django production applications means running into the same frictions in any other language or framework. To address them, we do DevOps, but executing DevOps isn&#8217;t always so simple to do. A limited number of people on the team may have the skills, experience with tooling, or even knowledge of the codebase to provision environments to test or investigate something. 
+
+It&#8217;s limited, usually, to the DevOps engineer. 
+
+Without them, workflows can get blocked. With them, experimentation can be minimal, because it takes a real person&#8217;s time and energy to create the space to do so. The only way to manage all the changes is to stick to an enforced Dev-Stage-Prod workflow, which is the only thing that makes managing this problem across multiple sites possible. 
+
+In this workshop, we&#8217;ll take a look at developing Django applications on Platform.sh, where true staging environments require negligible energy to provision, all within a unified workflow alongside production. 
+
+Once you&apos;ve deployed your project, new environments are a git branch away, and disposable if an experiment doesn&#8217;t work. You&apos;ll add new features and updates in isolation, all while having automatic access to production data.</description>
+                <logo></logo>
+                <persons>
+                    <person id='375'>Chad Carlson</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='bf50fabe-0720-56ca-abf6-5d2ef84c7bc4' id='283'>
+                <date>2022-09-22T14:00:00+01:00</date>
+                <start>14:00</start>
+                <duration>00:50</duration>
+                <room>Workshops</room>
+                <slug>djangocon-europe-2022-283-server-side-is-back-baby-optional-just-supported-</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/CFCFFF/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Server-Side is back, baby! &#128187; optional. Just &#128064;  supported &#128522;</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Workshop</type>
+                <language>en</language>
+                <abstract># Server-side is back, baby!
+\- take a break from Javascript, write your apps with liveviews instead &#128640;
+
+In this tailk, we explore *liveviews* as an alternative to &#8220;traditional&#8221; client-side rendering &#8211; a new way of building dynamic user interfaces for the web.
+
+First, we give an introduction to the concept of liveviews and discuss how it differs from server-side rendering and client-side rendering.
+
+After that, we showcase our interpretation of a Django liveview called [Hypergen](https://hypergen.it).
+
+Then, in the main part of the talk, we build an example app with [Hypergen](https://github.com/runekaagaard/django-hypergen) while discussing some of its architectural choices.
+
+Last, we open for questions and a more interactive vibe.
+
+So are you looking for a break from Javascript, or if you&#8217;re just curious about what else is possible with Django, this talk is for you!</abstract>
+                <description>## Sample application
+
+If you want to follow along during the livecode session, you can install the sample application by following these [instructions](https://github.com/runekaagaard/hypergen-djangocon-2022). Otherwise just sit back and enjoy the show! &#129327;
+
+## Outline
+
+1. About Liveviews
+    - From pure server side rendering, over jQuery, then React to liveviews. Our evolution of web development.
+    - Liveview basics - the what, why, who, where and when.
+2. Hypergen
+    - Architecture and design choices.
+    - Introduction and examples.
+3. We build an example app in Hypergen together, showcasing
+    - Pure Python HTML templates
+    - Base templates and template composition
+    - Liveviews
+    - Binding to DOM events
+    - Actions
+    - Partial DOM updates and other client commands
+    - Notifications and plugins
+4. Q&amp;A</description>
+                <logo>/media/djangocon-europe-2022/submissions/CFCFFF/laptop-rocket_iIiyK6R.png</logo>
+                <persons>
+                    <person id='344'>Rune Kaagaard</person><person id='345'>Jeppe Tuxen</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='39ee4421-641f-57af-8bf7-89b3f230e319' id='274'>
+                <date>2022-09-22T16:15:00+01:00</date>
+                <start>16:15</start>
+                <duration>00:50</duration>
+                <room>Workshops</room>
+                <slug>djangocon-europe-2022-274-everything-you-wanted-to-know-about-databases-as-a-developer-but-were-too-afraid-to-ask-your-dba</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/87C7VD/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Everything You Wanted to Know About Databases as a Developer but Were Too Afraid to Ask Your DBA</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Workshop</type>
+                <language>en</language>
+                <abstract>As a developer you may have little or no training in database administration, yet you want to design applications that interact with databases in the best possible way. This workshop aims to answer all the questions you wanted to ask your DBA but didn&apos;t because he/she is too ~~grumpy~~ busy. You will come away with enough information about databases in general, and about PostgreSQL in particular, to sound like an instant database expert (and, more importantly, to create better applications).</abstract>
+                <description>The database forms the backbone of many applications so it&#8217;s essential for applications to interact with the database in an optimal way. Unfortunately, database administration doesn&#8217;t usually form part of a developer&#8217;s training so you may have a wealth of experience and talent in designing and developing applications, yet have little or no database knowledge. There&#8217;s probably a database expert in your organisation in the form of a DBA, but this expert is probably too ~~grumpy~~ busy to take the time to explain to you how databases work.
+
+This workshop aims to provide you with the minimum that you, as a developer, need to know about databases in general, and about PostgreSQL in particular. You will come away with a &#8220;database cheat sheet&#8221; of the different terminology and concepts that will make you sound like an instant database expert.
+
+You&#8217;ll learn to explain with confidence the difference between a database, a database cluster and an instance, how database objects can be partitioned and why you might want to do that, how schemas and tablespaces can be used to group database objects, the different constraints that can be used to enforce the integrity of your data, the difference between a view and a materialized view and much more.
+
+If you want to:
+1. Understand more about what a database is and how it works
+2. Make your database applications better 
+3. Impress your ~~friends~~ DBA
+
+then this presentation is for you.</description>
+                <logo></logo>
+                <persons>
+                    <person id='341'>Karen Jex</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='c69b538e-9c82-5302-9084-6de146f748d2' id='248'>
+                <date>2022-09-22T17:10:00+01:00</date>
+                <start>17:10</start>
+                <duration>00:50</duration>
+                <room>Workshops</room>
+                <slug>djangocon-europe-2022-248-tdd-applied-to-django-api-development</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/UH8KUK/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>TDD applied to Django API development</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Workshop</type>
+                <language>en</language>
+                <abstract>TDD is a software design methodology that is based on first writing tests, then writing source code that successfully passes those tests, and finally refactoring the written code.
+
+At the end of the workshop, you will leave knowing which are the steps to follow to make Django API developments with the TDD methodology and be able to apply what you have learned.</abstract>
+                <description>TDD is a software design methodology that is based on first writing tests, then writing source code that successfully passes those tests, and finally refactoring the written code.
+
+In this workshop, we propose an exercise oriented to the development of APIs that we will solve using this TDD process. In this way, we will go through each of the steps observing the importance of each one of them. And so we will exemplify our day to day, how with Python we face problems and how TDD helps us to solve them. 
+
+At the end of the workshop, you will leave knowing which are the steps to follow to make developments with the TDD methodology and be able to apply what you have learned.</description>
+                <logo></logo>
+                <persons>
+                    <person id='325'>Emilio Carri&#243;n</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            
+        </room>
+        
+    </day>
+    <day index='3' date='2022-09-23' start='2022-09-23T04:00:00+01:00' end='2022-09-24T03:59:00+01:00'>
+        <room name='Auditorium'>
+            <event guid='09c35453-4474-5579-b6fb-69c6628bed19' id='400'>
+                <date>2022-09-23T10:00:00+01:00</date>
+                <start>10:00</start>
+                <duration>00:05</duration>
+                <room>Auditorium</room>
+                <slug>djangocon-europe-2022-400-morning-announcements</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/UVMXJL/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Morning Announcements</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Other</type>
+                <language>en</language>
+                <abstract>Morning Announcements</abstract>
+                <description></description>
+                <logo></logo>
+                <persons>
+                    
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='58bc4308-dbcd-5fe1-919f-1d191a72fb2a' id='199'>
+                <date>2022-09-23T10:05:00+01:00</date>
+                <start>10:05</start>
+                <duration>00:30</duration>
+                <room>Auditorium</room>
+                <slug>djangocon-europe-2022-199-async-django-the-practical-guide-you-ve-been-awaiting-for-</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/GKUVAX/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Async Django: The practical guide you&apos;ve been **awaiting** for.</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>There&#8217;s a lot of excitement about Django going async in 3.0+ but also many questions. This talk will provide a brief introduction to async, cover its pros/cons, and show how to build async into your Django app.</abstract>
+                <description>There&#8217;s a lot of excitement about Django going async in 3.0+ but also many questions. This talk will provide a brief introduction to async, cover its pros/cons, and show how to build async into your Django app.
+
+We&#8217;ll look at four different ways to build a real-time chat app and see how the need for async comes up:
+
+* Polling 
+* Long-polling
+* Server-sent events
+* Websockets
+
+Getting async online can be the hardest bit, so we&#8217;ll wrap up with a few pointers on deployment to get you on your way.
+
+Video: https://youtu.be/B5uQPwX4VLo</description>
+                <logo></logo>
+                <persons>
+                    <person id='46'>Carlton Gibson</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='4443192c-48ae-54d0-a1c2-3603334106ed' id='264'>
+                <date>2022-09-23T11:15:00+01:00</date>
+                <start>11:15</start>
+                <duration>00:30</duration>
+                <room>Auditorium</room>
+                <slug>djangocon-europe-2022-264-run-your-tests-in-hundreds-of-different-environments-fast-i-mean-really-fast-</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/DUVTY3/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Run your tests in hundreds of different environments fast. I mean really fast.</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>As a Python library author, how do you ensure interoperability with every Python (and Django) version? In this talk, learn how to run your test suite in hundreds of different environments as fast as possible using Pytest, Tox, and GitHub actions.</abstract>
+                <description>The Sentry SDK has to work in basically every Python environment imaginable. From Python 2.7 and Django 1.8 onward, including alternative implementations like PyPy. (And besides Django the SDK supports over fifteen other Python frameworks) Altogether our test suite has to run in a couple of hundred environments.
+
+As the test suite and environments grew our test suite slowed down. When it took 35-40 minutes to run the test suite we knew:
+
+Things had to change. So we rolled up our sleeves and set out to improve our test suite and make it run in under 10 minutes.
+
+In this talk, I will present to you our journey. Everything we learned about Pytest, Tox, and GitHub actions to make your test suite run as fast as possible.
+
+Video: https://youtu.be/cLptIbomkoM</description>
+                <logo></logo>
+                <persons>
+                    <person id='333'>Anton Pirker</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='6b7c760e-1d9e-52da-af57-65d4ff747a83' id='224'>
+                <date>2022-09-23T11:50:00+01:00</date>
+                <start>11:50</start>
+                <duration>00:30</duration>
+                <room>Auditorium</room>
+                <slug>djangocon-europe-2022-224-handling-django-in-highly-concurrent-scale-environment</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/NJR3PV/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Handling Django in highly concurrent &amp; scale environment</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>Django is very good for getting things started &amp; get going, but when it gets thrown into a highly concurrent &amp; high scale environment then real issues start coming up, and you are often left with your head-scratching as to what is happening &amp; how to deal with it; this talk will discuss some of the issues around concurrency &amp; scale in Django &amp; how did we handle it.</abstract>
+                <description>In this talk, we&apos;ll discuss some of the issues that we(@SquadStack) faced when handling Django in a highly concurrent &amp; scalable environment &amp; how did we handle it to the point which satisfied our requirements. This talk will be highly practical in the sense that the presenter will present real-world examples &amp; issues that will come by it and then we&apos;ll move towards some of the ideas we can explore to mitigate those issues.
+
+Some of the ideas we&apos;ll explore:-
+
+a) How Django .save() can cause issues in highly concurrent environment.
+
+b) How Django admin&apos;s native search might cause issues in high scaling environment &amp; how to deal with it(hint plugging in ES for search might not be the only solution, there are cheaper ways available)
+
+c) How to change DB schema at a scale where DB is not the only problem but how do you deal with cached objects.
+
+d) How to do faster count for Django Admin pages
+
+e) etc...
+
+The solutions presented in the talk might not be perfect but they just seem to work, and might be worth trying.
+
+Video: https://youtu.be/ed3-wfDsEXA</description>
+                <logo></logo>
+                <persons>
+                    <person id='314'>Tarun Garg</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='e7dc74e7-8ac6-52ff-a171-58051d13ab53' id='251'>
+                <date>2022-09-23T12:25:00+01:00</date>
+                <start>12:25</start>
+                <duration>00:30</duration>
+                <room>Auditorium</room>
+                <slug>djangocon-europe-2022-251-a-use-case-of-implementing-domain-driven-design-ddd-in-django</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/FFDXHZ/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>A use case of implementing Domain-Driven Design (DDD) in Django</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>Our feedback on integrating some DDD tactical patterns in OSIS, a long-term open-source project for UCLouvain university.</abstract>
+                <description>We had the opportunity to apply DDD to Django in OSIS, a long-term project for managing students and their education for Universit&#233; Catholique de Louvain in Belgium. After a year into the project implementing new features, it&apos;s time to provide our feedback to the Django community.
+
+A general outline:
+1. Intro to the OSIS project (goal, short history, actors, domain)
+2. The why and when for choosing DDD
+3. Common tactical patterns to implement in Python/Django
+4. Recap and conclusion on our DDD usage and where to go from there
+5. Questions
+
+The project is open-sourced at https://github.com/uclouvain/  along with its numerous submodules which I will present shortly in the first part. I will take some time to explain the concepts of onion architecture and some DDD design pattern so it should be accessible enough for Django beginners. The code is not the key, but rather think communication and comprehension!
+
+Edit post-talk: the slides that were presented are at https://sebcorbin.github.io/ddddjango/
+
+Video: https://youtu.be/t5DBiKsjvS4</description>
+                <logo>/media/djangocon-europe-2022/submissions/FFDXHZ/dddjango_Z6vXPMU.png</logo>
+                <persons>
+                    <person id='327'>SebCorbin</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='11caee67-c26d-53bb-8a5a-e009e359d1d3' id='397'>
+                <date>2022-09-23T14:00:00+01:00</date>
+                <start>14:00</start>
+                <duration>01:00</duration>
+                <room>Auditorium</room>
+                <slug>djangocon-europe-2022-397-keynote-growing-pains-of-an-open-source-project</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/MBVCJ3/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Keynote: Growing pains of an open source project</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Keynote</type>
+                <language>en</language>
+                <abstract>A discussion of how open source software projects are managed, through the lens of an eventually-popular open source software project.</abstract>
+                <description>This keynote will explore how the needs of an open source software project changes as it grows. The talk will focus on the choices that open source project maintainers must make and the things they need to do to maintain the project and foster a healthy community.
+
+You will come away with a better understanding and appreciation of the effort that goes into building and maintaining an open source software project and, perhaps more importantly, the community around it.
+
+Video: https://youtu.be/TRK6C09JHVc</description>
+                <logo></logo>
+                <persons>
+                    <person id='415'>Pradyun Gedam</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='7f530ea4-6fdd-515b-a6c1-45cd0aaf6b0c' id='280'>
+                <date>2022-09-23T15:00:00+01:00</date>
+                <start>15:00</start>
+                <duration>00:30</duration>
+                <room>Auditorium</room>
+                <slug>djangocon-europe-2022-280-data-oriented-django</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/B7GSRY/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Data-Oriented Django</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>Data-Oriented Design focuses on how software transforms specific inputs to specific outputs, on specific hardware. This talk will cover how this way of thinking can inform writing Django code.</abstract>
+                <description>My high school class defined computing as: software controlling hardware to consume input data and emit output data. Simple enough that I still remember it.
+
+Data-Oriented Design invites us to take this definition seriously. Users only care about convenient input, correct output, as fast as possible. Many abstractions we reach for can hold us back from reaching these goals.
+
+This talk will first look at Data-Oriented Design through some general examples, including speeding up JSON parsing in C++ more than 50x. It will then show some Django data patterns that can make our code small and fast, such as normalization, reducing memory usage, splitting models, and techniques for getting the database to do as much work as possible.
+
+Video: https://youtu.be/gfPNeQR1aSc</description>
+                <logo></logo>
+                <persons>
+                    <person id='34'>Adam Johnson</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='aadccf50-5f24-5653-a882-938d9bff89a4' id='309'>
+                <date>2022-09-23T16:00:00+01:00</date>
+                <start>16:00</start>
+                <duration>00:30</duration>
+                <room>Auditorium</room>
+                <slug>djangocon-europe-2022-309-why-would-anyone-use-snowflake-as-a-backend-for-django-</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/BSFVSC/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Why would anyone use Snowflake as a backend for Django?</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>The natural backend for Django is an OLTP database (MySQL, PostgreSQL), but a growing number of people and companies insist on having a mainly OLAP backend for Django (like Snowflake) . This is a talk on why and the remarkable progress so far.</abstract>
+                <description>In this talk we are going to review the progress on making Snowflake a worthy backend for Django:
+
+- Review of community and customer demand for a Snowflake backend for Django.
+- Review of the multiple independent implementations created.
+- Overview of the corporate-sponsored open-source development that Cedar Cares sponsored Tim Graham (Django Fellow 2014-2019) to develop.
+- Review of the Snowflake architecture, upcoming features, and how it matches the Django roadmap.
+- Forward looking opportunities for the Django community and Snowflake.
+
+Video: https://youtu.be/1n_umQuGCEI</description>
+                <logo></logo>
+                <persons>
+                    <person id='361'>Felipe Hoffa</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='323e2c07-5e38-5b1d-bb89-0d9edcc160e5' id='206'>
+                <date>2022-09-23T16:35:00+01:00</date>
+                <start>16:35</start>
+                <duration>00:30</duration>
+                <room>Auditorium</room>
+                <slug>djangocon-europe-2022-206-how-to-facilitate-sponsorships-for-open-source-projects</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/BDATHF/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>How to facilitate sponsorships for open source projects</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>We discuss financial sponsorships in open source project, from the point of view of open source maintainers: When and how to introduce sponsorships, what to offer, how to make it easy for companies to pay, and how to get paid as a maintainer.</abstract>
+                <description>In this session, we will present the audience with the ins and outs of managing sponsorships for a project, and answer questions such as:
+
+- When is it worth introducing sponsorships in an open source project?
+- How to make it as easy as possible for companies to pay?
+- What to offer to enterprise sponsors?
+- How to transparently manage and redistribute the money?
+
+We will present [OpenCollective](https://opencollective.com/) and introduce the audience to the legal and financial problems it solves.
+
+The author of this talk maintains [dj-stripe](https://dj-stripe.dev/), a Stripe-sponsored Django project that has redistributed money to multiple developers, maintainers, contractors and organizations for paid work.
+
+Video: https://youtu.be/_8joxlHeN3o</description>
+                <logo></logo>
+                <persons>
+                    <person id='302'>Deleted User</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='bc571993-ec98-50cb-9abe-170ca5d422e9' id='276'>
+                <date>2022-09-23T17:10:00+01:00</date>
+                <start>17:10</start>
+                <duration>00:30</duration>
+                <room>Auditorium</room>
+                <slug>djangocon-europe-2022-276-foundational-knowledge-the-why-and-how-of-the-django-software-foundation</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/8ZG8XV/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Foundational Knowledge: The Why and How of the Django Software Foundation</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Talk</type>
+                <language>en</language>
+                <abstract>Discussing why the Django Software Foundation exists, what it does, and ways it may evolve over the next decade</abstract>
+                <description>The Django Software Foundation&apos;s mission is to promote, support, and advance its open-source project: in our case, the Django Web framework.
+This talk will discuss how the foundation came about, how it works to satisfy it&apos;s mission, and how it and the community can remain relevant and vibrant well into the future.
+
+Video: https://youtu.be/uJnaEZkoVTg</description>
+                <logo></logo>
+                <persons>
+                    <person id='343'>Chaim Kirby</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='b071d32c-5e0f-5dce-8092-7749b95f1db3' id='402'>
+                <date>2022-09-23T17:45:00+01:00</date>
+                <start>17:45</start>
+                <duration>00:30</duration>
+                <room>Auditorium</room>
+                <slug>djangocon-europe-2022-402-lightning-talks</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/PAZ3GV/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Lightning Talks</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Other</type>
+                <language>en</language>
+                <abstract>Lightning Talks</abstract>
+                <description>Video: https://youtu.be/c6X9cSP6AZo</description>
+                <logo></logo>
+                <persons>
+                    
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='b118e1ef-3e6b-5f73-aa8a-e4ae778492a8' id='404'>
+                <date>2022-09-23T18:15:00+01:00</date>
+                <start>18:15</start>
+                <duration>00:15</duration>
+                <room>Auditorium</room>
+                <slug>djangocon-europe-2022-404-closing-session</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/3CEKKZ/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Closing Session</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Other</type>
+                <language>en</language>
+                <abstract>Closing Session</abstract>
+                <description>Video: https://youtu.be/z42Jx1Tro3Y</description>
+                <logo></logo>
+                <persons>
+                    
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            
+        </room>
+        <room name='Workshops'>
+            <event guid='6cef05fd-2e0f-5c34-b319-32652009e6a1' id='289'>
+                <date>2022-09-23T11:15:00+01:00</date>
+                <start>11:15</start>
+                <duration>00:50</duration>
+                <room>Workshops</room>
+                <slug>djangocon-europe-2022-289-everything-you-didn-t-want-to-know-about-cross-site-request-forgery-csrf-in-django</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/LWJHYJ/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Everything you didn&apos;t want to know about Cross-site Request Forgery (CSRF) in Django</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Workshop</type>
+                <language>en</language>
+                <abstract>Have you ever wondered what Cross-site Request Forgery is all about? Did you solve your CSRF problem in your single-page application by copy-pasting something from StackOverflow or decorating all your views with csrf_exempt without knowing what these things are actually doing? If so, this talk is for you.</abstract>
+                <description>In this talk, we will unwrap an underestimated class of security vulnerabilities and explore what Cross-site Request Forgery (CSRF) is all about, what can (and can&apos;t) be used to protect against CSRF attacks and how Django (REST Framework) deals with all of it.
+
+If that sounds scary, don&apos;t worry. I promise you, your application&apos;s business logic is harder to understand than this. After this talk, you won&apos;t be confused by CSRF ever again.
+
+**What is Cross-site Request Forgery (CSRF) all about?**
+
+We will explain the attack flow, involved parties and components in-depth and try to illustrate why protecting against CSRF is so important. We will tinker with some easy to understand examples to explain all of it. The example project will be shared after the talk so that you can try all of it at home. After all, one of the best ways to learn is to experiment!
+
+**What can (and can&apos;t) be used to protect against CSRF attacks?**
+
+Equipped with the knowledge of what Cross-site Request Forgery is, we will talk about the current best practices to prevent CSRF attacks.
+
+**How do Django &amp; Django REST Framework prevent CSRF attacks?**
+
+In the final, and biggest section of the talk, we will have a look at what Django and Django REST Framework provide to protect our applications against CSRF attacks. We will explain the most important settings and how to configure the system properly. A particular focus will be placed on Single-Page applications, since it&apos;s harder and more complex to get this setup up and running.
+
+
+
+You should have a basic understanding of how Django and web applications, including HTTP, HTML and JavaScript work. If you have completed the official Django and Django REST Framework tutorial, you should be able to follow this talk quite easily.
+
+
+**Here the link to the slides and projects: https://www.andreas.earth/s/djangocon-22/**</description>
+                <logo></logo>
+                <persons>
+                    <person id='348'>Andreas Schmitz</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='f8dd127a-2130-588e-a0fa-4efb1832db53' id='298'>
+                <date>2022-09-23T12:10:00+01:00</date>
+                <start>12:10</start>
+                <duration>00:50</duration>
+                <room>Workshops</room>
+                <slug>djangocon-europe-2022-298-what-s-happening-and-what-do-i-do-about-it-</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/USKUG9/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>What&#8217;s happening and what do I do about it?</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Workshop</type>
+                <language>en</language>
+                <abstract>In this fun and interactive workshop you&#8217;ll identify your Top Two Values and how they simplify EVERYTHING.</abstract>
+                <description>**&#8220;What do I do?&#8221; is an assessment we make 1000x a day.**
+
+When your top values are clear, your options are, too.
+
+Once you understand why things drive you the way they do, you take the wheel.
+
+You can suddenly diagnose:
+
+* Why your day doesn&#8217;t feel great.
+* Why things aren&#8217;t working.
+* Why you&#8217;re not getting back what you put in.
+* Why you&#8217;re not feeling satisfied, even when you&#8217;ve done all the things.
+* What&#8217;s happening.
+* Now what? 
+* What leap to take.
+* What decision feels right.
+* How to handle things.
+
+It&#8217;s a super power you can apply to any situation.
+
+**In this session, you&#8217;ll identify:**
+
+* Your top two personal values
+* How to use creativity to get clarity
+* How to quickly make decisions that create impact
+
+If you feel professionally or personally unsatisfied, want more ease around decisions, or are searching for ways to create impact  &#8211; this session is for you.
+
+Join Certified Executive + Founder Coach &amp; Master Workshop Facilitator  Angela Parker for this unique session that will help you get clear and will inspire you to take action.</description>
+                <logo></logo>
+                <persons>
+                    <person id='356'>Angela Parker (she/her)</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='4e23451e-5555-52f1-b1b3-d6f45fb795fb' id='185'>
+                <date>2022-09-23T14:50:00+01:00</date>
+                <start>14:50</start>
+                <duration>00:50</duration>
+                <room>Workshops</room>
+                <slug>djangocon-europe-2022-185-creating-of-really-multilingual-django-project</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/ADHERT/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Creating of really multilingual Django project</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Workshop</type>
+                <language>en</language>
+                <abstract>Check all milestones of multilinguale Project in 60 min.</abstract>
+                <description>In this workshop, i take a own Django-TOF opensource project and create small Really Multilang Project, how it should be, to avoid problem in future.
+
+1. Starting a multilingual Django project. What we should not forget.
+2. Static translated texts of the project. What&apos;s wrong with i18n.
+3. Problems with Automatic Translation.
+4. Why translatable dynamic content will not translate properly.
+5. Why not existing Django/Python multilingual solutions?</description>
+                <logo>/media/djangocon-europe-2022/submissions/ADHERT/WorkShopDjango_wKM6nRd.jpg</logo>
+                <persons>
+                    <person id='285'>Maxim Danilov</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='8fb290ba-c126-5f3d-82a1-39e97562aa42' id='219'>
+                <date>2022-09-23T16:00:00+01:00</date>
+                <start>16:00</start>
+                <duration>00:50</duration>
+                <room>Workshops</room>
+                <slug>djangocon-europe-2022-219-understanding-everything-your-django-code-is-doing-at-runtime-using-kolo</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/RFFG3Z/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Understanding everything your Django code is doing at runtime using Kolo</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Workshop</type>
+                <language>en</language>
+                <abstract>Reading and understanding existing code is a big part of work as software developers. We&apos;re constantly exploring code that we did not write and are not familiar with. Yet the tools we have for this frequent task leave a lot to be desired. In this talk we explore how we can use runtime inspection and Kolo to observe what our Django app is doing while running and how that can help us rapidly build a strong mental model that we can then draw on when writing new code.</abstract>
+                <description>One of the most time consuming aspects of creating great software is reading and understanding the code we&apos;re extending or building on top of. In fact, some say that for every 1 new line of code that we write, we first read and understand 10 other lines of code. Yet we seem to have few tools that really help us read, learn, and understand existing codebases.
+
+This talk discusses how more often than not, we rely on our own imagination and brain power to understand and explore our codebases. We talk about where debuggers can be useful and the many places where they fall short and actually slow down our learning process.
+
+We explore the inspection of runtime data and observing what our code is actually doing as a potential approach to speed up how quickly we can learn and understand a codebase. Specifically we look at all the information we can observe and visualise during a Django HTTP request/response cycle to help us understand everything that our code is doing.
+
+Finally, we think about where else we could apply this idea of &quot;runtime inspection&quot; to solve other problems: Could this approach help us generate test cases? Or at least help us write test fixtures more quickly? Could it help us notice more quickly when our SQL queries are not efficient? And much more
+
+
+**Outline**
+1. The problem with reading and understanding code
+2. Inspecting runtime data as a potential solution
+3. Demo of Kolo: What can Kolo do today?
+4. The Glorious Future of collecting, inspecting, and visualizing our code at runtime</description>
+                <logo></logo>
+                <persons>
+                    <person id='309'>Wilhelm Klopp</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            <event guid='986710b3-dcd5-5334-8da7-e03fdb076f90' id='265'>
+                <date>2022-09-23T16:55:00+01:00</date>
+                <start>16:55</start>
+                <duration>00:50</duration>
+                <room>Workshops</room>
+                <slug>djangocon-europe-2022-265-automated-integration-testing-and-live-documentation-for-your-django-apis-with-scanapi</slug>
+                <url>https://pretalx.evolutio.pt//djangocon-europe-2022/talk/AFYRWB/</url>
+                <recording>
+                    <license></license>
+                    <optout>false</optout>
+                </recording>
+                <title>Automated Integration Testing and Live Documentation for your Django APIs with ScanAPI</title>
+                <subtitle></subtitle>
+                <track></track>
+                <type>Workshop</type>
+                <language>en</language>
+                <abstract>In this workshop we will learn how to create automated integration tests for a REST API using ScanAPI. We will learn how to configure the library, to define the endpoints to be hit, the expected behaviors for each response, how to run the tests and how to access the generated report - which might be used as the API documentation itself.</abstract>
+                <description>One of the most common use cases of Django is to create REST APIs, especially using the Django REST framework. When creating APIs, we need to ensure the endpoints are working properly, as expected. To ensure they do, in fact, what they should do.
+
+ScanAPI is an open-source Python library that was created to help in this task. ScanAPI provides an easy way to create integration tests for REST APIs via configuration files. Given an API specification, written by the user in YAML/JSON format, the library hits the specified endpoints, runs the test cases, and generates a detailed report of this execution - that can be also used as the API documentation itself.
+
+After a short intro of what ScanAPI is and what was the motivation to create it (5 min), we go over the following topics
+
+- Short Intro about the API we will test and document
+- Setup - Installation + configure the project name
+- Document and test the first endpoint
+- How to use environment variables
+- How to hide sensitive information in the reports
+- How to chain requests
+- How to use nested endpoints
+- How to use default values
+- How to split the specification file into multiple files
+- Quick overview about how to use custom reports
+- Quick overview about how to add ScanAPI to a pipeline
+
+ScanAPI Links:
+
+- GitHub Organization: https://github.com/scanapi
+- Website: https://scanapi.dev
+- Twitter: http://twitter.com/scanapi_</description>
+                <logo>/media/djangocon-europe-2022/submissions/AFYRWB/logo-white-on-black_0THqIk0.png</logo>
+                <persons>
+                    <person id='334'>Camila Maia</person>
+                </persons>
+                <links></links>
+                <attachments></attachments>
+            </event>
+            
+        </room>
+        
+    </day>
+    
+</schedule>

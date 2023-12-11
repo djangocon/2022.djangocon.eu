@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.evolutio.pt//djangocon-europe-2022//QDNRLH
+BEGIN:VTIMEZONE
+TZID:WET
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:WET
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:WEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-djangocon-europe-2022-CQHQEM@pretalx.evolutio.pt
+DTSTART;TZID=WET:20220922T151000
+DTEND;TZID=WET:20220922T154000
+DESCRIPTION:Can you predict lightning strikes using Django and AWS? Yes! Le
+ arn how to take an algorithm and idea from a Jupyter Notebook to productio
+ n ready and cloud native.
+DTSTAMP:20231211T162950Z
+LOCATION:Auditorium
+SUMMARY:Predict Lightning Strikes using Django and AWS - Calvin Hendryx-Par
+ ker
+URL:https://pretalx.evolutio.pt/djangocon-europe-2022/talk/CQHQEM/
+END:VEVENT
+END:VCALENDAR

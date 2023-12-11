@@ -1,0 +1,279 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    
+<!-- Mirrored from pretalx.evolutio.pt/djangocon-europe-2022/talk/CFCFFF/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Dec 2023 16:39:22 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta charset="utf-8">
+        <title>Server-Side is back, baby! 💻 optional. Just 👀  supported 😊 ::  DjangoCon Europe 2022 :: pretalx</title>
+        <meta name="title" content="Server-Side is back, baby! 💻 optional. Just 👀  supported 😊  - DjangoCon Europe 2022 pretalx">
+        <meta name="description" content="## Sample application
+
+If you want to follow along during the livecode session, you can install the sample application by following these [instructions](https://github.com/runekaagaard/hypergen-djangocon-2022). Otherwise just sit back and enjoy the show! 🤯
+
+## Outline
+
+1. About Liveviews
+    - From pure server side rendering, over jQuery, then React to liveviews. Our evolution of web development.
+    - Liveview basics - the what, why, who, where and when.
+2. Hypergen
+    - Architecture and design choices.
+    - Introduction and examples.
+3. We build an example app in Hypergen together, showcasing
+    - Pure Python HTML templates
+    - Base templates and template composition
+    - Liveviews
+    - Binding to DOM events
+    - Actions
+    - Partial DOM updates and other client commands
+    - Notifications and plugins
+4. Q&amp;A">
+        <meta name="application-name" content="pretalx">
+        <meta name="generator" content="pretalx">
+        <meta name="keywords" content="DjangoCon Europe 2022, djangocon-europe-2022, 2022, schedule, talks, cfp, call for papers, conference, submissions, organizer">
+        
+        <meta name="robots" content="index, follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#003C80">
+        <meta name="HandheldFriendly" content="True"/>
+        <meta property="thumbnail" content="laptop-rocket_iIiyK6R.png">
+    <meta property="og:image" content="laptop-rocket_iIiyK6R.png">
+        <meta property="og:title" content="Server-Side is back, baby! 💻 optional. Just 👀  supported 😊 DjangoCon Europe 2022">
+        <meta property="og:description" content="## Sample application
+
+If you want to follow along during the livecode session, you can install the sample application by following these [instructions](https://github.com/runekaagaard/hypergen-djangocon-2022). Otherwise just sit back and enjoy the show! 🤯
+
+## Outline
+
+1. About Liveviews
+    - From pure server side rendering, over jQuery, then React to liveviews. Our evolution of web development.
+    - Liveview basics - the what, why, who, where and when.
+2. Hypergen
+    - Architecture and design choices.
+    - Introduction and examples.
+3. We build an example app in Hypergen together, showcasing
+    - Pure Python HTML templates
+    - Base templates and template composition
+    - Liveviews
+    - Binding to DOM events
+    - Actions
+    - Partial DOM updates and other client commands
+    - Notifications and plugins
+4. Q&amp;A">
+        <meta property="og:url" content="index.html">
+        <meta property="twitter:card" content="summary">
+
+        
+            <link rel="icon" type="image/png" sizes="32x32" href="../../../static/common/img/favicon-32x32.38c2aab28d3a.png">
+            <link rel="icon" type="image/png" sizes="16x16" href="../../../static/common/img/favicon-16x16.02f8a56e1af3.png">
+        
+
+        <link rel="stylesheet" type="text/css" href="../../../static/common/scss/uncompressed.cabbf3759e3e.css" />
+        
+            <link rel="stylesheet" type="text/css" href="../../../static/vendored/fullcalendar/fullcalendar.min.ba055a2cd2b3.css"/>
+            <link rel="stylesheet" type="text/css" href="https://pretalx.evolutio.pt/media/djangocon-europe-2022/cfp.327d3d760ca24fc4.css"/>
+            <link rel="stylesheet" type="text/css" href="https://pretalx.evolutio.pt/media/djangocon-europe-2022/agenda.81671e2b8d31c1b9.css"/>
+        
+        
+        <script src="../../../static/CACHE/js/output.079684506270.js" defer></script>
+        
+    
+    <link rel="alternate" type="application/json" title="DjangoCon Europe 2022 API" href="https://pretalx.evolutio.pt/api/events/djangocon-europe-2022/talks/CFCFFF" />
+
+    
+    
+
+    </head>
+    <body data-datetimeformat="YYYY-MM-DD HH:mm:ss" data-dateformat="YYYY-MM-DD" data-datetimelocale="pt-PT">
+        <div id="top-bg" class="header bg-primary">
+            
+                <img src="https://pretalx.evolutio.pt/media/djangocon-europe-2022/img/youtube-djangocon-02_17.19.17_obdzYHN.png" id="header-image">
+            
+        </div>
+        
+        <div class="container" id="main-container">
+            <header>
+                <h1>
+                    <a href="../../schedule/index.html">
+                        
+                            <img src="https://pretalx.evolutio.pt/media/djangocon-europe-2022/img/logo_white_wBNAEWb.png" id="event-logo" alt="The event's logo">
+                        
+                    </a>
+                </h1>
+                <div class="d-flex" id="header-row">
+                    
+                    
+                        <a href="../../login/index.html">login</a>
+                    
+                </div>
+            </header>
+            <div class="card" id="main-card">
+                <main>
+                    
+
+                    
+    
+    
+    <article>
+        
+        <h3 class="talk-title">
+            <div class="heading-with-buttons">
+                Server-Side is back, baby! 💻 optional. Just 👀  supported 😊
+                <div class="buttons" id="talk-buttons">
+                    
+                        <a class="btn btn-outline-primary" href="../djangocon-europe-2022-CFCFFF.ics">
+                            <i class="fa fa-calendar"></i> .ical
+                        </a>
+                    
+                    
+                        <a href="feedback/index.html"
+                           class="btn btn-success">
+                            <i class="fa fa-comments"></i> 
+                        </a>
+                    
+                    
+                </div>
+            </div>
+            <small>
+                
+                    09-22, 14:00–14:50 (Europe/Lisbon), Workshops 
+                
+                
+                
+            </small>
+        </h3>
+        <div class="talk row">
+            <div class="talk-content">
+                
+                
+                    <div class="talk-image">
+                        <a href="https://pretalx.evolutio.pt/media/djangocon-europe-2022/submissions/CFCFFF/laptop-rocket_iIiyK6R.png" target="_blank">
+                            <img src="https://pretalx.evolutio.pt/media/djangocon-europe-2022/submissions/CFCFFF/laptop-rocket_iIiyK6R.png" alt="This session's header image">
+                        </a>
+                    </div>
+                
+                
+                <section class="abstract">
+                    <h1>Server-side is back, baby!</h1>
+<p>- take a break from Javascript, write your apps with liveviews instead 🚀</p>
+<p>In this tailk, we explore <em>liveviews</em> as an alternative to “traditional” client-side rendering – a new way of building dynamic user interfaces for the web.</p>
+<p>First, we give an introduction to the concept of liveviews and discuss how it differs from server-side rendering and client-side rendering.</p>
+<p>After that, we showcase our interpretation of a Django liveview called <a href="https://hypergen.it/" rel="nofollow" target="_blank">Hypergen</a>.</p>
+<p>Then, in the main part of the talk, we build an example app with <a href="https://github.com/runekaagaard/django-hypergen" rel="nofollow" target="_blank">Hypergen</a> while discussing some of its architectural choices.</p>
+<p>Last, we open for questions and a more interactive vibe.</p>
+<p>So are you looking for a break from Javascript, or if you’re just curious about what else is possible with Django, this talk is for you!</p>
+                </section>
+                
+                    <hr />
+                
+                <section class="description">
+                    <h2>Sample application</h2>
+<p>If you want to follow along during the livecode session, you can install the sample application by following these <a href="https://github.com/runekaagaard/hypergen-djangocon-2022" rel="nofollow" target="_blank">instructions</a>. Otherwise just sit back and enjoy the show! 🤯</p>
+<h2>Outline</h2>
+<ol>
+<li>About Liveviews<ul>
+<li>From pure server side rendering, over jQuery, then React to liveviews. Our evolution of web development.</li>
+<li>Liveview basics - the what, why, who, where and when.</li>
+</ul>
+</li>
+<li>Hypergen<ul>
+<li>Architecture and design choices.</li>
+<li>Introduction and examples.</li>
+</ul>
+</li>
+<li>We build an example app in Hypergen together, showcasing<ul>
+<li>Pure Python HTML templates</li>
+<li>Base templates and template composition</li>
+<li>Liveviews</li>
+<li>Binding to DOM events</li>
+<li>Actions</li>
+<li>Partial DOM updates and other client commands</li>
+<li>Notifications and plugins</li>
+</ul>
+</li>
+<li>Q&amp;A</li>
+</ol>
+                </section>
+                
+            </section>
+            
+            <section>
+                
+            </section>
+        </div>
+    </div>
+    
+        
+            <div class="pretalx-session">
+                <div class="pretalx-session-time-box avatar">
+                    <a href="../../speaker/TQQNLD/index.html">
+                        <div class="avatar-wrapper">
+                            
+                                <img src="https://pretalx.evolutio.pt/media/avatars/rune4_hMp2ok9.png">
+                            
+                        </div>
+                    </a>
+                </div>
+                <div class="pretalx-session-info">
+                    <div class="title">
+                        <a href="../../speaker/TQQNLD/index.html">Rune Kaagaard</a>
+                    </div>
+                    <div class="abstract"><p>I've been working as programmer for 15 years, doing Django full time for twelve years. Before getting into programming I worked more than a decade as a piano player, composer and producer. I live on the country side just outside Copenhagen, Denmark with my wife and three girls.</p>
+<p>I love searching for beautiful patterns in the universe. Besides Hypergen I'm currently exploring how to get nested data in and out of the Database. Would love to discuss that with other Django devs ;)</p></div>
+                    
+                </div>
+            </div>
+        
+            <div class="pretalx-session">
+                <div class="pretalx-session-time-box avatar">
+                    <a href="../../speaker/SG3E77/index.html">
+                        <div class="avatar-wrapper">
+                            
+                                <img src="https://pretalx.evolutio.pt/media/avatars/TuxenJPG_D4IxYj1.JPG">
+                            
+                        </div>
+                    </a>
+                </div>
+                <div class="pretalx-session-info">
+                    <div class="title">
+                        <a href="../../speaker/SG3E77/index.html">Jeppe Tuxen</a>
+                    </div>
+                    <div class="abstract"><p>I've been working professionally with Django since 2014. A game designer by education, but found out that developing web applications with Django is much more fun :-). <br>
+For me nothing beats finding the best solution within a constrained design space, and most of the time Django is my go-to tool.</p></div>
+                    
+                </div>
+            </div>
+        
+    
+    </article>
+
+
+                </main>
+            </div>
+            <footer>
+                
+                
+
+
+    powered by <a href="https://pretalx.com/" target="_blank" rel="noopener">pretalx</a>
+
+
+                
+                    &middot;
+                    <a href="mailto:2022@djangocon.eu">Contact us</a>
+                
+                
+                    &middot;
+                    <a href="https://2022.djangocon.eu/conduct/privacy_guide/" target="_blank" rel="noopener">Imprint</a>
+                
+                
+            </footer>
+        </div>
+    </body>
+
+<!-- Mirrored from pretalx.evolutio.pt/djangocon-europe-2022/talk/CFCFFF/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Dec 2023 16:39:24 GMT -->
+</html>

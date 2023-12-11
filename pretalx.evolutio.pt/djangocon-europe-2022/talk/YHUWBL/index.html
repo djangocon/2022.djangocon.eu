@@ -1,0 +1,221 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    
+<!-- Mirrored from pretalx.evolutio.pt/djangocon-europe-2022/talk/YHUWBL/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Dec 2023 16:39:09 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta charset="utf-8">
+        <title>Component-driven UI development with Django and Storybook ::  DjangoCon Europe 2022 :: pretalx</title>
+        <meta name="title" content="Component-driven UI development with Django and Storybook  - DjangoCon Europe 2022 pretalx">
+        <meta name="description" content="Django doesn&#x27;t have many opinions about front-end development. This is a blessing and a curse -- it means a lot of freedom for projects to approach UIs however they see fit, but also a lot of choices to make on each and every project. It also means the Django ecosystem is lagging far behind more modern platforms.
+
+It doesn&#x27;t have to be this way. The team behind the Wagtail CMS spent a lot of time refining how they approach UI development in the context of Django projects, and we&#x27;ll now get to learn from their experience.
+
+We started with workflows that work well with React: components are first-class citizens, and tools like Storybook playing to those strengths. We then adapted this for Django, building a full-fledged design system and making the most of automation to test our user interface.
+
+In this talk we&#x27;ll cover,
+
+-   Component-driven development as a methodology
+-   Tools we used and created to apply those concepts to Django codebases
+-   Demo time! How we use those tools to build our CMS, Wagtail
+-   How we envision the Django ecosystem evolving
+
+This should generally be a beginner-level talk for Django developers. Developers who are mostly focused on back-end work will learn about modern front-end methodologies. We will make some references to popular JavaScript frameworks (React, Vue), but no prior knowledge with those will be required.
+
+Video: https://youtu.be/fke3NYdnPBs">
+        <meta name="application-name" content="pretalx">
+        <meta name="generator" content="pretalx">
+        <meta name="keywords" content="DjangoCon Europe 2022, djangocon-europe-2022, 2022, schedule, talks, cfp, call for papers, conference, submissions, organizer">
+        
+        <meta name="robots" content="index, follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#003C80">
+        <meta name="HandheldFriendly" content="True"/>
+        <meta property="thumbnail" content="logo_white_wBNAEWb.png">
+    <meta property="og:image" content="logo_white_wBNAEWb.png">
+        <meta property="og:title" content="Component-driven UI development with Django and Storybook DjangoCon Europe 2022">
+        <meta property="og:description" content="Django doesn&#x27;t have many opinions about front-end development. This is a blessing and a curse -- it means a lot of freedom for projects to approach UIs however they see fit, but also a lot of choices to make on each and every project. It also means the Django ecosystem is lagging far behind more modern platforms.
+
+It doesn&#x27;t have to be this way. The team behind the Wagtail CMS spent a lot of time refining how they approach UI development in the context of Django projects, and we&#x27;ll now get to learn from their experience.
+
+We started with workflows that work well with React: components are first-class citizens, and tools like Storybook playing to those strengths. We then adapted this for Django, building a full-fledged design system and making the most of automation to test our user interface.
+
+In this talk we&#x27;ll cover,
+
+-   Component-driven development as a methodology
+-   Tools we used and created to apply those concepts to Django codebases
+-   Demo time! How we use those tools to build our CMS, Wagtail
+-   How we envision the Django ecosystem evolving
+
+This should generally be a beginner-level talk for Django developers. Developers who are mostly focused on back-end work will learn about modern front-end methodologies. We will make some references to popular JavaScript frameworks (React, Vue), but no prior knowledge with those will be required.
+
+Video: https://youtu.be/fke3NYdnPBs">
+        <meta property="og:url" content="index.html">
+        <meta property="twitter:card" content="summary">
+
+        
+            <link rel="icon" type="image/png" sizes="32x32" href="../../../static/common/img/favicon-32x32.38c2aab28d3a.png">
+            <link rel="icon" type="image/png" sizes="16x16" href="../../../static/common/img/favicon-16x16.02f8a56e1af3.png">
+        
+
+        <link rel="stylesheet" type="text/css" href="../../../static/common/scss/uncompressed.cabbf3759e3e.css" />
+        
+            <link rel="stylesheet" type="text/css" href="../../../static/vendored/fullcalendar/fullcalendar.min.ba055a2cd2b3.css"/>
+            <link rel="stylesheet" type="text/css" href="https://pretalx.evolutio.pt/media/djangocon-europe-2022/cfp.327d3d760ca24fc4.css"/>
+            <link rel="stylesheet" type="text/css" href="https://pretalx.evolutio.pt/media/djangocon-europe-2022/agenda.81671e2b8d31c1b9.css"/>
+        
+        
+        <script src="../../../static/CACHE/js/output.079684506270.js" defer></script>
+        
+    
+    <link rel="alternate" type="application/json" title="DjangoCon Europe 2022 API" href="https://pretalx.evolutio.pt/api/events/djangocon-europe-2022/talks/YHUWBL" />
+
+    
+    
+
+    </head>
+    <body data-datetimeformat="YYYY-MM-DD HH:mm:ss" data-dateformat="YYYY-MM-DD" data-datetimelocale="pt-PT">
+        <div id="top-bg" class="header bg-primary">
+            
+                <img src="https://pretalx.evolutio.pt/media/djangocon-europe-2022/img/youtube-djangocon-02_17.19.17_obdzYHN.png" id="header-image">
+            
+        </div>
+        
+        <div class="container" id="main-container">
+            <header>
+                <h1>
+                    <a href="../../schedule/index.html">
+                        
+                            <img src="https://pretalx.evolutio.pt/media/djangocon-europe-2022/img/logo_white_wBNAEWb.png" id="event-logo" alt="The event's logo">
+                        
+                    </a>
+                </h1>
+                <div class="d-flex" id="header-row">
+                    
+                    
+                        <a href="../../login/index.html">login</a>
+                    
+                </div>
+            </header>
+            <div class="card" id="main-card">
+                <main>
+                    
+
+                    
+    
+    
+    <article>
+        
+        <h3 class="talk-title">
+            <div class="heading-with-buttons">
+                Component-driven UI development with Django and Storybook
+                <div class="buttons" id="talk-buttons">
+                    
+                        <a class="btn btn-outline-primary" href="../djangocon-europe-2022-YHUWBL.ics">
+                            <i class="fa fa-calendar"></i> .ical
+                        </a>
+                    
+                    
+                        <a href="feedback/index.html"
+                           class="btn btn-success">
+                            <i class="fa fa-comments"></i> 
+                        </a>
+                    
+                    
+                </div>
+            </div>
+            <small>
+                
+                    09-21, 16:00–16:30 (Europe/Lisbon), Auditorium <i class="fa fa-question-circle" data-toggle="tooltip" title="Super Bock Arena Auditorium"></i>
+                
+                
+                
+            </small>
+        </h3>
+        <div class="talk row">
+            <div class="talk-content">
+                
+                
+                
+                <section class="abstract">
+                    <p>In the modern JavaScript landscape, component-focused UI frameworks are the norm. We’ll look at how the team behind Wagtail brought component-driven development from React to Django templates with Storybook, speeding up the development process and simplifying maintenance of large pattern libraries.</p>
+                </section>
+                
+                    <hr />
+                
+                <section class="description">
+                    <p>Django doesn't have many opinions about front-end development. This is a blessing and a curse -- it means a lot of freedom for projects to approach UIs however they see fit, but also a lot of choices to make on each and every project. It also means the Django ecosystem is lagging far behind more modern platforms.</p>
+<p>It doesn't have to be this way. The team behind the Wagtail CMS spent a lot of time refining how they approach UI development in the context of Django projects, and we'll now get to learn from their experience.</p>
+<p>We started with workflows that work well with React: components are first-class citizens, and tools like Storybook playing to those strengths. We then adapted this for Django, building a full-fledged design system and making the most of automation to test our user interface.</p>
+<p>In this talk we'll cover,</p>
+<ul>
+<li>Component-driven development as a methodology</li>
+<li>Tools we used and created to apply those concepts to Django codebases</li>
+<li>Demo time! How we use those tools to build our CMS, Wagtail</li>
+<li>How we envision the Django ecosystem evolving</li>
+</ul>
+<p>This should generally be a beginner-level talk for Django developers. Developers who are mostly focused on back-end work will learn about modern front-end methodologies. We will make some references to popular JavaScript frameworks (React, Vue), but no prior knowledge with those will be required.</p>
+<p>Video: <a href="https://youtu.be/fke3NYdnPBs" rel="nofollow" target="_blank">https://youtu.be/fke3NYdnPBs</a></p>
+                </section>
+                
+            </section>
+            
+            <section>
+                
+            </section>
+        </div>
+    </div>
+    
+        
+            <div class="pretalx-session">
+                <div class="pretalx-session-time-box avatar">
+                    <a href="../../speaker/FGTHLQ/index.html">
+                        <div class="avatar-wrapper">
+                            
+                                <img src="https://pretalx.evolutio.pt/media/thibaud-heart.jpg">
+                            
+                        </div>
+                    </a>
+                </div>
+                <div class="pretalx-session-info">
+                    <div class="title">
+                        <a href="../../speaker/FGTHLQ/index.html">Thibaud Colas</a>
+                    </div>
+                    <div class="abstract"><p>I’m a developer interested in all things accessibility, working at Torchbox in the UK. I’m a core contributor to Wagtail, and part of Django’s accessibility team.</p></div>
+                    
+                </div>
+            </div>
+        
+    
+    </article>
+
+
+                </main>
+            </div>
+            <footer>
+                
+                
+
+
+    powered by <a href="https://pretalx.com/" target="_blank" rel="noopener">pretalx</a>
+
+
+                
+                    &middot;
+                    <a href="mailto:2022@djangocon.eu">Contact us</a>
+                
+                
+                    &middot;
+                    <a href="https://2022.djangocon.eu/conduct/privacy_guide/" target="_blank" rel="noopener">Imprint</a>
+                
+                
+            </footer>
+        </div>
+    </body>
+
+<!-- Mirrored from pretalx.evolutio.pt/djangocon-europe-2022/talk/YHUWBL/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Dec 2023 16:39:11 GMT -->
+</html>

@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.evolutio.pt//djangocon-europe-2022//FDRCZ3
+BEGIN:VTIMEZONE
+TZID:WET
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:WET
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:WEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-djangocon-europe-2022-NRNF8P@pretalx.evolutio.pt
+DTSTART;TZID=WET:20220921T160000
+DTEND;TZID=WET:20220921T165000
+DESCRIPTION:Over the last year\, the [Diátaxis documentation framework](ht
+ tps://diataxis.fr) has taken off in popularity. This workshop provides a b
+ rief introduction to the framework\, and includes a number of hands-on exe
+ rcises.
+DTSTAMP:20231211T163642Z
+LOCATION:Workshops
+SUMMARY:Introduction to Diátaxis - Daniele Procida
+URL:https://pretalx.evolutio.pt/djangocon-europe-2022/talk/NRNF8P/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-djangocon-europe-2022-3KNEEA@pretalx.evolutio.pt
+DTSTART;TZID=WET:20220922T140000
+DTEND;TZID=WET:20220922T143000
+DESCRIPTION:Dogs wag their tails\, and when the opposite happens\, it repre
+ sents distorted priorities and a disturbing\, problematic reversal of the 
+ proper order. But not when it comes to software and its documentation! I b
+ elieve that the tail of documentation can and should wag the dog of softwa
+ re\, and I'll show just how powerful this tail can be.
+DTSTAMP:20231211T163642Z
+LOCATION:Auditorium
+SUMMARY:How to wag a dog - Daniele Procida
+URL:https://pretalx.evolutio.pt/djangocon-europe-2022/talk/3KNEEA/
+END:VEVENT
+END:VCALENDAR

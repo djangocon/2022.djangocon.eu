@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.evolutio.pt//LWJHYJ
+BEGIN:VTIMEZONE
+TZID:WET
+BEGIN:STANDARD
+DTSTART:20001029T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:WET
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20000326T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:WEST
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-djangocon-europe-2022-LWJHYJ@pretalx.evolutio.pt
+DTSTART;TZID=WET:20220923T111500
+DTEND;TZID=WET:20220923T120500
+DESCRIPTION:Have you ever wondered what Cross-site Request Forgery is all a
+ bout? Did you solve your CSRF problem in your single-page application by c
+ opy-pasting something from StackOverflow or decorating all your views with
+  csrf_exempt without knowing what these things are actually doing? If so\,
+  this talk is for you.
+DTSTAMP:20231211T163850Z
+LOCATION:Workshops
+SUMMARY:Everything you didn't want to know about Cross-site Request Forgery
+  (CSRF) in Django - Andreas Schmitz
+URL:https://pretalx.evolutio.pt/djangocon-europe-2022/talk/LWJHYJ/
+END:VEVENT
+END:VCALENDAR

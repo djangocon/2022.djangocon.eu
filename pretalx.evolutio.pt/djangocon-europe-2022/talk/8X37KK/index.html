@@ -1,0 +1,200 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    
+<!-- Mirrored from pretalx.evolutio.pt/djangocon-europe-2022/talk/8X37KK/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Dec 2023 16:39:30 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta charset="utf-8">
+        <title>The hack behind the curtain! Deploying a Multitenant Django application to more than 1600 stores ::  DjangoCon Europe 2022 :: pretalx</title>
+        <meta name="title" content="The hack behind the curtain! Deploying a Multitenant Django application to more than 1600 stores  - DjangoCon Europe 2022 pretalx">
+        <meta name="description" content="In MercadonaTech we have online orders preparation warehouses called hives. We have evolved and optimized the tools used in these facilities over the last 5 years and we were ready to bring them to our stores where we planned to prepare online orders as well. But we had one little problem, we wanted to move from 3 isolated warehouses to more than 1600 stores. And until that moment, all the logic we developed for them didn&#x27;t expect data from other centres, we had simple on-premise deployments for each hive and different databases that did not share data between them. That was a problem.
+
+This is a story of wonder that tells how we hacked Django&#x27;s ORM to automagically isolate the data from different stores and how we converted this messy hack into an amazing open-source library you can use to implement your own multitenant applications. The hack behind the curtain, welcome to Oz!
+
+Video: https://youtu.be/_9vMEAHNmHE">
+        <meta name="application-name" content="pretalx">
+        <meta name="generator" content="pretalx">
+        <meta name="keywords" content="DjangoCon Europe 2022, djangocon-europe-2022, 2022, schedule, talks, cfp, call for papers, conference, submissions, organizer">
+        
+        <meta name="robots" content="index, follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#003C80">
+        <meta name="HandheldFriendly" content="True"/>
+        <meta property="thumbnail" content="logo_white_wBNAEWb.png">
+    <meta property="og:image" content="logo_white_wBNAEWb.png">
+        <meta property="og:title" content="The hack behind the curtain! Deploying a Multitenant Django application to more than 1600 stores DjangoCon Europe 2022">
+        <meta property="og:description" content="In MercadonaTech we have online orders preparation warehouses called hives. We have evolved and optimized the tools used in these facilities over the last 5 years and we were ready to bring them to our stores where we planned to prepare online orders as well. But we had one little problem, we wanted to move from 3 isolated warehouses to more than 1600 stores. And until that moment, all the logic we developed for them didn&#x27;t expect data from other centres, we had simple on-premise deployments for each hive and different databases that did not share data between them. That was a problem.
+
+This is a story of wonder that tells how we hacked Django&#x27;s ORM to automagically isolate the data from different stores and how we converted this messy hack into an amazing open-source library you can use to implement your own multitenant applications. The hack behind the curtain, welcome to Oz!
+
+Video: https://youtu.be/_9vMEAHNmHE">
+        <meta property="og:url" content="index.html">
+        <meta property="twitter:card" content="summary">
+
+        
+            <link rel="icon" type="image/png" sizes="32x32" href="../../../static/common/img/favicon-32x32.38c2aab28d3a.png">
+            <link rel="icon" type="image/png" sizes="16x16" href="../../../static/common/img/favicon-16x16.02f8a56e1af3.png">
+        
+
+        <link rel="stylesheet" type="text/css" href="../../../static/common/scss/uncompressed.cabbf3759e3e.css" />
+        
+            <link rel="stylesheet" type="text/css" href="../../../static/vendored/fullcalendar/fullcalendar.min.ba055a2cd2b3.css"/>
+            <link rel="stylesheet" type="text/css" href="https://pretalx.evolutio.pt/media/djangocon-europe-2022/cfp.327d3d760ca24fc4.css"/>
+            <link rel="stylesheet" type="text/css" href="https://pretalx.evolutio.pt/media/djangocon-europe-2022/agenda.81671e2b8d31c1b9.css"/>
+        
+        
+        <script src="../../../static/CACHE/js/output.079684506270.js" defer></script>
+        
+    
+    <link rel="alternate" type="application/json" title="DjangoCon Europe 2022 API" href="https://pretalx.evolutio.pt/api/events/djangocon-europe-2022/talks/8X37KK" />
+
+    
+    
+
+    </head>
+    <body data-datetimeformat="YYYY-MM-DD HH:mm:ss" data-dateformat="YYYY-MM-DD" data-datetimelocale="pt-PT">
+        <div id="top-bg" class="header bg-primary">
+            
+                <img src="https://pretalx.evolutio.pt/media/djangocon-europe-2022/img/youtube-djangocon-02_17.19.17_obdzYHN.png" id="header-image">
+            
+        </div>
+        
+        <div class="container" id="main-container">
+            <header>
+                <h1>
+                    <a href="../../schedule/index.html">
+                        
+                            <img src="https://pretalx.evolutio.pt/media/djangocon-europe-2022/img/logo_white_wBNAEWb.png" id="event-logo" alt="The event's logo">
+                        
+                    </a>
+                </h1>
+                <div class="d-flex" id="header-row">
+                    
+                    
+                        <a href="../../login/index.html">login</a>
+                    
+                </div>
+            </header>
+            <div class="card" id="main-card">
+                <main>
+                    
+
+                    
+    
+    
+    <article>
+        
+        <h3 class="talk-title">
+            <div class="heading-with-buttons">
+                The hack behind the curtain! Deploying a Multitenant Django application to more than 1600 stores
+                <div class="buttons" id="talk-buttons">
+                    
+                        <a class="btn btn-outline-primary" href="../djangocon-europe-2022-8X37KK.ics">
+                            <i class="fa fa-calendar"></i> .ical
+                        </a>
+                    
+                    
+                        <a href="feedback/index.html"
+                           class="btn btn-success">
+                            <i class="fa fa-comments"></i> 
+                        </a>
+                    
+                    
+                </div>
+            </div>
+            <small>
+                
+                    09-21, 17:10–17:40 (Europe/Lisbon), Auditorium <i class="fa fa-question-circle" data-toggle="tooltip" title="Super Bock Arena Auditorium"></i>
+                
+                
+                
+            </small>
+        </h3>
+        <div class="talk row">
+            <div class="talk-content">
+                
+                
+                
+                <section class="abstract">
+                    <p>Data isolation is key when working with bounded physical tenants like grocery stores. All the APIs and data are tenant dependent and we don't want to mix them between stores. This is the tale of the yellow brick road to multitenancy and how a Django project hack became an open-source library for everyone to use. The hack behind the curtain, welcome to Oz!</p>
+                </section>
+                
+                    <hr />
+                
+                <section class="description">
+                    <p>In MercadonaTech we have online orders preparation warehouses called hives. We have evolved and optimized the tools used in these facilities over the last 5 years and we were ready to bring them to our stores where we planned to prepare online orders as well. But we had one little problem, we wanted to move from 3 isolated warehouses to more than 1600 stores. And until that moment, all the logic we developed for them didn't expect data from other centres, we had simple on-premise deployments for each hive and different databases that did not share data between them. That was a problem.</p>
+<p>This is a story of wonder that tells how we hacked Django's ORM to automagically isolate the data from different stores and how we converted this messy hack into an amazing open-source library you can use to implement your own multitenant applications. The hack behind the curtain, welcome to Oz!</p>
+<p>Video: <a href="https://youtu.be/_9vMEAHNmHE" rel="nofollow" target="_blank">https://youtu.be/_9vMEAHNmHE</a></p>
+                </section>
+                
+            </section>
+            
+            <section>
+                
+            </section>
+        </div>
+    </div>
+    
+        
+            <div class="pretalx-session">
+                <div class="pretalx-session-time-box avatar">
+                    <a href="../../speaker/AYA3UU/index.html">
+                        <div class="avatar-wrapper">
+                            
+                                <img src="https://pretalx.evolutio.pt/media/avatars/IMG_20220601_210440_001_QVrTFCW.jpg">
+                            
+                        </div>
+                    </a>
+                </div>
+                <div class="pretalx-session-info">
+                    <div class="title">
+                        <a href="../../speaker/AYA3UU/index.html">Emilio Carrión</a>
+                    </div>
+                    <div class="abstract"><p>Staff Engineer @ MercadonaTech. Machine Learning enthusiast. PDD (Python Driven Developer). <br>
+Doctoral student @ Universitat Politécnica de Valencia.</p></div>
+                    
+                        This speaker also appears in:
+                        <ul>
+                            
+                                <li>
+                                    <a href="../UH8KUK/index.html">TDD applied to Django API development</a>
+                                </li>
+                            
+                        </ul>
+                    
+                </div>
+            </div>
+        
+    
+    </article>
+
+
+                </main>
+            </div>
+            <footer>
+                
+                
+
+
+    powered by <a href="https://pretalx.com/" target="_blank" rel="noopener">pretalx</a>
+
+
+                
+                    &middot;
+                    <a href="mailto:2022@djangocon.eu">Contact us</a>
+                
+                
+                    &middot;
+                    <a href="https://2022.djangocon.eu/conduct/privacy_guide/" target="_blank" rel="noopener">Imprint</a>
+                
+                
+            </footer>
+        </div>
+    </body>
+
+<!-- Mirrored from pretalx.evolutio.pt/djangocon-europe-2022/talk/8X37KK/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Dec 2023 16:39:32 GMT -->
+</html>

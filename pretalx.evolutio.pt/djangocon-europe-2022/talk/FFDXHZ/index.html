@@ -1,0 +1,221 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    
+<!-- Mirrored from pretalx.evolutio.pt/djangocon-europe-2022/talk/FFDXHZ/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Dec 2023 16:39:15 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta charset="utf-8">
+        <title>A use case of implementing Domain-Driven Design (DDD) in Django ::  DjangoCon Europe 2022 :: pretalx</title>
+        <meta name="title" content="A use case of implementing Domain-Driven Design (DDD) in Django  - DjangoCon Europe 2022 pretalx">
+        <meta name="description" content="We had the opportunity to apply DDD to Django in OSIS, a long-term project for managing students and their education for Université Catholique de Louvain in Belgium. After a year into the project implementing new features, it&#x27;s time to provide our feedback to the Django community.
+
+A general outline:
+1. Intro to the OSIS project (goal, short history, actors, domain)
+2. The why and when for choosing DDD
+3. Common tactical patterns to implement in Python/Django
+4. Recap and conclusion on our DDD usage and where to go from there
+5. Questions
+
+The project is open-sourced at https://github.com/uclouvain/  along with its numerous submodules which I will present shortly in the first part. I will take some time to explain the concepts of onion architecture and some DDD design pattern so it should be accessible enough for Django beginners. The code is not the key, but rather think communication and comprehension!
+
+Edit post-talk: the slides that were presented are at https://sebcorbin.github.io/ddddjango/
+
+Video: https://youtu.be/t5DBiKsjvS4">
+        <meta name="application-name" content="pretalx">
+        <meta name="generator" content="pretalx">
+        <meta name="keywords" content="DjangoCon Europe 2022, djangocon-europe-2022, 2022, schedule, talks, cfp, call for papers, conference, submissions, organizer">
+        
+        <meta name="robots" content="index, follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#003C80">
+        <meta name="HandheldFriendly" content="True"/>
+        <meta property="thumbnail" content="dddjango_Z6vXPMU.png">
+    <meta property="og:image" content="dddjango_Z6vXPMU.png">
+        <meta property="og:title" content="A use case of implementing Domain-Driven Design (DDD) in Django DjangoCon Europe 2022">
+        <meta property="og:description" content="We had the opportunity to apply DDD to Django in OSIS, a long-term project for managing students and their education for Université Catholique de Louvain in Belgium. After a year into the project implementing new features, it&#x27;s time to provide our feedback to the Django community.
+
+A general outline:
+1. Intro to the OSIS project (goal, short history, actors, domain)
+2. The why and when for choosing DDD
+3. Common tactical patterns to implement in Python/Django
+4. Recap and conclusion on our DDD usage and where to go from there
+5. Questions
+
+The project is open-sourced at https://github.com/uclouvain/  along with its numerous submodules which I will present shortly in the first part. I will take some time to explain the concepts of onion architecture and some DDD design pattern so it should be accessible enough for Django beginners. The code is not the key, but rather think communication and comprehension!
+
+Edit post-talk: the slides that were presented are at https://sebcorbin.github.io/ddddjango/
+
+Video: https://youtu.be/t5DBiKsjvS4">
+        <meta property="og:url" content="index.html">
+        <meta property="twitter:card" content="summary">
+
+        
+            <link rel="icon" type="image/png" sizes="32x32" href="../../../static/common/img/favicon-32x32.38c2aab28d3a.png">
+            <link rel="icon" type="image/png" sizes="16x16" href="../../../static/common/img/favicon-16x16.02f8a56e1af3.png">
+        
+
+        <link rel="stylesheet" type="text/css" href="../../../static/common/scss/uncompressed.cabbf3759e3e.css" />
+        
+            <link rel="stylesheet" type="text/css" href="../../../static/vendored/fullcalendar/fullcalendar.min.ba055a2cd2b3.css"/>
+            <link rel="stylesheet" type="text/css" href="https://pretalx.evolutio.pt/media/djangocon-europe-2022/cfp.327d3d760ca24fc4.css"/>
+            <link rel="stylesheet" type="text/css" href="https://pretalx.evolutio.pt/media/djangocon-europe-2022/agenda.81671e2b8d31c1b9.css"/>
+        
+        
+        <script src="../../../static/CACHE/js/output.079684506270.js" defer></script>
+        
+    
+    <link rel="alternate" type="application/json" title="DjangoCon Europe 2022 API" href="https://pretalx.evolutio.pt/api/events/djangocon-europe-2022/talks/FFDXHZ" />
+
+    
+    
+
+    </head>
+    <body data-datetimeformat="YYYY-MM-DD HH:mm:ss" data-dateformat="YYYY-MM-DD" data-datetimelocale="pt-PT">
+        <div id="top-bg" class="header bg-primary">
+            
+                <img src="https://pretalx.evolutio.pt/media/djangocon-europe-2022/img/youtube-djangocon-02_17.19.17_obdzYHN.png" id="header-image">
+            
+        </div>
+        
+        <div class="container" id="main-container">
+            <header>
+                <h1>
+                    <a href="../../schedule/index.html">
+                        
+                            <img src="https://pretalx.evolutio.pt/media/djangocon-europe-2022/img/logo_white_wBNAEWb.png" id="event-logo" alt="The event's logo">
+                        
+                    </a>
+                </h1>
+                <div class="d-flex" id="header-row">
+                    
+                    
+                        <a href="../../login/index.html">login</a>
+                    
+                </div>
+            </header>
+            <div class="card" id="main-card">
+                <main>
+                    
+
+                    
+    
+    
+    <article>
+        
+        <h3 class="talk-title">
+            <div class="heading-with-buttons">
+                A use case of implementing Domain-Driven Design (DDD) in Django
+                <div class="buttons" id="talk-buttons">
+                    
+                        <a class="btn btn-outline-primary" href="../djangocon-europe-2022-FFDXHZ.ics">
+                            <i class="fa fa-calendar"></i> .ical
+                        </a>
+                    
+                    
+                        <a href="feedback/index.html"
+                           class="btn btn-success">
+                            <i class="fa fa-comments"></i> 
+                        </a>
+                    
+                    
+                </div>
+            </div>
+            <small>
+                
+                    09-23, 12:25–12:55 (Europe/Lisbon), Auditorium <i class="fa fa-question-circle" data-toggle="tooltip" title="Super Bock Arena Auditorium"></i>
+                
+                
+                
+            </small>
+        </h3>
+        <div class="talk row">
+            <div class="talk-content">
+                
+                
+                    <div class="talk-image">
+                        <a href="https://pretalx.evolutio.pt/media/djangocon-europe-2022/submissions/FFDXHZ/dddjango_Z6vXPMU.png" target="_blank">
+                            <img src="https://pretalx.evolutio.pt/media/djangocon-europe-2022/submissions/FFDXHZ/dddjango_Z6vXPMU.png" alt="This session's header image">
+                        </a>
+                    </div>
+                
+                
+                <section class="abstract">
+                    <p>Our feedback on integrating some DDD tactical patterns in OSIS, a long-term open-source project for UCLouvain university.</p>
+                </section>
+                
+                    <hr />
+                
+                <section class="description">
+                    <p>We had the opportunity to apply DDD to Django in OSIS, a long-term project for managing students and their education for Université Catholique de Louvain in Belgium. After a year into the project implementing new features, it's time to provide our feedback to the Django community.</p>
+<p>A general outline:<br>
+1. Intro to the OSIS project (goal, short history, actors, domain)<br>
+2. The why and when for choosing DDD<br>
+3. Common tactical patterns to implement in Python/Django<br>
+4. Recap and conclusion on our DDD usage and where to go from there<br>
+5. Questions</p>
+<p>The project is open-sourced at <a href="https://github.com/uclouvain/" rel="nofollow" target="_blank">https://github.com/uclouvain/</a>  along with its numerous submodules which I will present shortly in the first part. I will take some time to explain the concepts of onion architecture and some DDD design pattern so it should be accessible enough for Django beginners. The code is not the key, but rather think communication and comprehension!</p>
+<p>Edit post-talk: the slides that were presented are at <a href="https://sebcorbin.github.io/ddddjango/" rel="nofollow" target="_blank">https://sebcorbin.github.io/ddddjango/</a></p>
+<p>Video: <a href="https://youtu.be/t5DBiKsjvS4" rel="nofollow" target="_blank">https://youtu.be/t5DBiKsjvS4</a></p>
+                </section>
+                
+            </section>
+            
+            <section>
+                
+            </section>
+        </div>
+    </div>
+    
+        
+            <div class="pretalx-session">
+                <div class="pretalx-session-time-box avatar">
+                    <a href="../../speaker/9UXNGR/index.html">
+                        <div class="avatar-wrapper">
+                            
+                                <img src="https://pretalx.evolutio.pt/media/avatars/photo_q1ObUp7.jpg">
+                            
+                        </div>
+                    </a>
+                </div>
+                <div class="pretalx-session-info">
+                    <div class="title">
+                        <a href="../../speaker/9UXNGR/index.html">SebCorbin</a>
+                    </div>
+                    <div class="abstract"><p>Swam in open-source from day 1 of my developer life, never sank thanks to the community. Went from PHP/Drupal to Python/Django, never went back!</p></div>
+                    
+                </div>
+            </div>
+        
+    
+    </article>
+
+
+                </main>
+            </div>
+            <footer>
+                
+                
+
+
+    powered by <a href="https://pretalx.com/" target="_blank" rel="noopener">pretalx</a>
+
+
+                
+                    &middot;
+                    <a href="mailto:2022@djangocon.eu">Contact us</a>
+                
+                
+                    &middot;
+                    <a href="https://2022.djangocon.eu/conduct/privacy_guide/" target="_blank" rel="noopener">Imprint</a>
+                
+                
+            </footer>
+        </div>
+    </body>
+
+<!-- Mirrored from pretalx.evolutio.pt/djangocon-europe-2022/talk/FFDXHZ/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Dec 2023 16:39:17 GMT -->
+</html>
